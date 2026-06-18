@@ -1,0 +1,290 @@
+# Awesome-MCP catalog — edit this file and run: awesome-mcp readme
+meta:
+  version: 1
+  updated: "2026-06-18"
+  description: Curated Model Context Protocol servers, clients, and registries
+
+categories:
+  server:
+    label: MCP Servers
+    description: Tools and data sources exposed to AI agents via MCP
+  client:
+    label: MCP Clients
+    description: Apps and IDEs that connect to MCP servers
+  registry:
+    label: Registries & Directories
+    description: Discover and install MCP servers
+  framework:
+    label: SDKs & Frameworks
+    description: Libraries for building MCP servers and clients
+
+entries:
+  - id: mcp-official-servers
+    name: Official MCP Reference Servers
+    kind: server
+    category: developer-tools
+    url: https://github.com/modelcontextprotocol/servers
+    description: Reference implementations maintained by the MCP steering group (filesystem, memory, fetch, git, and more).
+    transport: [stdio]
+    official: true
+    tags: [reference, anthropic]
+
+  - id: filesystem
+    name: Filesystem Server
+    kind: server
+    category: developer-tools
+    url: https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem
+    description: Secure local file read/write with configurable directory allowlists.
+    transport: [stdio]
+    official: true
+    tags: [files, local]
+
+  - id: fetch
+    name: Fetch Server
+    kind: server
+    category: web
+    url: https://github.com/modelcontextprotocol/servers/tree/main/src/fetch
+    description: Fetch and convert web pages to markdown for LLM consumption.
+    transport: [stdio]
+    official: true
+    tags: [http, scraping]
+
+  - id: memory
+    name: Memory Server
+    kind: server
+    category: ai
+    url: https://github.com/modelcontextprotocol/servers/tree/main/src/memory
+    description: Persistent knowledge-graph memory across conversations.
+    transport: [stdio]
+    official: true
+    tags: [memory, graph]
+
+  - id: github-mcp-server
+    name: GitHub MCP Server
+    kind: server
+    category: developer-tools
+    url: https://github.com/github/github-mcp-server
+    description: Official GitHub integration for repos, issues, PRs, and Actions.
+    transport: [stdio, remote]
+    official: true
+    tags: [github, git]
+
+  - id: playwright-mcp
+    name: Playwright MCP
+    kind: server
+    category: browser
+    url: https://github.com/microsoft/playwright-mcp
+    description: Browser automation via Playwright — navigate, click, screenshot, extract content.
+    transport: [stdio]
+    official: false
+    tags: [browser, automation, microsoft]
+
+  - id: sqlite
+    name: SQLite Server
+    kind: server
+    category: database
+    url: https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite
+    description: Query and inspect SQLite databases with schema discovery.
+    transport: [stdio]
+    official: true
+    tags: [sql, database]
+
+  - id: postgres
+    name: PostgreSQL Server
+    kind: server
+    category: database
+    url: https://github.com/modelcontextprotocol/servers/tree/main/src/postgres
+    description: Read-only PostgreSQL access with schema introspection.
+    transport: [stdio]
+    official: true
+    tags: [sql, postgres]
+
+  - id: brave-search
+    name: Brave Search MCP
+    kind: server
+    category: web
+    url: https://github.com/brave/brave-search-mcp-server
+    description: Web search via Brave Search API.
+    transport: [stdio]
+    official: false
+    tags: [search, api]
+
+  - id: google-drive
+    name: Google Drive Server
+    kind: server
+    category: productivity
+    url: https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive
+    description: List, read, and search files in Google Drive.
+    transport: [stdio]
+    official: true
+    tags: [google, files]
+
+  - id: slack
+    name: Slack Server
+    kind: server
+    category: communication
+    url: https://github.com/modelcontextprotocol/servers/tree/main/src/slack
+    description: Post messages and read channels in Slack workspaces.
+    transport: [stdio]
+    official: true
+    tags: [slack, chat]
+
+  - id: puppeteer
+    name: Puppeteer Server
+    kind: server
+    category: browser
+    url: https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer
+    description: Headless Chrome automation for scraping and interaction.
+    transport: [stdio]
+    official: true
+    tags: [browser, chrome]
+
+  - id: sequential-thinking
+    name: Sequential Thinking
+    kind: server
+    category: ai
+    url: https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking
+    description: Structured step-by-step reasoning tool for complex problems.
+    transport: [stdio]
+    official: true
+    tags: [reasoning, planning]
+
+  - id: cursor
+    name: Cursor
+    kind: client
+    category: ide
+    url: https://cursor.com
+    description: AI-native IDE with first-class MCP server configuration in settings.
+    transport: [stdio, sse]
+    official: false
+    tags: [ide, coding]
+
+  - id: claude-desktop
+    name: Claude Desktop
+    kind: client
+    category: desktop
+    url: https://claude.ai/download
+    description: Anthropic desktop app with native MCP connector support.
+    transport: [stdio]
+    official: true
+    tags: [anthropic, desktop]
+
+  - id: cline
+    name: Cline
+    kind: client
+    category: ide
+    url: https://github.com/cline/cline
+    description: VS Code extension agent with MCP server marketplace integration.
+    transport: [stdio]
+    official: false
+    tags: [vscode, agent]
+
+  - id: continue
+    name: Continue
+    kind: client
+    category: ide
+    url: https://github.com/continuedev/continue
+    description: Open-source AI code assistant for VS Code and JetBrains with MCP support.
+    transport: [stdio]
+    official: false
+    tags: [vscode, open-source]
+
+  - id: cherry-studio
+    name: Cherry Studio
+    kind: client
+    category: desktop
+    url: https://github.com/CherryHQ/cherry-studio
+    description: Multi-model desktop client with visual MCP server management.
+    transport: [stdio, sse]
+    official: false
+    tags: [desktop, multi-model]
+
+  - id: librechat
+    name: LibreChat
+    kind: client
+    category: web
+    url: https://github.com/danny-avila/LibreChat
+    description: Self-hosted ChatGPT-style UI with MCP plugin support.
+    transport: [stdio, sse]
+    official: false
+    tags: [self-hosted, web]
+
+  - id: smithery
+    name: Smithery
+    kind: registry
+    category: directory
+    url: https://smithery.ai
+    description: Curated MCP registry with one-click install flows for popular clients.
+    transport: [remote]
+    official: false
+    tags: [directory, install]
+
+  - id: mcp-so
+    name: MCP.so
+    kind: registry
+    category: directory
+    url: https://mcp.so
+    description: Community-driven searchable directory of MCP servers.
+    transport: [remote]
+    official: false
+    tags: [directory, community]
+
+  - id: glama
+    name: Glama MCP Directory
+    kind: registry
+    category: directory
+    url: https://glama.ai/mcp/servers
+    description: MCP server directory with quality scores and hosted deployment options.
+    transport: [remote]
+    official: false
+    tags: [directory, hosting]
+
+  - id: official-registry
+    name: MCP Registry (Official)
+    kind: registry
+    category: directory
+    url: https://registry.modelcontextprotocol.io
+    description: Official MCP server registry and specification hub.
+    transport: [remote]
+    official: true
+    tags: [official, spec]
+
+  - id: mcp-python-sdk
+    name: MCP Python SDK
+    kind: framework
+    category: sdk
+    url: https://github.com/modelcontextprotocol/python-sdk
+    description: Official Python SDK for building MCP servers and clients.
+    transport: [stdio, sse]
+    official: true
+    tags: [python, sdk]
+
+  - id: mcp-typescript-sdk
+    name: MCP TypeScript SDK
+    kind: framework
+    category: sdk
+    url: https://github.com/modelcontextprotocol/typescript-sdk
+    description: Official TypeScript SDK for MCP server and client development.
+    transport: [stdio, sse]
+    official: true
+    tags: [typescript, sdk]
+
+  - id: fastmcp
+    name: FastMCP
+    kind: framework
+    category: sdk
+    url: https://github.com/jlowin/fastmcp
+    description: High-level Python framework for building MCP servers with decorators.
+    transport: [stdio, sse]
+    official: false
+    tags: [python, fastapi-style]
+
+  - id: mcp-inspector
+    name: MCP Inspector
+    kind: framework
+    category: tooling
+    url: https://github.com/modelcontextprotocol/inspector
+    description: Visual debugging tool for testing MCP servers during development.
+    transport: [stdio]
+    official: true
+    tags: [debug, devtools]
