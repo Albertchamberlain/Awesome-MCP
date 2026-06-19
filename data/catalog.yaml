@@ -149,6 +149,16 @@ entries:
     official: true
     tags: [reasoning, planning]
 
+  - id: notfair
+    name: NotFair
+    kind: server
+    category: marketing
+    url: https://github.com/nowork-studio/NotFair
+    description: Open-source Claude Code skills for SEO, GEO, and paid ads — connects to Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP for live account data.
+    transport: [stdio]
+    official: false
+    tags: [seo, google-ads, meta-ads, marketing, claude-code]
+
   - id: cursor
     name: Cursor
     kind: client
