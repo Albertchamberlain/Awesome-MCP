@@ -109,6 +109,16 @@ entries:
     official: false
     tags: [search, api]
 
+  - id: buywhere
+    name: BuyWhere MCP
+    kind: server
+    category: web
+    url: https://github.com/BuyWhere/buywhere-mcp
+    description: Real-time product search and price comparison across 148M+ products from Singapore, Southeast Asia, and US marketplaces via remote streamable-HTTP.
+    transport: [remote]
+    official: false
+    tags: [search, ecommerce, api]
+
   - id: google-drive
     name: Google Drive Server
     kind: server
