@@ -6,10 +6,10 @@ A **maintainable** curated list of Model Context Protocol (MCP) servers, clients
 
 Unlike a hand-edited markdown wall, this repo stores entries in [`data/catalog.yaml`](data/catalog.yaml) and ships tooling to **search**, **validate**, and **serve** the catalog as an MCP meta-server.
 
-- **27** curated entries
-- **13** servers · **6** clients · **4** registries · **4** SDKs/tools
+- **28** curated entries
+- **14** servers · **6** clients · **4** registries · **4** SDKs/tools
 - **16** official / reference projects
-- Catalog updated: `2026-06-18`
+- Catalog updated: `2026-07-03`
 
 ## Quick Start
 
@@ -81,6 +81,7 @@ This repo includes a small MCP server that exposes the catalog to agents:
 
 - [Filesystem Server](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) ✅ `stdio` — Secure local file read/write with configurable directory allowlists. — `files`, `local`
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) ✅ `stdio, remote` — Official GitHub integration for repos, issues, PRs, and Actions. — `github`, `git`
+- [Hephaestus](https://github.com/agentlas-ai/Hephaestus) `stdio` — Local-first runtime that routes coding agents and skills over MCP. — `coding`, `agents`, `runtime`
 - [Official MCP Reference Servers](https://github.com/modelcontextprotocol/servers) ✅ `stdio` — Reference implementations maintained by the MCP steering group (filesystem, memory, fetch, git, and more). — `reference`, `anthropic`
 
 ### Productivity
