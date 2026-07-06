@@ -1,7 +1,7 @@
 # Awesome-MCP catalog — edit this file and run: awesome-mcp readme
 meta:
   version: 1
-  updated: "2026-06-18"
+  updated: "2026-07-06"
   description: Curated Model Context Protocol servers, clients, and registries
 
 categories:
@@ -148,6 +148,16 @@ entries:
     transport: [stdio]
     official: true
     tags: [reasoning, planning]
+
+  - id: llm-pulse
+    name: LLM Pulse MCP Server
+    kind: server
+    category: analytics
+    url: https://github.com/LLM-Pulse/llmpulse-mcp
+    description: Access LLM Pulse brand visibility, citations, sentiment, share of voice, recommendations, tracked prompts, and AI traffic analytics.
+    transport: [stdio, remote]
+    official: true
+    tags: [analytics, ai-visibility, brand-monitoring]
 
   - id: cursor
     name: Cursor

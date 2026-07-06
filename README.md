@@ -6,10 +6,10 @@ A **maintainable** curated list of Model Context Protocol (MCP) servers, clients
 
 Unlike a hand-edited markdown wall, this repo stores entries in [`data/catalog.yaml`](data/catalog.yaml) and ships tooling to **search**, **validate**, and **serve** the catalog as an MCP meta-server.
 
-- **27** curated entries
-- **13** servers · **6** clients · **4** registries · **4** SDKs/tools
-- **16** official / reference projects
-- Catalog updated: `2026-06-18`
+- **28** curated entries
+- **14** servers · **6** clients · **4** registries · **4** SDKs/tools
+- **17** official / reference projects
+- Catalog updated: `2026-07-06`
 
 ## Quick Start
 
@@ -62,6 +62,10 @@ This repo includes a small MCP server that exposes the catalog to agents:
 
 - [Memory Server](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) ✅ `stdio` — Persistent knowledge-graph memory across conversations. — `memory`, `graph`
 - [Sequential Thinking](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) ✅ `stdio` — Structured step-by-step reasoning tool for complex problems. — `reasoning`, `planning`
+
+### Analytics
+
+- [LLM Pulse MCP Server](https://github.com/LLM-Pulse/llmpulse-mcp) ✅ `stdio, remote` — Access LLM Pulse brand visibility, citations, sentiment, share of voice, recommendations, tracked prompts, and AI traffic analytics. — `analytics`, `ai-visibility`, `brand-monitoring`
 
 ### Browser
 
