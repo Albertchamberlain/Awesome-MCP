@@ -6,8 +6,8 @@ A **maintainable** curated list of Model Context Protocol (MCP) servers, clients
 
 Unlike a hand-edited markdown wall, this repo stores entries in [`data/catalog.yaml`](data/catalog.yaml) and ships tooling to **search**, **validate**, and **serve** the catalog as an MCP meta-server.
 
-- **27** curated entries
-- **13** servers · **6** clients · **4** registries · **4** SDKs/tools
+- **28** curated entries
+- **14** servers · **6** clients · **4** registries · **4** SDKs/tools
 - **16** official / reference projects
 - Catalog updated: `2026-06-18`
 
@@ -86,6 +86,10 @@ This repo includes a small MCP server that exposes the catalog to agents:
 ### Productivity
 
 - [Google Drive Server](https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive) ✅ `stdio` — List, read, and search files in Google Drive. — `google`, `files`
+
+### Social
+
+- [Xquik MCP](https://docs.xquik.com/mcp/overview) `remote` — Remote X data MCP server for search, profiles, timelines, monitoring, webhooks, and confirmation-gated writes. Not affiliated with X Corp. — `x`, `twitter`, `social`, `api`
 
 ### Web
 

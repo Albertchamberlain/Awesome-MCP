@@ -9,10 +9,12 @@ import typer
 from rich.console import Console
 from rich.table import Table
 
-from .catalog import Kind, get_catalog, load_catalog
-from .readme import write_readme
+from .catalog import Kind, load_catalog
+from .readme import render_readme, write_readme
 
-app = typer.Typer(add_completion=False, no_args_is_help=True, help="Browse and maintain the Awesome-MCP catalog.")
+app = typer.Typer(
+    add_completion=False, no_args_is_help=True, help="Browse and maintain the Awesome-MCP catalog."
+)
 console = Console()
 
 
@@ -72,7 +74,7 @@ def search(
         raise typer.Exit(code=1)
     for entry in hits:
         official = " [green]official[/green]" if entry.official else ""
-        console.print(f"[bold]{entry.name}[/bold] ({entry.id}) — {entry.kind}{official}")
+        console.print(f"[bold]{entry.name}[/bold] ({entry.id}) - {entry.kind}{official}")
         console.print(f"  {entry.description}")
         console.print(f"  [link={entry.url}]{entry.url}[/link]")
         if entry.tags:
@@ -103,14 +105,16 @@ def generate_readme(
     """Generate README.md from catalog.yaml."""
     catalog = load_catalog(catalog_path)
     target = output or Path("README.md")
-    rendered = write_readme(target, catalog)
     if check:
-        expected = (Path(__file__).resolve().parents[2] / "README.md").read_text(encoding="utf-8")
-        actual = target.read_text(encoding="utf-8")
-        if expected != actual and output is None:
+        expected = render_readme(catalog)
+        actual = target.read_text(encoding="utf-8") if target.is_file() else None
+        if actual != expected:
             console.print("[red]README.md is out of date. Run: awesome-mcp readme[/red]")
             raise typer.Exit(code=1)
-    console.print(f"Wrote [bold]{rendered}[/bold]")
+        console.print(f"[green]README.md is current:[/green] {target}")
+        return
+    written_path = write_readme(target, catalog)
+    console.print(f"Wrote [bold]{written_path}[/bold]")
 
 
 @app.command("validate")
@@ -126,7 +130,7 @@ def validate(catalog_path: Optional[Path] = typer.Option(None, "--catalog")) -> 
         if not entry.url.startswith("http"):
             console.print(f"[red]Invalid url for {entry.id}:[/red] {entry.url}")
             raise typer.Exit(code=1)
-    console.print(f"[green]OK[/green] — {len(catalog.entries)} entries validated")
+    console.print(f"[green]OK[/green] - {len(catalog.entries)} entries validated")
 
 
 if __name__ == "__main__":
