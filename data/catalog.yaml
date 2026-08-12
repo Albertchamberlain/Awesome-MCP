@@ -338,3 +338,13 @@ entries:
     transport: [stdio]
     official: true
     tags: [debug, devtools]
+
+  - id: dedicated-mac-mini-ai-bot-setup
+    name: Dedicated Mac Mini AI Bot Setup MCP
+    kind: server
+    category: ai
+    url: https://github.com/eibrahim/dedicated-mac-mini-ai-bot-setup-mcp
+    description: Hosted read-only MCP endpoint for evaluating a private Mac mini AI operator setup offer for founders and small teams.
+    transport: [remote]
+    official: false
+    tags: [mac-mini, ai-bot, hosted]
