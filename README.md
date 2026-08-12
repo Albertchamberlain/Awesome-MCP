@@ -17,7 +17,6 @@
 
 <p align="center">
   <a href="https://github.com/Albertchamberlain/Awesome-MCP"><img alt="Awesome" src="https://cdn.jsdelivr.net/gh/sindresorhus/awesome@main/media/badge.svg"></a>
-
   <a href="https://pypi.org/project/awesome-mcp/"><img alt="Python" src="https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white"></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-4c1?logo=open-source-initiative&logoColor=white"></a>
   <img alt="Catalog" src="https://img.shields.io/badge/catalog-27%20entries-7c3aed">
