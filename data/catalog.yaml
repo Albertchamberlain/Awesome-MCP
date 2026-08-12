@@ -69,6 +69,16 @@ entries:
     official: true
     tags: [github, git]
 
+  - id: ax
+    name: ax
+    kind: server
+    category: developer-tools
+    url: https://github.com/Necmttn/ax
+    description: Local-first telemetry and memory graph for AI coding agents.
+    transport: [stdio]
+    official: false
+    tags: [coding, telemetry, local-first]
+
   - id: hephaestus
     name: Hephaestus
     kind: server
