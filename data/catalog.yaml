@@ -139,6 +139,16 @@ entries:
     official: false
     tags: [search, ecommerce, api]
 
+  - id: xquik
+    name: Xquik MCP
+    kind: server
+    category: social
+    url: https://docs.xquik.com/mcp/overview
+    description: Remote X data MCP server for search, profiles, timelines, monitoring, webhooks, and confirmation-gated writes. Not affiliated with X Corp.
+    transport: [remote]
+    official: false
+    tags: [x, twitter, social, api]
+
   - id: google-drive
     name: Google Drive Server
     kind: server
