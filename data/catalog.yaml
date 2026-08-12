@@ -1,7 +1,7 @@
 # Awesome-MCP catalog — edit this file and run: awesome-mcp readme
 meta:
   version: 1
-  updated: "2026-06-18"
+  updated: "2026-07-03"
   description: Curated Model Context Protocol servers, clients, and registries
 
 categories:
@@ -68,6 +68,16 @@ entries:
     transport: [stdio, remote]
     official: true
     tags: [github, git]
+
+  - id: hephaestus
+    name: Hephaestus
+    kind: server
+    category: developer-tools
+    url: https://github.com/agentlas-ai/Hephaestus
+    description: Local-first runtime that routes coding agents and skills over MCP.
+    transport: [stdio]
+    official: false
+    tags: [coding, agents, runtime]
 
   - id: playwright-mcp
     name: Playwright MCP
