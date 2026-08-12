@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="#7c3aed" stroke="#6d28d9" stroke-width="2"/>
+
+  <!-- Catalog node: stacked rectangles (YAML rows) -->
+  <rect x="28" y="40" width="44" height="8" rx="2" fill="#ede9fe" opacity="0.9"/>
+  <rect x="28" y="52" width="38" height="8" rx="2" fill="#ede9fe" opacity="0.7"/>
+  <rect x="28" y="64" width="42" height="8" rx="2" fill="#ede9fe" opacity="0.5"/>
+
+  <!-- Protocol connection lines (MCP links) -->
+  <line x1="72" y1="44" x2="92" y2="32" stroke="#a5b4fc" stroke-width="2" stroke-linecap="round"/>
+  <line x1="72" y1="56" x2="92" y2="56" stroke="#a5b4fc" stroke-width="2" stroke-linecap="round"/>
+  <line x1="72" y1="68" x2="92" y2="80" stroke="#a5b4fc" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Connected nodes (clients / agents) -->
+  <circle cx="98" cy="32" r="6" fill="#a7f3d0" stroke="#059669" stroke-width="1.5"/>
+  <circle cx="98" cy="56" r="6" fill="#a7f3d0" stroke="#059669" stroke-width="1.5"/>
+  <circle cx="98" cy="80" r="6" fill="#a7f3d0" stroke="#059669" stroke-width="1.5"/>
+
+  <!-- Search spark (magnifying glass) -->
+  <circle cx="60" cy="92" r="16" fill="none" stroke="#fde68a" stroke-width="2" opacity="0.8"/>
+  <line x1="72" y1="104" x2="84" y2="116" stroke="#fde68a" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Brand text -->
+  <text x="64" y="28" text-anchor="middle" fill="#f5f3ff" font-family="system-ui, sans-serif" font-size="10" font-weight="700" letter-spacing="1">AWESOME MCP</text>
+</svg>
