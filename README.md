@@ -180,17 +180,28 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Developer Tools
 
+- [ax](https://github.com/Necmttn/ax) `stdio` — Local-first telemetry and memory graph for AI coding agents. — `coding`, `telemetry`, `local-first`
 - [Filesystem Server](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) ✅ `stdio` — Secure local file read/write with configurable directory allowlists. — `files`, `local`
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) ✅ `stdio`, `remote` — Official GitHub integration for repos, issues, PRs, and Actions. — `github`, `git`
+- [Hephaestus](https://github.com/agentlas-ai/Hephaestus) `stdio` — Local-first runtime that routes coding agents and skills over MCP. — `coding`, `agents`, `runtime`
 - [Official MCP Reference Servers](https://github.com/modelcontextprotocol/servers) ✅ `stdio` — Reference implementations maintained by the MCP steering group (filesystem, memory, fetch, git, and more). — `reference`, `anthropic`
+
+### Marketing
+
+- [NotFair](https://github.com/nowork-studio/NotFair) `stdio` — Open-source Claude Code skills for SEO, GEO, and paid ads — connects to Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP for live account data. — `seo`, `google-ads`, `meta-ads`, `marketing`
 
 ### Productivity
 
 - [Google Drive Server](https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive) ✅ `stdio` — List, read, and search files in Google Drive. — `google`, `files`
 
+### Social
+
+- [Xquik MCP](https://docs.xquik.com/mcp/overview) `remote` — Remote X data MCP server for search, profiles, timelines, monitoring, webhooks, and confirmation-gated writes. Not affiliated with X Corp. — `x`, `twitter`, `social`, `api`
+
 ### Web
 
 - [Brave Search MCP](https://github.com/brave/brave-search-mcp-server) `stdio` — Web search via Brave Search API. — `search`, `api`
+- [BuyWhere MCP](https://github.com/BuyWhere/buywhere-mcp) `remote` — Real-time product search and price comparison across 148M+ products from Singapore, Southeast Asia, and US marketplaces via remote streamable-HTTP. — `search`, `ecommerce`, `api`
 - [Fetch Server](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) ✅ `stdio` — Fetch and convert web pages to markdown for LLM consumption. — `http`, `scraping`
 
 <!-- CATALOG:SERVERS:END -->
