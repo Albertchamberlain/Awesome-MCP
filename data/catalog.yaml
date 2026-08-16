@@ -279,6 +279,16 @@ entries:
     official: false
     tags: [directory, community]
 
+  - id: mymcptools
+    name: MyMCPTools
+    kind: registry
+    category: directory
+    url: https://mymcptools.com
+    description: Directory of MCP servers with scheduled live handshakes — each entry carries an install-time reachability verdict and latency.
+    transport: [remote]
+    official: false
+    tags: [directory, uptime]
+
   - id: glama
     name: Glama MCP Directory
     kind: registry
