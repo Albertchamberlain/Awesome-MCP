@@ -89,6 +89,16 @@ entries:
     official: false
     tags: [coding, agents, runtime]
 
+  - id: orkas-videostudio
+    name: OrkasVideoStudio
+    kind: server
+    category: media-creation
+    url: https://github.com/Orkas-AI/Orkas-VideoStudio
+    description: Local-first MCP toolkit for agent-authored video composition, editing, generation, and plan-based assembly.
+    transport: [stdio]
+    official: true
+    tags: [video, editing, composition, agents]
+
   - id: playwright-mcp
     name: Playwright MCP
     kind: server
