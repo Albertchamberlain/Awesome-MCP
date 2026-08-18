@@ -198,6 +198,10 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 - [Xquik MCP](https://docs.xquik.com/mcp/overview) `remote` — Remote X data MCP server for search, profiles, timelines, monitoring, webhooks, and confirmation-gated writes. Not affiliated with X Corp. — `x`, `twitter`, `social`, `api`
 
+### Sports
+
+- [Live Tennis API MCP](https://github.com/livetennisapi/livetennisapi-mcp) `stdio`, `remote` — Live tennis scores, fixtures, rankings, and head-to-head, with market prices and model win-probability on paid tiers. — `tennis`, `sports`, `api`, `live-scores`
+
 ### Web
 
 - [Brave Search MCP](https://github.com/brave/brave-search-mcp-server) `stdio` — Web search via Brave Search API. — `search`, `api`

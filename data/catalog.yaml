@@ -199,6 +199,16 @@ entries:
     official: false
     tags: [seo, google-ads, meta-ads, marketing, claude-code]
 
+  - id: livetennisapi-mcp
+    name: Live Tennis API MCP
+    kind: server
+    category: sports
+    url: https://github.com/livetennisapi/livetennisapi-mcp
+    description: Live tennis scores, fixtures, rankings, and head-to-head, with market prices and model win-probability on paid tiers.
+    transport: [stdio, remote]
+    official: false
+    tags: [tennis, sports, api, live-scores]
+
   - id: cursor
     name: Cursor
     kind: client
