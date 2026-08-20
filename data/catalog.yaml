@@ -89,6 +89,16 @@ entries:
     official: false
     tags: [coding, agents, runtime]
 
+  - id: sandbase-cli
+    name: SandBase CLI
+    kind: server
+    category: ai
+    url: https://github.com/sandbaseai/cli
+    description: Local MCP bridge for discovering and running 2,000+ AI models from 25 supported clients.
+    transport: [stdio]
+    official: false
+    tags: [ai, models, cli, gateway]
+
   - id: playwright-mcp
     name: Playwright MCP
     kind: server
