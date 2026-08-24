@@ -202,6 +202,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Web
 
 - [Brave Search MCP](https://github.com/brave/brave-search-mcp-server) `stdio` — Web search via Brave Search API. — `search`, `api`
+- [Worklittle Jobs](https://github.com/worklittle/jobs-mcp) `remote` — Search over 4 million jobs with visa, salary, and distance filters. Streamable HTTP at `https://mcp.worklittle.com/`. Official registry `io.github.worklittle/jobs`. — `jobs`, `search`, `remote`
 - [BuyWhere MCP](https://github.com/BuyWhere/buywhere-mcp) `remote` — Real-time product search and price comparison across 148M+ products from Singapore, Southeast Asia, and US marketplaces via remote streamable-HTTP. — `search`, `ecommerce`, `api`
 - [Fetch Server](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) ✅ `stdio` — Fetch and convert web pages to markdown for LLM consumption. — `http`, `scraping`
 
