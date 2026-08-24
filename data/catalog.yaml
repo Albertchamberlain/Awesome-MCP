@@ -209,6 +209,16 @@ entries:
     official: false
     tags: [seo, google-ads, meta-ads, marketing, claude-code]
 
+  - id: live-tennis-api
+    name: Live Tennis API
+    kind: server
+    category: sports
+    url: https://github.com/livetennisapi/livetennisapi-mcp
+    description: Real-time tennis match state (score, server, three-valued break-point, retirement/walkover/completed) plus players, rankings, Elo, and fixtures.
+    transport: [stdio]
+    official: false
+    tags: [tennis, sports, real-time, data, elo]
+
   - id: cursor
     name: Cursor
     kind: client
