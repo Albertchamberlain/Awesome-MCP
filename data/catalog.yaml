@@ -368,3 +368,13 @@ entries:
     transport: [stdio]
     official: true
     tags: [debug, devtools]
+
+  - id: pocket-drives
+    name: Pocket Drives
+    kind: server
+    category: web
+    url: https://github.com/RevList/pocket-drives-mcp
+    description: Search peer-to-peer luxury, exotic, and EV rentals from independent hosts. Booking finishes in the iOS app. Remote streamable HTTP at https://pocketdrives.ai/mcp.
+    transport: [remote]
+    official: false
+    tags: [search, travel, rental]
