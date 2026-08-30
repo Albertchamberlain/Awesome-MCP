@@ -99,6 +99,16 @@ entries:
     official: false
     tags: [ai, models, cli, gateway]
 
+  - id: sandbase-harness
+    name: SandBase Harness
+    kind: server
+    category: developer-tools
+    url: https://github.com/sandbaseai/sandbase-harness
+    description: Self-hosted agent runtime exposing durable sessions, sandboxed execution, approvals, artifacts, audit, and replay through a local stdio MCP bridge.
+    transport: [stdio]
+    official: false
+    tags: [agents, runtime, sandbox, sessions, audit, self-hosted]
+
   - id: playwright-mcp
     name: Playwright MCP
     kind: server

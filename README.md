@@ -186,6 +186,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) ✅ `stdio`, `remote` — Official GitHub integration for repos, issues, PRs, and Actions. — `github`, `git`
 - [Hephaestus](https://github.com/agentlas-ai/Hephaestus) `stdio` — Local-first runtime that routes coding agents and skills over MCP. — `coding`, `agents`, `runtime`
 - [Official MCP Reference Servers](https://github.com/modelcontextprotocol/servers) ✅ `stdio` — Reference implementations maintained by the MCP steering group (filesystem, memory, fetch, git, and more). — `reference`, `anthropic`
+- [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) `stdio` — Self-hosted agent runtime exposing durable sessions, sandboxed execution, approvals, artifacts, audit, and replay through a local stdio MCP bridge. — `agents`, `runtime`, `sandbox`, `sessions`
 
 ### Marketing
 
@@ -206,7 +207,6 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Web
 
 - [Brave Search MCP](https://github.com/brave/brave-search-mcp-server) `stdio` — Web search via Brave Search API. — `search`, `api`
-- [Worklittle Jobs](https://github.com/worklittle/jobs-mcp) `remote` — Swipe to apply for jobs in your AI app, and search over 4 million jobs with filters like visa status, distance, and salary, and connect your Worklittle account to save jobs you love. Streamable HTTP at `https://mcp.worklittle.com/`. Official registry `io.github.worklittle/jobs`. — `jobs`, `search`, `remote`
 - [BuyWhere MCP](https://github.com/BuyWhere/buywhere-mcp) `remote` — Real-time product search and price comparison across 148M+ products from Singapore, Southeast Asia, and US marketplaces via remote streamable-HTTP. — `search`, `ecommerce`, `api`
 - [Fetch Server](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) ✅ `stdio` — Fetch and convert web pages to markdown for LLM consumption. — `http`, `scraping`
 - [Pocket Drives](https://github.com/RevList/pocket-drives-mcp) `remote` — Search peer-to-peer luxury, exotic, and EV rentals from independent hosts. Booking finishes in the iOS app. Remote streamable HTTP at https://pocketdrives.ai/mcp. — `search`, `travel`, `rental`
