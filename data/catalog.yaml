@@ -79,12 +79,12 @@ entries:
     official: false
     tags: [coding, telemetry, local-first]
 
-  - id: hephaestus
-    name: Hephaestus
+  - id: agentlas-os
+    name: Agentlas OS
     kind: server
     category: developer-tools
-    url: https://github.com/agentlas-ai/Hephaestus
-    description: Local-first runtime that routes coding agents and skills over MCP.
+    url: https://github.com/agentlas-ai/Agentlas-OS
+    description: Local-first agent OS for portable agent and team packages over MCP.
     transport: [stdio]
     official: false
     tags: [coding, agents, runtime]
