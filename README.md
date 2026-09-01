@@ -319,6 +319,20 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the entry schema, curation policy, 
 
 ---
 
+## Contributors
+
+<a href="https://github.com/Albertchamberlain/Awesome-MCP/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Albertchamberlain/Awesome-MCP" alt="Awesome-MCP contributors" />
+</a>
+
+## Star History
+
+<p align="center">
+  <img src="https://api.star-history.com/svg?repos=Albertchamberlain/Awesome-MCP&type=Date" alt="Star history chart for Albertchamberlain/Awesome-MCP" width="880" />
+</p>
+
+---
+
 <br>
 
 <p align="center">
