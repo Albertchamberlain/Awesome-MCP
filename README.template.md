@@ -236,7 +236,7 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the entry schema, curation policy, 
 ## Star History
 
 <p align="center">
-  <img src="https://api.star-history.com/svg?repos=Albertchamberlain/Awesome-MCP&type=Date" alt="Star history chart for Albertchamberlain/Awesome-MCP" width="880" />
+  <img src="https://api.star-history.com/svg?repos=Albertchamberlain/Awesome-MCP&type=Date&sealed_token=1xyCNq0LSU304WvVyoz3q01A6O39ncWD9GT11VJhawLmHIxNsBKw1-YRnoAsuWgMBnRurnBB8omrhm-vRPkstQ8GqaUuUVhDqJaLv17-ct6SOiHHRYi14Q" alt="Star history chart for Albertchamberlain/Awesome-MCP" width="880" />
 </p>
 
 ---
