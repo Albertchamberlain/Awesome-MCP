@@ -106,7 +106,7 @@ entries:
     url: https://github.com/magichourhq/magic-hour-mcp
     description: Hosted MCP server for generating and editing video, images, and audio with Magic Hour.
     transport: [remote]
-    official: true
+    official: false
     tags: [ai, video, images, audio, media-generation]
 
   - id: playwright-mcp
