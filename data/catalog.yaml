@@ -209,7 +209,7 @@ entries:
     official: false
     tags: [seo, google-ads, meta-ads, marketing, claude-code]
 
-- id: posteverywhere
+  - id: posteverywhere
     name: PostEverywhere
     kind: server
     category: productivity
@@ -388,3 +388,13 @@ entries:
     transport: [remote]
     official: false
     tags: [search, travel, rental]
+
+  - id: bulkpublish
+    name: BulkPublish
+    kind: server
+    category: social-media
+    url: https://github.com/azeemkafridi/bulkpublish-api
+    description: Approval-first social content adaptation, scheduling, and publishing through a remote MCP server and API.
+    transport: [remote]
+    official: false
+    tags: [social-media, marketing, publishing, scheduling]
