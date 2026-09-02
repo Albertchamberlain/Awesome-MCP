@@ -209,6 +209,16 @@ entries:
     official: false
     tags: [seo, google-ads, meta-ads, marketing, claude-code]
 
+- id: posteverywhere
+    name: PostEverywhere
+    kind: server
+    category: productivity
+    url: https://github.com/posteverywhere/mcp
+    description: Schedule and publish social posts to 11 platforms with media, campaigns, analytics and AI captions.
+    transport: [stdio, remote]
+    official: false
+    tags: [social, marketing]
+
   - id: live-tennis-api
     name: Live Tennis API
     kind: server
