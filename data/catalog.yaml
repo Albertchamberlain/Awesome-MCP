@@ -209,7 +209,7 @@ entries:
     official: false
     tags: [seo, google-ads, meta-ads, marketing, claude-code]
 
-- id: posteverywhere
+  - id: posteverywhere
     name: PostEverywhere
     kind: server
     category: productivity
@@ -228,6 +228,16 @@ entries:
     transport: [stdio]
     official: false
     tags: [tennis, sports, real-time, data, elo]
+
+  - id: parlayapi
+    name: ParlayAPI
+    kind: server
+    category: sports
+    url: https://github.com/JacobiusMakes/parlay-api-mcp
+    description: Sports odds, player props, public event discovery, and account usage; account data tools use each user's own API key and allowances, with free and paid API tiers.
+    transport: [stdio]
+    official: true
+    tags: [sports, odds, player-props]
 
   - id: cursor
     name: Cursor
