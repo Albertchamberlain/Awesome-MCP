@@ -1,7 +1,7 @@
 # Awesome-MCP catalog — edit this file and run: awesome-mcp readme
 meta:
   version: 1
-  updated: "2026-07-03"
+  updated: "2026-09-06"
   description: Curated Model Context Protocol servers, clients, and registries
 
 categories:
@@ -209,7 +209,7 @@ entries:
     official: false
     tags: [seo, google-ads, meta-ads, marketing, claude-code]
 
-- id: posteverywhere
+  - id: posteverywhere
     name: PostEverywhere
     kind: server
     category: productivity
@@ -388,3 +388,13 @@ entries:
     transport: [remote]
     official: false
     tags: [search, travel, rental]
+
+  - id: readyagents-core
+    name: ReadyAgents
+    kind: server
+    category: developer-tools
+    url: https://github.com/readyagents/readyagents-core
+    description: ReadyAgents is a free, self-hosted Apache-2.0 local one-shot agent workflow engine plus MCP toolkit: clone it, bring your own keys; always-on packs are waitlisted and not for sale.
+    transport: [stdio]
+    official: false
+    tags: [python, workflow, local, byok]
