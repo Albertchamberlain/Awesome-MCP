@@ -230,6 +230,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Web
 
+- [FLUJO](https://github.com/mario-andreschak/FLUJO) `stdio`, `sse`, `remote` — Local-first visual AI agent builder with MCP server management, tool inspection, multi-model chat, and workflow debugging. — `self-hosted`, `web`, `multi-model`, `workflows`
 - [LibreChat](https://github.com/danny-avila/LibreChat) `stdio`, `sse` — Self-hosted ChatGPT-style UI with MCP plugin support. — `self-hosted`, `web`
 
 <!-- CATALOG:CLIENTS:END -->
