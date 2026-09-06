@@ -394,7 +394,7 @@ entries:
     kind: server
     category: developer-tools
     url: https://github.com/readyagents/readyagents-core
-    description: ReadyAgents is a free, self-hosted Apache-2.0 local one-shot agent workflow engine plus MCP toolkit: clone it, bring your own keys; always-on packs are waitlisted and not for sale.
+    description: "ReadyAgents is a free, self-hosted Apache-2.0 local one-shot agent workflow engine plus MCP toolkit: clone it, bring your own keys; always-on packs are waitlisted and not for sale."
     transport: [stdio]
     official: false
     tags: [python, workflow, local, byok]
