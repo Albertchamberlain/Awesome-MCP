@@ -1,7 +1,7 @@
 # Awesome-MCP catalog — edit this file and run: awesome-mcp readme
 meta:
   version: 1
-  updated: "2026-09-06"
+updated: "2026-09-06"
   description: Curated Model Context Protocol servers, clients, and registries
 
 categories:
@@ -118,6 +118,16 @@ entries:
     transport: [stdio]
     official: false
     tags: [browser, automation, microsoft]
+
+  - id: agent-qa
+    name: Agent QA
+    kind: server
+    category: browser
+    url: https://github.com/vostride/agent-qa
+    description: MCP tools to author, validate, run, and inspect natural-language web, Android, and iOS tests; source-available under FSL-1.1-ALv2.
+    transport: [stdio]
+    official: false
+    tags: [testing, automation, web, mobile, android, ios, typescript]
 
   - id: sqlite
     name: SQLite Server

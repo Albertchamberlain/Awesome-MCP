@@ -12,7 +12,7 @@ license = { text = "MIT" }
 authors = [{ name = "Albertchamberlain" }]
 keywords = ["mcp", "model-context-protocol", "awesome-list", "ai"]
 dependencies = [
-    "mcp>=1.6.0",
+    "mcp>=1.6.0,<2",
     "pyyaml>=6.0.2",
     "typer>=0.15.0",
     "rich>=13.9.0",

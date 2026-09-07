@@ -19,8 +19,8 @@
   <a href="https://github.com/Albertchamberlain/Awesome-MCP"><img alt="Awesome" src="https://cdn.jsdelivr.net/gh/sindresorhus/awesome@main/media/badge.svg"></a>
   <a href="https://pypi.org/project/awesome-mcp/"><img alt="Python" src="https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white"></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-4c1?logo=open-source-initiative&logoColor=white"></a>
-  <img alt="Catalog" src="https://img.shields.io/badge/catalog-27%20entries-7c3aed">
-  <img alt="Updated" src="https://img.shields.io/badge/updated-2026--06--18-059669">
+  <img alt="Catalog" src="https://img.shields.io/badge/catalog-38%20entries-7c3aed">
+  <img alt="Updated" src="https://img.shields.io/badge/updated-2026--09--05-059669">
 </p>
 
 <br>
@@ -168,6 +168,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Browser
 
+- [Agent QA](https://github.com/vostride/agent-qa) `stdio` — MCP tools to author, validate, run, and inspect natural-language web, Android, and iOS tests; source-available under FSL-1.1-ALv2. — `testing`, `automation`, `web`, `mobile`
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) `stdio` — Browser automation via Playwright — navigate, click, screenshot, extract content. — `browser`, `automation`, `microsoft`
 - [Puppeteer Server](https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer) ✅ `stdio` — Headless Chrome automation for scraping and interaction. — `browser`, `chrome`
 
