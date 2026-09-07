@@ -299,6 +299,16 @@ entries:
     official: false
     tags: [self-hosted, web]
 
+  - id: flujo
+    name: FLUJO
+    kind: client
+    category: web
+    url: https://github.com/mario-andreschak/FLUJO
+    description: Local-first visual AI agent builder with MCP server management, tool inspection, multi-model chat, and workflow debugging.
+    transport: [stdio, sse, remote]
+    official: false
+    tags: [self-hosted, web, multi-model, workflows]
+
   - id: smithery
     name: Smithery
     kind: registry
