@@ -210,6 +210,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Sports
 
 - [Live Tennis API](https://github.com/livetennisapi/livetennisapi-mcp) `stdio` — Real-time tennis match state (score, server, three-valued break-point, retirement/walkover/completed) plus players, rankings, Elo, and fixtures. — `tennis`, `sports`, `real-time`, `data`
+- [ParlayAPI](https://github.com/JacobiusMakes/parlay-api-mcp) ✅ `stdio` — Sports odds, player props, public event discovery, and account usage; account data tools use each user's own API key and allowances, with free and paid API tiers. — `sports`, `odds`, `player-props`
 
 ### Web
 
