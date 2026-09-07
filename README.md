@@ -203,6 +203,10 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 - [Xquik MCP](https://docs.xquik.com/mcp/overview) `remote` — Remote X data MCP server for search, profiles, timelines, monitoring, webhooks, and confirmation-gated writes. Not affiliated with X Corp. — `x`, `twitter`, `social`, `api`
 
+### Social Media
+
+- [BulkPublish](https://github.com/azeemkafridi/bulkpublish-api) `remote` — Approval-first social content adaptation, scheduling, and publishing through a remote MCP server and API. — `social-media`, `marketing`, `publishing`, `scheduling`
+
 ### Sports
 
 - [Live Tennis API](https://github.com/livetennisapi/livetennisapi-mcp) `stdio` — Real-time tennis match state (score, server, three-valued break-point, retirement/walkover/completed) plus players, rankings, Elo, and fixtures. — `tennis`, `sports`, `real-time`, `data`

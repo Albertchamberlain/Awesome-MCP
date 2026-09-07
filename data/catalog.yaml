@@ -419,6 +419,7 @@ entries:
     official: false
     tags: [search, travel, rental]
 
+<<<<<<< HEAD
   - id: readyagents-core
     name: ReadyAgents
     kind: server
@@ -428,3 +429,14 @@ entries:
     transport: [stdio]
     official: false
     tags: [python, workflow, local, byok]
+=======
+  - id: bulkpublish
+    name: BulkPublish
+    kind: server
+    category: social-media
+    url: https://github.com/azeemkafridi/bulkpublish-api
+    description: Approval-first social content adaptation, scheduling, and publishing through a remote MCP server and API.
+    transport: [remote]
+    official: false
+    tags: [social-media, marketing, publishing, scheduling]
+>>>>>>> pr38
