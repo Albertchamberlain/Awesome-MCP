@@ -175,6 +175,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Communication
 
 - [Slack Server](https://github.com/modelcontextprotocol/servers/tree/main/src/slack) ✅ `stdio` — Post messages and read channels in Slack workspaces. — `slack`, `chat`
+- [MeetStream](https://github.com/meetstream-ai/meetstream-mcp) ✅ `stdio` `remote` — Send AI bots into Zoom, Google Meet and Microsoft Teams to record, transcribe and summarize meetings. — `meetings`, `transcription`, `zoom`, `google-meet`, `teams`
 
 ### Database
 
