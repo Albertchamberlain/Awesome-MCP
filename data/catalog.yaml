@@ -419,17 +419,16 @@ entries:
     official: false
     tags: [search, travel, rental]
 
-<<<<<<< HEAD
   - id: readyagents-core
     name: ReadyAgents
     kind: server
     category: developer-tools
-    url: https://github.com/readyagents/readyagents-core
-    description: "ReadyAgents is a free, self-hosted Apache-2.0 local one-shot agent workflow engine plus MCP toolkit: clone it, bring your own keys; always-on packs are waitlisted and not for sale."
+    url: https://github.com/readyagentsdev/readyagents-core
+    description: "ReadyAgents is a free, self-hosted Apache-2.0 local one-shot agent workflow engine plus MCP toolkit: git clone + pip install -e . (or see https://readyagents.dev); bring your own keys; always-on packs are waitlisted and not for sale."
     transport: [stdio]
     official: false
     tags: [python, workflow, local, byok]
-=======
+
   - id: bulkpublish
     name: BulkPublish
     kind: server
@@ -439,4 +438,3 @@ entries:
     transport: [remote]
     official: false
     tags: [social-media, marketing, publishing, scheduling]
->>>>>>> pr38
