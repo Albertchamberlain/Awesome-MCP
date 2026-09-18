@@ -215,6 +215,10 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 - [PostEverywhere](https://github.com/posteverywhere/mcp) `stdio`, `remote` — Schedule and publish social posts to 11 platforms with media, campaigns, analytics and AI captions. — `social`, `marketing`
 - [Zovo MCP Servers](https://github.com/theluckystrike/mcp-servers) `stdio`, `remote` — Local-first MCP servers for back-office work — invoicing, expenses, time tracking, currency, spreadsheets, PDFs, DOCX, and calendars with no account or API key required. Remote streamable HTTP endpoints are also hosted, for example https://mcp.zovo.one/mcp/invoice. — `productivity`, `invoicing`, `finance`, `documents`
 
+### Security
+
+- [DarkMoon](https://github.com/ASCIT31/Dark-Moon) — Open-source autonomous AI penetration testing platform — 50 specialist agents orchestrated over MCP, shipping as both MCP host and server. — `security`, `pentesting`, `agents`, `docker`
+
 ### Social
 
 - [Xquik MCP](https://docs.xquik.com/mcp/overview) `remote` — Remote X data MCP server for search, profiles, timelines, monitoring, webhooks, and confirmation-gated writes. Not affiliated with X Corp. — `x`, `twitter`, `social`, `api`

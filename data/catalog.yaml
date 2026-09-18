@@ -518,3 +518,12 @@ entries:
     transport: [stdio, remote]
     official: false
     tags: [meetings, transcription, zoom, google-meet, teams]
+
+  - id: darkmoon
+    name: DarkMoon
+    kind: server
+    category: security
+    url: https://github.com/ASCIT31/Dark-Moon
+    description: Open-source autonomous AI penetration testing platform — 50 specialist agents orchestrated over MCP, shipping as both MCP host and server.
+    official: false
+    tags: [security, pentesting, agents, docker]
