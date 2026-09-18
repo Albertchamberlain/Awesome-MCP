@@ -198,6 +198,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 - [Google Drive Server](https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive) ✅ `stdio` — List, read, and search files in Google Drive. — `google`, `files`
 - [PostEverywhere](https://github.com/posteverywhere/mcp) `stdio`, `remote` — Schedule and publish social posts to 11 platforms with media, campaigns, analytics and AI captions. — `social`, `marketing`
+- [Zovo MCP Servers](https://github.com/theluckystrike/mcp-servers) `stdio`, `remote` — Local-first MCP servers for back-office work — invoicing, expenses, time tracking, currency, spreadsheets, PDFs, DOCX, and calendars with no account or API key required. Remote streamable HTTP endpoints are also hosted, for example https://mcp.zovo.one/mcp/invoice. — `productivity`, `invoicing`, `finance`, `documents`
 
 ### Social
 

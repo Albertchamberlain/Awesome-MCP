@@ -448,3 +448,13 @@ entries:
     transport: [remote]
     official: false
     tags: [social-media, marketing, publishing, scheduling]
+
+  - id: zovo-mcp-servers
+    name: Zovo MCP Servers
+    kind: server
+    category: productivity
+    url: https://github.com/theluckystrike/mcp-servers
+    description: Local-first MCP servers for back-office work — invoicing, expenses, time tracking, currency, spreadsheets, PDFs, DOCX, and calendars with no account or API key required. Remote streamable HTTP endpoints are also hosted, for example https://mcp.zovo.one/mcp/invoice.
+    transport: [stdio, remote]
+    official: false
+    tags: [productivity, invoicing, finance, documents]
