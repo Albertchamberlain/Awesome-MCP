@@ -528,6 +528,16 @@ entries:
     official: false
     tags: [security, pentesting, agents, docker]
 
+  - id: lodestar-stamp
+    name: Lodestar Stamp
+    kind: server
+    category: security
+    url: https://lodestarstamp.com
+    description: Dated public-source receipts (license, identity, address, inspection) agents fetch before they act via MCP — Streamable HTTP at https://api.lodestarindex.com/mcp or stdio npx -y lodestar-stamp-mcp@0.1.9. Facts on the record; does not approve the booking.
+    transport: [stdio, remote]
+    official: false
+    tags: [security, trust, receipts, business, remote]
+
   - id: contextstream
     name: ContextStream
     kind: server

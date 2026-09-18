@@ -224,6 +224,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Security
 
 - [DarkMoon](https://github.com/ASCIT31/Dark-Moon) — Open-source autonomous AI penetration testing platform — 50 specialist agents orchestrated over MCP, shipping as both MCP host and server. — `security`, `pentesting`, `agents`, `docker`
+- [Lodestar Stamp](https://lodestarstamp.com) `stdio`, `remote` — Dated public-source receipts (license, identity, address, inspection) agents fetch before they act via MCP — Streamable HTTP at https://api.lodestarindex.com/mcp or stdio npx -y lodestar-stamp-mcp@0.1.9. Facts on the record; does not approve the booking. — `security`, `trust`, `receipts`, `business`
 
 ### Social
 
