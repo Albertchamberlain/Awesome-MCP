@@ -175,12 +175,12 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 - [Agent QA](https://github.com/vostride/agent-qa) `stdio` — MCP tools to author, validate, run, and inspect natural-language web, Android, and iOS tests; source-available under FSL-1.1-ALv2. — `testing`, `automation`, `web`, `mobile`
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) `stdio` — Browser automation via Playwright — navigate, click, screenshot, extract content. — `browser`, `automation`, `microsoft`
-- [Puppeteer Server](https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer) ✅ `stdio` — Headless Chrome automation for scraping and interaction. — `browser`, `chrome`
+- [Puppeteer Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer) ✅ `stdio` — Headless Chrome automation for scraping and interaction. — `browser`, `chrome`
 
 ### Communication
 
 - [MeetStream](https://github.com/meetstream-ai/meetstream-mcp) `stdio`, `remote` — Send AI bots into Zoom, Google Meet and Microsoft Teams to record, transcribe and summarize meetings. — `meetings`, `transcription`, `zoom`, `google-meet`
-- [Slack Server](https://github.com/modelcontextprotocol/servers/tree/main/src/slack) ✅ `stdio` — Post messages and read channels in Slack workspaces. — `slack`, `chat`
+- [Slack Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack) ✅ `stdio` — Post messages and read channels in Slack workspaces. — `slack`, `chat`
 
 ### Data
 
@@ -188,8 +188,8 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Database
 
-- [PostgreSQL Server](https://github.com/modelcontextprotocol/servers/tree/main/src/postgres) ✅ `stdio` — Read-only PostgreSQL access with schema introspection. — `sql`, `postgres`
-- [SQLite Server](https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite) ✅ `stdio` — Query and inspect SQLite databases with schema discovery. — `sql`, `database`
+- [PostgreSQL Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres) ✅ `stdio` — Read-only PostgreSQL access with schema introspection. — `sql`, `postgres`
+- [SQLite Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite) ✅ `stdio` — Query and inspect SQLite databases with schema discovery. — `sql`, `database`
 
 ### Developer Tools
 
@@ -211,7 +211,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Productivity
 
-- [Google Drive Server](https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive) ✅ `stdio` — List, read, and search files in Google Drive. — `google`, `files`
+- [Google Drive Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive) ✅ `stdio` — List, read, and search files in Google Drive. — `google`, `files`
 - [PostEverywhere](https://github.com/posteverywhere/mcp) `stdio`, `remote` — Schedule and publish social posts to 11 platforms with media, campaigns, analytics and AI captions. — `social`, `marketing`
 - [Zovo MCP Servers](https://github.com/theluckystrike/mcp-servers) `stdio`, `remote` — Local-first MCP servers for back-office work — invoicing, expenses, time tracking, currency, spreadsheets, PDFs, DOCX, and calendars with no account or API key required. Remote streamable HTTP endpoints are also hosted, for example https://mcp.zovo.one/mcp/invoice. — `productivity`, `invoicing`, `finance`, `documents`
 

@@ -133,7 +133,7 @@ entries:
     name: SQLite Server
     kind: server
     category: database
-    url: https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite
+    url: https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite
     description: Query and inspect SQLite databases with schema discovery.
     transport: [stdio]
     official: true
@@ -143,7 +143,7 @@ entries:
     name: PostgreSQL Server
     kind: server
     category: database
-    url: https://github.com/modelcontextprotocol/servers/tree/main/src/postgres
+    url: https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres
     description: Read-only PostgreSQL access with schema introspection.
     transport: [stdio]
     official: true
@@ -183,7 +183,7 @@ entries:
     name: Google Drive Server
     kind: server
     category: productivity
-    url: https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive
+    url: https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive
     description: List, read, and search files in Google Drive.
     transport: [stdio]
     official: true
@@ -193,7 +193,7 @@ entries:
     name: Slack Server
     kind: server
     category: communication
-    url: https://github.com/modelcontextprotocol/servers/tree/main/src/slack
+    url: https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack
     description: Post messages and read channels in Slack workspaces.
     transport: [stdio]
     official: true
@@ -203,7 +203,7 @@ entries:
     name: Puppeteer Server
     kind: server
     category: browser
-    url: https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer
+    url: https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer
     description: Headless Chrome automation for scraping and interaction.
     transport: [stdio]
     official: true
