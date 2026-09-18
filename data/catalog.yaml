@@ -488,3 +488,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [agents, runtime, sandbox, sessions, audit, self-hosted]
+
+  - id: orkas-videostudio
+    name: OrkasVideoStudio
+    kind: server
+    category: media-creation
+    url: https://github.com/Orkas-AI/Orkas-VideoStudio
+    description: Local-first MCP toolkit for agent-authored video composition, editing, generation, and plan-based assembly.
+    transport: [stdio]
+    official: false
+    tags: [video, editing, composition, agents]
