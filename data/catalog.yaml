@@ -478,3 +478,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [memory, knowledge, cursor, claude-desktop]
+
+  - id: sandbase-harness
+    name: SandBase Harness
+    kind: server
+    category: developer-tools
+    url: https://github.com/sandbaseai/sandbase-harness
+    description: Self-hosted agent runtime exposing durable sessions, sandboxed execution, approvals, artifacts, audit, and replay through a local stdio MCP bridge.
+    transport: [stdio]
+    official: false
+    tags: [agents, runtime, sandbox, sessions, audit, self-hosted]
