@@ -567,3 +567,13 @@ entries:
     transport: [stdio, remote]
     official: false
     tags: [companies, data, research]
+
+  - id: orcareplay
+    name: OrcaReplay
+    kind: server
+    category: developer-tools
+    url: https://github.com/Continuum-AI-Corp/OrcaReplay
+    description: Record agent and provider traffic to a local trace library, then serve it over a stdio MCP server for listing, inspecting, diffing, and offline replay of previous runs.
+    transport: [stdio]
+    official: false
+    tags: [debugging, replay, tracing]
