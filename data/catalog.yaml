@@ -458,3 +458,13 @@ entries:
     transport: [stdio, remote]
     official: false
     tags: [productivity, invoicing, finance, documents]
+
+  - id: statsnet
+    name: Statsnet
+    kind: server
+    category: data
+    url: https://github.com/usenetstate/statsnet-mcp
+    description: Background check any company in the world via remote MCP — registration, executives, courts and finances.
+    transport: [remote]
+    official: false
+    tags: [companies, osint, background-check, remote]

@@ -176,6 +176,10 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 - [Slack Server](https://github.com/modelcontextprotocol/servers/tree/main/src/slack) ✅ `stdio` — Post messages and read channels in Slack workspaces. — `slack`, `chat`
 
+### Data
+
+- [Statsnet](https://github.com/usenetstate/statsnet-mcp) `remote` — Background check any company in the world via remote MCP — registration, executives, courts and finances. — `companies`, `osint`, `background-check`, `remote`
+
 ### Database
 
 - [PostgreSQL Server](https://github.com/modelcontextprotocol/servers/tree/main/src/postgres) ✅ `stdio` — Read-only PostgreSQL access with schema introspection. — `sql`, `postgres`
