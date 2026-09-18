@@ -163,6 +163,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 - [Magic Hour](https://github.com/magichourhq/magic-hour-mcp) `remote` — Hosted MCP server for generating and editing video, images, and audio with Magic Hour. — `ai`, `video`, `images`, `audio`
 - [Memory Server](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) ✅ `stdio` — Persistent knowledge-graph memory across conversations. — `memory`, `graph`
+- [Neither](https://github.com/stonianua/neither-mcp) `stdio` — Project context your AI can query through MCP — selected notes/docs for Cursor or Claude Desktop, related retrieval with source evidence. Local stdio, Node 20+. — `memory`, `knowledge`, `cursor`, `claude-desktop`
 - [SandBase CLI](https://github.com/sandbaseai/cli) `stdio` — Local MCP bridge for discovering and running 2,000+ AI models and APIs from 25 supported clients. — `ai`, `models`, `api`, `cli`
 - [Sequential Thinking](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) ✅ `stdio` — Structured step-by-step reasoning tool for complex problems. — `reasoning`, `planning`
 
