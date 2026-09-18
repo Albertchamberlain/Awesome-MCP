@@ -167,6 +167,10 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 - [SandBase CLI](https://github.com/sandbaseai/cli) `stdio` — Local MCP bridge for discovering and running 2,000+ AI models and APIs from 25 supported clients. — `ai`, `models`, `api`, `cli`
 - [Sequential Thinking](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) ✅ `stdio` — Structured step-by-step reasoning tool for complex problems. — `reasoning`, `planning`
 
+### Analytics
+
+- [LLM Pulse MCP Server](https://github.com/LLM-Pulse/llmpulse-mcp) `stdio`, `remote` — Access LLM Pulse brand visibility, citations, sentiment, share of voice, recommendations, tracked prompts, and AI traffic analytics. — `analytics`, `ai-visibility`, `brand-monitoring`
+
 ### Browser
 
 - [Agent QA](https://github.com/vostride/agent-qa) `stdio` — MCP tools to author, validate, run, and inspect natural-language web, Android, and iOS tests; source-available under FSL-1.1-ALv2. — `testing`, `automation`, `web`, `mobile`

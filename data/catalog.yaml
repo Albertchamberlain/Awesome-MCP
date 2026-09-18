@@ -498,3 +498,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [video, editing, composition, agents]
+
+  - id: llm-pulse
+    name: LLM Pulse MCP Server
+    kind: server
+    category: analytics
+    url: https://github.com/LLM-Pulse/llmpulse-mcp
+    description: Access LLM Pulse brand visibility, citations, sentiment, share of voice, recommendations, tracked prompts, and AI traffic analytics.
+    transport: [stdio, remote]
+    official: false
+    tags: [analytics, ai-visibility, brand-monitoring]
