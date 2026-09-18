@@ -527,3 +527,43 @@ entries:
     description: Open-source autonomous AI penetration testing platform — 50 specialist agents orchestrated over MCP, shipping as both MCP host and server.
     official: false
     tags: [security, pentesting, agents, docker]
+
+  - id: contextstream
+    name: ContextStream
+    kind: server
+    category: ai
+    url: https://github.com/contextstream/mcp-server
+    description: Persistent memory, semantic search, and shared project context for AI agents with traceable sources and scoped access.
+    transport: [stdio, remote]
+    official: false
+    tags: [memory, knowledge, context, rust]
+
+  - id: careclinic
+    name: CareClinic Health Tracker
+    kind: server
+    category: health
+    url: https://careclinic.io/careclinic-mcp/
+    description: Remote MCP server for symptom, mood, medication, and wellness tracking with caregiver support.
+    transport: [remote]
+    official: false
+    tags: [health, tracking, wellness, remote]
+
+  - id: conthunt
+    name: ContHunt
+    kind: server
+    category: social
+    url: https://conthunt.app
+    description: Discover and research viral social content on TikTok, Instagram Reels, and YouTube Shorts.
+    transport: [remote]
+    official: false
+    tags: [social, content, research, remote]
+
+  - id: companyscope
+    name: CompanyScope
+    kind: server
+    category: data
+    url: https://github.com/Stewyboy1990/companyscope-mcp
+    description: Company intelligence from 12 free public sources — full company profiles via a single tool call.
+    transport: [stdio, remote]
+    official: false
+    tags: [companies, data, research]

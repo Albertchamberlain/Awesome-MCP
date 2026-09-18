@@ -161,6 +161,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### AI
 
+- [ContextStream](https://github.com/contextstream/mcp-server) `stdio`, `remote` — Persistent memory, semantic search, and shared project context for AI agents with traceable sources and scoped access. — `memory`, `knowledge`, `context`, `rust`
 - [Magic Hour](https://github.com/magichourhq/magic-hour-mcp) `remote` — Hosted MCP server for generating and editing video, images, and audio with Magic Hour. — `ai`, `video`, `images`, `audio`
 - [Memory Server](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) ✅ `stdio` — Persistent knowledge-graph memory across conversations. — `memory`, `graph`
 - [Neither](https://github.com/stonianua/neither-mcp) `stdio` — Project context your AI can query through MCP — selected notes/docs for Cursor or Claude Desktop, related retrieval with source evidence. Local stdio, Node 20+. — `memory`, `knowledge`, `cursor`, `claude-desktop`
@@ -184,6 +185,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Data
 
+- [CompanyScope](https://github.com/Stewyboy1990/companyscope-mcp) `stdio`, `remote` — Company intelligence from 12 free public sources — full company profiles via a single tool call. — `companies`, `data`, `research`
 - [Statsnet](https://github.com/usenetstate/statsnet-mcp) `remote` — Background check any company in the world via remote MCP — registration, executives, courts and finances. — `companies`, `osint`, `background-check`, `remote`
 
 ### Database
@@ -200,6 +202,10 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 - [Official MCP Reference Servers](https://github.com/modelcontextprotocol/servers) ✅ `stdio` — Reference implementations maintained by the MCP steering group (filesystem, memory, fetch, git, and more). — `reference`, `anthropic`
 - [ReadyAgents](https://github.com/readyagentsdev/readyagents-core) `stdio` — ReadyAgents is a free, self-hosted Apache-2.0 local one-shot agent workflow engine plus MCP toolkit: git clone + pip install -e . (or see https://readyagents.dev); bring your own keys; always-on packs are waitlisted and not for sale. — `python`, `workflow`, `local`, `byok`
 - [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) `stdio` — Self-hosted agent runtime exposing durable sessions, sandboxed execution, approvals, artifacts, audit, and replay through a local stdio MCP bridge. — `agents`, `runtime`, `sandbox`, `sessions`
+
+### Health
+
+- [CareClinic Health Tracker](https://careclinic.io/careclinic-mcp/) `remote` — Remote MCP server for symptom, mood, medication, and wellness tracking with caregiver support. — `health`, `tracking`, `wellness`, `remote`
 
 ### Marketing
 
@@ -221,6 +227,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Social
 
+- [ContHunt](https://conthunt.app) `remote` — Discover and research viral social content on TikTok, Instagram Reels, and YouTube Shorts. — `social`, `content`, `research`, `remote`
 - [Xquik MCP](https://docs.xquik.com/mcp/overview) `remote` — Remote X data MCP server for search, profiles, timelines, monitoring, webhooks, and confirmation-gated writes. Not affiliated with X Corp. — `x`, `twitter`, `social`, `api`
 
 ### Social Media
