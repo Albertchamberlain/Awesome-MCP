@@ -508,3 +508,13 @@ entries:
     transport: [stdio, remote]
     official: false
     tags: [analytics, ai-visibility, brand-monitoring]
+
+  - id: meetstream
+    name: MeetStream
+    kind: server
+    category: communication
+    url: https://github.com/meetstream-ai/meetstream-mcp
+    description: Send AI bots into Zoom, Google Meet and Microsoft Teams to record, transcribe and summarize meetings.
+    transport: [stdio, remote]
+    official: false
+    tags: [meetings, transcription, zoom, google-meet, teams]
