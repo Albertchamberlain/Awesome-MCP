@@ -150,7 +150,7 @@ $ awesome-mcp readme
 
 ## Catalog
 
-> **27 curated entries** · 13 servers · 6 clients · 4 registries · 4 SDKs/tools · 16 official/reference
+> **55 curated entries** · 39 servers · 7 clients · 5 registries · 4 SDKs/tools · 16 official/reference
 > *Deliberately curated — not an exhaustive index.*
 
 Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
