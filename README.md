@@ -162,6 +162,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### AI
 
 - [ContextStream](https://github.com/contextstream/mcp-server) `stdio`, `remote` — Persistent memory, semantic search, and shared project context for AI agents with traceable sources and scoped access. — `memory`, `knowledge`, `context`, `rust`
+- [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) `stdio` — Developer-alpha encrypted knowledge store with MCP search and retrieval through scoped, expiring grants. — `memory`, `knowledge`, `encryption`
 - [Magic Hour](https://github.com/magichourhq/magic-hour-mcp) `remote` — Hosted MCP server for generating and editing video, images, and audio with Magic Hour. — `ai`, `video`, `images`, `audio`
 - [Memory Server](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) ✅ `stdio` — Persistent knowledge-graph memory across conversations. — `memory`, `graph`
 - [Neither](https://github.com/stonianua/neither-mcp) `stdio` — Project context your AI can query through MCP — selected notes/docs for Cursor or Claude Desktop, related retrieval with source evidence. Local stdio, Node 20+. — `memory`, `knowledge`, `cursor`, `claude-desktop`
