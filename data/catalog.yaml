@@ -567,3 +567,13 @@ entries:
     transport: [stdio, remote]
     official: false
     tags: [companies, data, research]
+
+  - id: hyperconsciousness
+    name: Hyperconsciousness
+    kind: server
+    category: ai
+    url: https://github.com/louis030195/hyperconsciousness
+    description: Developer-alpha encrypted knowledge store with MCP search and retrieval through scoped, expiring grants.
+    transport: [stdio]
+    official: false
+    tags: [memory, knowledge, encryption]
