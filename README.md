@@ -171,6 +171,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Analytics
 
 - [LLM Pulse MCP Server](https://github.com/LLM-Pulse/llmpulse-mcp) `stdio`, `remote` — Access LLM Pulse brand visibility, citations, sentiment, share of voice, recommendations, tracked prompts, and AI traffic analytics. — `analytics`, `ai-visibility`, `brand-monitoring`
+- [SearchLink Lite](https://github.com/GlobalMatchHub/searchlink-lite) `stdio` — Read-only Google Search Console for agents. Site overview against the previous period, breakdowns by query, page, country or device, low-CTR and position 8-20 opportunities, URL inspection, sitemaps, on-page checks and Google's ranking update history. — `seo`, `search-console`, `analytics`, `google`
 
 ### Browser
 
