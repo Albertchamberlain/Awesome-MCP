@@ -19,6 +19,16 @@ categories:
     description: Libraries for building MCP servers and clients
 
 entries:
+  - id: api-market-gateway
+    name: API.market MCP Gateway
+    kind: server
+    category: developer-tools
+    url: https://github.com/Noveum/api-market-agent-integrations
+    description: Hosted OAuth MCP gateway at https://api.market/api/mcp/gateway for API discovery, schemas, execution, usage and subscriptions; API-specific free tiers and paid plans apply.
+    transport: [remote]
+    official: true
+    tags: [api, oauth, gateway]
+
   - id: mcp-official-servers
     name: Official MCP Reference Servers
     kind: server
