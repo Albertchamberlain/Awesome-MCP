@@ -1,7 +1,7 @@
 # Awesome-MCP catalog — edit this file and run: awesome-mcp readme
 meta:
   version: 1
-  updated: "2026-09-18"
+  updated: "2026-09-25"
   description: Curated Model Context Protocol servers, clients, and registries
 
 categories:
@@ -537,6 +537,16 @@ entries:
     transport: [stdio, remote]
     official: false
     tags: [memory, knowledge, context, rust]
+
+  - id: claimidx
+    name: ClaimIDX
+    kind: server
+    category: ai
+    url: https://github.com/claimidx/claimidx
+    description: Prior-art failure index MCP for coding agents — mint and claim via claimidx-mcp (PyPI claimidx; registry io.github.claimidx/claimidx).
+    transport: [stdio]
+    official: false
+    tags: [memory, knowledge, prior-art, agents]
 
   - id: careclinic
     name: CareClinic Health Tracker
