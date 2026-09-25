@@ -459,6 +459,16 @@ entries:
     official: false
     tags: [productivity, invoicing, finance, documents]
 
+  - id: clera
+    name: Clera
+    kind: server
+    category: productivity
+    url: https://github.com/getclera/mcp
+    description: Hosted hiring server to search 210,000+ vetted startup candidates, review Clera's picks for open roles and request intros over OAuth.
+    transport: [remote]
+    official: true
+    tags: [recruiting, hiring, remote, oauth]
+
   - id: statsnet
     name: Statsnet
     kind: server
