@@ -449,6 +449,16 @@ entries:
     official: false
     tags: [social-media, marketing, publishing, scheduling]
 
+  - id: threadfox-lite
+    name: ThreadFox Lite
+    kind: server
+    category: social-media
+    url: https://github.com/amflimited/threadfox-lite
+    description: Read-only Reddit research through the user's own signed-in Chrome - subreddit rules with self-promotion rules flagged, communities for a topic, account standing and post status.
+    transport: [stdio]
+    official: false
+    tags: [social-media, reddit, marketing, research]
+
   - id: zovo-mcp-servers
     name: Zovo MCP Servers
     kind: server

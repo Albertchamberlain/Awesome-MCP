@@ -233,6 +233,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Social Media
 
 - [BulkPublish](https://github.com/azeemkafridi/bulkpublish-api) `remote` — Approval-first social content adaptation, scheduling, and publishing through a remote MCP server and API. — `social-media`, `marketing`, `publishing`, `scheduling`
+- [ThreadFox Lite](https://github.com/amflimited/threadfox-lite) `stdio` — Read-only Reddit research through the user's own signed-in Chrome - subreddit rules with self-promotion rules flagged, communities for a topic, account standing and post status. — `social-media`, `reddit`, `marketing`, `research`
 
 ### Sports
 
