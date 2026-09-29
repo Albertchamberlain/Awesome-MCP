@@ -59,6 +59,16 @@ entries:
     official: true
     tags: [memory, graph]
 
+  - id: screenpipe
+    name: Screenpipe
+    kind: server
+    category: ai
+    url: https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp
+    description: Search locally captured screen text and audio history for recall, meeting notes, and work summaries through the official MCP server; requires the Screenpipe recorder and local API key, with source available under the Screenpipe Commercial License and optional cloud services that can transmit context off-device.
+    transport: [stdio]
+    official: true
+    tags: [memory, context, recall, screen, audio]
+
   - id: github-mcp-server
     name: GitHub MCP Server
     kind: server
