@@ -1,7 +1,7 @@
 # Awesome-MCP catalog — edit this file and run: awesome-mcp readme
 meta:
   version: 1
-  updated: "2026-09-18"
+  updated: "2026-09-24"
   description: Curated Model Context Protocol servers, clients, and registries
 
 categories:
@@ -58,6 +58,16 @@ entries:
     transport: [stdio]
     official: true
     tags: [memory, graph]
+
+  - id: screenpipe
+    name: Screenpipe
+    kind: server
+    category: ai
+    url: https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp
+    description: Search locally captured screen text and audio history for recall, meeting notes, and work summaries through the official MCP server; requires the Screenpipe recorder and local API key, with source available under the Screenpipe Commercial License and optional cloud services that can transmit context off-device.
+    transport: [stdio]
+    official: true
+    tags: [memory, context, recall, screen, audio]
 
   - id: github-mcp-server
     name: GitHub MCP Server
@@ -577,3 +587,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [memory, knowledge, encryption]
+
+  - id: noveum-orbit
+    name: Orbit by Noveum
+    kind: server
+    category: productivity
+    url: https://orbit.noveum.ai/mcp
+    description: Hosted Streamable HTTP MCP for issues, projects, sprints, docs and files with workspace-scoped OAuth.
+    transport: [remote]
+    official: true
+    tags: [project-management, tasks, documents, oauth]

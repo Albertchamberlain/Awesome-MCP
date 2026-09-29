@@ -167,6 +167,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 - [Memory Server](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) ✅ `stdio` — Persistent knowledge-graph memory across conversations. — `memory`, `graph`
 - [Neither](https://github.com/stonianua/neither-mcp) `stdio` — Project context your AI can query through MCP — selected notes/docs for Cursor or Claude Desktop, related retrieval with source evidence. Local stdio, Node 20+. — `memory`, `knowledge`, `cursor`, `claude-desktop`
 - [SandBase CLI](https://github.com/sandbaseai/cli) `stdio` — Local MCP bridge for discovering and running 2,000+ AI models and APIs from 25 supported clients. — `ai`, `models`, `api`, `cli`
+- [Screenpipe](https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp) ✅ `stdio` — Search locally captured screen text and audio history for recall, meeting notes, and work summaries through the official MCP server; requires the Screenpipe recorder and local API key, with source available under the Screenpipe Commercial License and optional cloud services that can transmit context off-device. — `memory`, `context`, `recall`, `screen`
 - [Sequential Thinking](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) ✅ `stdio` — Structured step-by-step reasoning tool for complex problems. — `reasoning`, `planning`
 
 ### Analytics
@@ -219,6 +220,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Productivity
 
 - [Google Drive Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive) ✅ `stdio` — List, read, and search files in Google Drive. — `google`, `files`
+- [Orbit by Noveum](https://orbit.noveum.ai/mcp) ✅ `remote` — Hosted Streamable HTTP MCP for issues, projects, sprints, docs and files with workspace-scoped OAuth. — `project-management`, `tasks`, `documents`, `oauth`
 - [PostEverywhere](https://github.com/posteverywhere/mcp) `stdio`, `remote` — Schedule and publish social posts to 11 platforms with media, campaigns, analytics and AI captions. — `social`, `marketing`
 - [Zovo MCP Servers](https://github.com/theluckystrike/mcp-servers) `stdio`, `remote` — Local-first MCP servers for back-office work — invoicing, expenses, time tracking, currency, spreadsheets, PDFs, DOCX, and calendars with no account or API key required. Remote streamable HTTP endpoints are also hosted, for example https://mcp.zovo.one/mcp/invoice. — `productivity`, `invoicing`, `finance`, `documents`
 
