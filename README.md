@@ -198,6 +198,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Developer Tools
 
 - [Agentlas OS](https://github.com/agentlas-ai/Agentlas-OS) `stdio` — Local-first agent OS for portable agent and team packages over MCP. — `coding`, `agents`, `runtime`
+- [API.market MCP Gateway](https://github.com/Noveum/api-market-agent-integrations) ✅ `remote` — Hosted OAuth MCP gateway at https://api.market/api/mcp/gateway for API discovery, schemas, execution, usage and subscriptions; API-specific free tiers and paid plans apply. — `api`, `oauth`, `gateway`
 - [ax](https://github.com/Necmttn/ax) `stdio` — Local-first telemetry and memory graph for AI coding agents. — `coding`, `telemetry`, `local-first`
 - [Filesystem Server](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) ✅ `stdio` — Secure local file read/write with configurable directory allowlists. — `files`, `local`
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) ✅ `stdio`, `remote` — Official GitHub integration for repos, issues, PRs, and Actions. — `github`, `git`
