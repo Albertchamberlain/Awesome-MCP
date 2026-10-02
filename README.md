@@ -213,6 +213,10 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 - [NotFair](https://github.com/nowork-studio/NotFair) `stdio` — Open-source Claude Code skills for SEO, GEO, and paid ads — connects to Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP for live account data. — `seo`, `google-ads`, `meta-ads`, `marketing`
 
+### Media
+
+- [VideoGen MCP](https://videogen.io/videogen-mcp) ✅ `stdio`, `remote` — Official VideoGen MCP server for creating and editing videos, images, voiceovers, music, and avatars, with media uploads, project edits, and video exports. — `video`, `media`, `marketing`, `ecommerce`
+
 ### Media Creation
 
 - [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) `stdio` — Local-first MCP toolkit for agent-authored video composition, editing, generation, and plan-based assembly. — `video`, `editing`, `composition`, `agents`

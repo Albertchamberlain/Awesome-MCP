@@ -597,3 +597,20 @@ entries:
     transport: [remote]
     official: true
     tags: [project-management, tasks, documents, oauth]
+
+  - id: videogen
+    name: VideoGen MCP
+    kind: server
+    category: media
+    url: https://videogen.io/videogen-mcp
+    description: Official VideoGen MCP server for creating and editing videos, images,
+      voiceovers, music, and avatars, with media uploads, project edits, and video exports.
+    transport:
+    - stdio
+    - remote
+    official: true
+    tags:
+    - video
+    - media
+    - marketing
+    - ecommerce
