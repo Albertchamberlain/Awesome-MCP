@@ -597,3 +597,12 @@ entries:
     transport: [remote]
     official: true
     tags: [project-management, tasks, documents, oauth]
+  - id: aident-loadout
+    name: Aident Loadout
+    kind: server
+    category: developer-tools
+    url: https://github.com/Aident-AI/aident-skill
+    description: Remote MCP server (streamable HTTP, OAuth) connecting Codex, Claude Code, Cursor, ChatGPT and other MCP clients to 1,000+ apps and 400+ expert-built Skills through one setup, with Vault-protected credentials and Audit.
+    transport: [remote]
+    official: false
+    tags: [remote, oauth, integrations, agents, apps]
