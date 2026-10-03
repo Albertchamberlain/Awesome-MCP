@@ -182,6 +182,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Communication
 
+- [Ethora](https://github.com/dappros/ethora-mcp-server) ✅ `stdio`, `remote` — Create chat apps, rooms and users, send and search messages, and deploy RAG agents and a website chat widget on the open-source Ethora messaging platform. — `chat`, `messaging`, `ai-agents`, `rag`
 - [MeetStream](https://github.com/meetstream-ai/meetstream-mcp) `stdio`, `remote` — Send AI bots into Zoom, Google Meet and Microsoft Teams to record, transcribe and summarize meetings. — `meetings`, `transcription`, `zoom`, `google-meet`
 - [Slack Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack) ✅ `stdio` — Post messages and read channels in Slack workspaces. — `slack`, `chat`
 

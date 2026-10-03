@@ -597,3 +597,13 @@ entries:
     transport: [remote]
     official: true
     tags: [project-management, tasks, documents, oauth]
+
+  - id: ethora
+    name: Ethora
+    kind: server
+    category: communication
+    url: https://github.com/dappros/ethora-mcp-server
+    description: Create chat apps, rooms and users, send and search messages, and deploy RAG agents and a website chat widget on the open-source Ethora messaging platform.
+    transport: [stdio, remote]
+    official: true
+    tags: [chat, messaging, ai-agents, rag, xmpp, oauth]
