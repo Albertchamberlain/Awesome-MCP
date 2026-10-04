@@ -597,3 +597,13 @@ entries:
     transport: [remote]
     official: true
     tags: [project-management, tasks, documents, oauth]
+
+  - id: skyaccess
+    name: SkyAccess
+    kind: server
+    category: web
+    url: https://github.com/sky-access/skyaccess-mcp
+    description: Search 5,000+ live empty leg flights, get charter price estimates and booking links. No account or API key. Remote streamable HTTP at https://mcp.skyaccess.com/mcp.
+    transport: [remote]
+    official: true
+    tags: [travel, private-jet, empty-legs, search]
