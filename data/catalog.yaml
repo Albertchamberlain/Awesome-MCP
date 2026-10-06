@@ -597,3 +597,13 @@ entries:
     transport: [remote]
     official: true
     tags: [project-management, tasks, documents, oauth]
+
+  - id: shipvela
+    name: Shipvela
+    kind: server
+    category: developer-tools
+    url: https://shipvela.com/integrations/codex
+    description: Publish websites with owner confirmation and inspect projects, deployment status, build logs, and usage through a hosted OAuth MCP connector; a Shipvela account is required and Hobby has a free tier.
+    transport: [remote]
+    official: true
+    tags: [hosting, deployment, oauth, github]
