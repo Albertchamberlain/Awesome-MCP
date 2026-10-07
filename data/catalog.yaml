@@ -597,3 +597,13 @@ entries:
     transport: [remote]
     official: true
     tags: [project-management, tasks, documents, oauth]
+
+- id: statement-of-account
+  name: Statement of Account MCP
+  kind: server
+  category: finance
+  url: https://github.com/theluckystrike/mcp-servers
+  description: Track who owes what on every invoice - age receivables into buckets and build consolidated statements, hosted remote or stdio.
+  transport: [stdio, remote]
+  official: false
+  tags: [finance, invoicing, receivables]
