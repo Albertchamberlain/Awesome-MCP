@@ -597,3 +597,13 @@ entries:
     transport: [remote]
     official: true
     tags: [project-management, tasks, documents, oauth]
+
+  - id: invompt
+    name: Invompt
+    kind: server
+    category: productivity
+    url: https://mcp.invompt.com/mcp
+    description: Turn AI-host work into invoices you review before send. Guest access or OAuth on the hosted MCP. Site https://www.invompt.com
+    transport: [remote]
+    official: false
+    tags: [productivity, invoicing, finance]
