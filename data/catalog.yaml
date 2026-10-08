@@ -603,7 +603,7 @@ entries:
     kind: server
     category: data
     url: https://equibles.com/mcp
-    description: Hosted, read-only remote MCP server for US company research covering SEC filing search, as-reported fundamentals, earnings-call transcripts, 13F holdings, insider and congressional trades, and FRED macro series.
+    description: Hosted remote MCP server for US company research covering SEC filing search, as-reported fundamentals, earnings-call transcripts, 13F holdings, insider and congressional trades, and FRED macro series.
     transport: [remote]
     official: true
     tags: [finance, sec-filings, stocks, remote]
