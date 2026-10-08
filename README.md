@@ -219,6 +219,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Productivity
 
+- [Continuity by Ouroboros](https://continuitywriter.com) ✅ `remote` — Keeps your project facts across chats — a story bible for fiction writers whose characters, places, timelines and plot facts stay consistent in ChatGPT, Claude, Grok or Cursor. Hosted Streamable HTTP at https://continuitywriter.com/mcp with OAuth. — `writing`, `fiction`, `memory`, `oauth`
 - [Google Drive Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive) ✅ `stdio` — List, read, and search files in Google Drive. — `google`, `files`
 - [Orbit by Noveum](https://orbit.noveum.ai/mcp) ✅ `remote` — Hosted Streamable HTTP MCP for issues, projects, sprints, docs and files with workspace-scoped OAuth. — `project-management`, `tasks`, `documents`, `oauth`
 - [PostEverywhere](https://github.com/posteverywhere/mcp) `stdio`, `remote` — Schedule and publish social posts to 11 platforms with media, campaigns, analytics and AI captions. — `social`, `marketing`

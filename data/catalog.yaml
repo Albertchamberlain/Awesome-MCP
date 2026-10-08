@@ -597,3 +597,13 @@ entries:
     transport: [remote]
     official: true
     tags: [project-management, tasks, documents, oauth]
+
+  - id: continuity
+    name: Continuity by Ouroboros
+    kind: server
+    category: productivity
+    url: https://continuitywriter.com
+    description: Keeps your project facts across chats — a story bible for fiction writers whose characters, places, timelines and plot facts stay consistent in ChatGPT, Claude, Grok or Cursor. Hosted Streamable HTTP at https://continuitywriter.com/mcp with OAuth.
+    transport: [remote]
+    official: true
+    tags: [writing, fiction, memory, oauth]
