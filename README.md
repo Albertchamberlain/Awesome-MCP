@@ -189,6 +189,8 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Data
 
 - [CompanyScope](https://github.com/Stewyboy1990/companyscope-mcp) `stdio`, `remote` — Company intelligence from 12 free public sources — full company profiles via a single tool call. — `companies`, `data`, `research`
+- [Papers by Ouroboros Apps](https://ouroborosapps.com/docs/papers) ✅ `remote` — Papers by Ouroboros Apps (https://ouroborosapps.com). Research paper search with real citations from OpenAlex, Semantic Scholar, PubMed, Crossref, and arXiv: find papers, fetch abstracts, follow citations, and format references. Hosted Streamable HTTP at https://papers-mcp.vercel.app/mcp with OAuth. — `research`, `papers`, `citations`, `oauth`
+- [Patent by Ouroboros Apps](https://ouroborosapps.com/docs/patent) ✅ `remote` — Patent by Ouroboros Apps (https://ouroborosapps.com). USPTO patent search and prior art lookup: search public patent records, fetch a patent, list citations, and run a prior-art search. Not legal advice. Hosted coverage is USPTO only; EPO is not turned on. Hosted Streamable HTTP at https://patent-mcp.vercel.app/mcp with OAuth. — `patents`, `prior-art`, `uspto`, `oauth`
 - [Statsnet](https://github.com/usenetstate/statsnet-mcp) `remote` — Background check any company in the world via remote MCP — registration, executives, courts and finances. — `companies`, `osint`, `background-check`, `remote`
 
 ### Database
