@@ -607,3 +607,73 @@ entries:
     transport: [remote]
     official: true
     tags: [writing, fiction, memory, oauth]
+
+  - id: ouroboros-desk
+    name: Desk by Ouroboros
+    kind: server
+    category: productivity
+    url: https://ouroborosapps.com/docs/desk
+    description: "Approved support answers, refund rules, and escalation limits that an assistant reads before replying to a customer; unapproved refunds, features, or timelines go to human review. Hosted Streamable HTTP at https://desk-mcp-continuity2.vercel.app/mcp with OAuth."
+    transport: [remote]
+    official: true
+    tags: [support, policy, oauth]
+
+  - id: ouroboros-claim
+    name: Claim by Ouroboros
+    kind: server
+    category: marketing
+    url: https://ouroborosapps.com/docs/claim
+    description: "Approved brand claims, offers, proof, voice, and banned phrases, with a check that rejects draft copy that invents a guarantee or discount. Hosted Streamable HTTP at https://claim-continuity2.vercel.app/mcp with OAuth."
+    transport: [remote]
+    official: true
+    tags: [marketing, brand, oauth]
+
+  - id: ouroboros-rank
+    name: Rank by Ouroboros
+    kind: server
+    category: analytics
+    url: https://ouroborosapps.com/docs/rank
+    description: "Read-only Google Search Console data for assistants: top queries and pages, trends, period comparisons, quick wins, dropped pages, and URL inspection. Hosted Streamable HTTP at https://rank.ouroborosapps.com/mcp with OAuth."
+    transport: [remote]
+    official: true
+    tags: [seo, search-console, oauth]
+
+  - id: ouroboros-scope
+    name: Scope by Ouroboros
+    kind: server
+    category: productivity
+    url: https://ouroborosapps.com/docs/scope
+    description: "Approved freelance scope, rates, deadlines, and change orders, so an assistant cannot promise work or discounts that were not approved. Hosted Streamable HTTP at https://scope-continuity2.vercel.app/mcp with OAuth."
+    transport: [remote]
+    official: true
+    tags: [freelance, contracts, oauth]
+
+  - id: ouroboros-milestone
+    name: Milestone by Ouroboros
+    kind: server
+    category: productivity
+    url: https://ouroborosapps.com/docs/milestone
+    description: "Approved freelance milestones and acceptance criteria; an assistant can only call a milestone done when the saved criteria are met. Hosted Streamable HTTP at https://milestone-continuity2.vercel.app/mcp with OAuth."
+    transport: [remote]
+    official: true
+    tags: [freelance, contracts, oauth]
+
+  - id: ouroboros-invoice
+    name: Invoice by Ouroboros
+    kind: server
+    category: productivity
+    url: https://ouroborosapps.com/docs/invoice
+    description: "Approved freelance invoices: line items, quantities, agreed rates, due dates, and late terms; changes need explicit approval. Hosted Streamable HTTP at https://invoice-continuity2.vercel.app/mcp with OAuth."
+    transport: [remote]
+    official: true
+    tags: [freelance, invoicing, oauth]
+
+  - id: ouroboros-deposit
+    name: Deposit by Ouroboros
+    kind: server
+    category: productivity
+    url: https://ouroborosapps.com/docs/deposit
+    description: "Approved freelance deposit and payment schedule, and what an assistant may tell the client; waivers and date changes need approval. Hosted Streamable HTTP at https://deposit-continuity2.vercel.app/mcp with OAuth."
+    transport: [remote]
+    official: true
+    tags: [freelance, payments, oauth]

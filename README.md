@@ -173,6 +173,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Analytics
 
 - [LLM Pulse MCP Server](https://github.com/LLM-Pulse/llmpulse-mcp) `stdio`, `remote` — Access LLM Pulse brand visibility, citations, sentiment, share of voice, recommendations, tracked prompts, and AI traffic analytics. — `analytics`, `ai-visibility`, `brand-monitoring`
+- [Rank by Ouroboros](https://ouroborosapps.com/docs/rank) ✅ `remote` — Read-only Google Search Console data for assistants: top queries and pages, trends, period comparisons, quick wins, dropped pages, and URL inspection. Hosted Streamable HTTP at https://rank.ouroborosapps.com/mcp with OAuth. — `seo`, `search-console`, `oauth`
 
 ### Browser
 
@@ -211,6 +212,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Marketing
 
+- [Claim by Ouroboros](https://ouroborosapps.com/docs/claim) ✅ `remote` — Approved brand claims, offers, proof, voice, and banned phrases, with a check that rejects draft copy that invents a guarantee or discount. Hosted Streamable HTTP at https://claim-continuity2.vercel.app/mcp with OAuth. — `marketing`, `brand`, `oauth`
 - [NotFair](https://github.com/nowork-studio/NotFair) `stdio` — Open-source Claude Code skills for SEO, GEO, and paid ads — connects to Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP for live account data. — `seo`, `google-ads`, `meta-ads`, `marketing`
 
 ### Media Creation
@@ -220,9 +222,14 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Productivity
 
 - [Continuity by Ouroboros](https://continuitywriter.com) ✅ `remote` — Keeps your project facts across chats — a story bible for fiction writers whose characters, places, timelines and plot facts stay consistent in ChatGPT, Claude, Grok or Cursor. Hosted Streamable HTTP at https://continuitywriter.com/mcp with OAuth. — `writing`, `fiction`, `memory`, `oauth`
+- [Deposit by Ouroboros](https://ouroborosapps.com/docs/deposit) ✅ `remote` — Approved freelance deposit and payment schedule, and what an assistant may tell the client; waivers and date changes need approval. Hosted Streamable HTTP at https://deposit-continuity2.vercel.app/mcp with OAuth. — `freelance`, `payments`, `oauth`
+- [Desk by Ouroboros](https://ouroborosapps.com/docs/desk) ✅ `remote` — Approved support answers, refund rules, and escalation limits that an assistant reads before replying to a customer; unapproved refunds, features, or timelines go to human review. Hosted Streamable HTTP at https://desk-mcp-continuity2.vercel.app/mcp with OAuth. — `support`, `policy`, `oauth`
 - [Google Drive Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive) ✅ `stdio` — List, read, and search files in Google Drive. — `google`, `files`
+- [Invoice by Ouroboros](https://ouroborosapps.com/docs/invoice) ✅ `remote` — Approved freelance invoices: line items, quantities, agreed rates, due dates, and late terms; changes need explicit approval. Hosted Streamable HTTP at https://invoice-continuity2.vercel.app/mcp with OAuth. — `freelance`, `invoicing`, `oauth`
+- [Milestone by Ouroboros](https://ouroborosapps.com/docs/milestone) ✅ `remote` — Approved freelance milestones and acceptance criteria; an assistant can only call a milestone done when the saved criteria are met. Hosted Streamable HTTP at https://milestone-continuity2.vercel.app/mcp with OAuth. — `freelance`, `contracts`, `oauth`
 - [Orbit by Noveum](https://orbit.noveum.ai/mcp) ✅ `remote` — Hosted Streamable HTTP MCP for issues, projects, sprints, docs and files with workspace-scoped OAuth. — `project-management`, `tasks`, `documents`, `oauth`
 - [PostEverywhere](https://github.com/posteverywhere/mcp) `stdio`, `remote` — Schedule and publish social posts to 11 platforms with media, campaigns, analytics and AI captions. — `social`, `marketing`
+- [Scope by Ouroboros](https://ouroborosapps.com/docs/scope) ✅ `remote` — Approved freelance scope, rates, deadlines, and change orders, so an assistant cannot promise work or discounts that were not approved. Hosted Streamable HTTP at https://scope-continuity2.vercel.app/mcp with OAuth. — `freelance`, `contracts`, `oauth`
 - [Zovo MCP Servers](https://github.com/theluckystrike/mcp-servers) `stdio`, `remote` — Local-first MCP servers for back-office work — invoicing, expenses, time tracking, currency, spreadsheets, PDFs, DOCX, and calendars with no account or API key required. Remote streamable HTTP endpoints are also hosted, for example https://mcp.zovo.one/mcp/invoice. — `productivity`, `invoicing`, `finance`, `documents`
 
 ### Security
