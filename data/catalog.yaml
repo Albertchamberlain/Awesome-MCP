@@ -647,3 +647,23 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: continuity
+    name: Continuity
+    kind: server
+    category: productivity
+    url: https://github.com/LAHutchins91/continuity-mcp
+    description: "Hosted OAuth MCP server that stores a fiction writer's approved canon, scenes, and checkpoints so assistants keep stories consistent across chats. Server-enforced write rules: canon revisions are sent to save_continuity_canon with expectedRevision, and a mismatch is returned as a Revision conflict; an occupied scene number is rejected as Scene already exists unless replaceExisting is true; create_story_project and save_story_checkpoint are writes but are not marked destructive; no MCP tool deletes data (projects are deleted in the web workspace). Client-side confirmation: tool descriptions tell the assistant to save canon and scenes only after the user approves them, and upsert_canon_entry and record_approved_scene are marked destructiveHint so a host can prompt; those prompts are not a server gate. Manuscript retention and privacy: https://continuitywriter.com/privacy (saved stories remain until the user deletes the project or account; story content is not used to train models). Tool discovery (initialize, tools/list, ping) is open; story tools require a Continuity account with a 14-day trial, then a monthly or yearly Pro subscription through Stripe Checkout (the checkout page shows the amount). Each client IP is limited to 300 MCP requests per minute. Canon content is capped at 12,000 characters and checkpoint state at 6,000; list_story_projects, search_story_canon, get_canon_history, and list_approved_scenes page 50 rows, and list_story_checkpoints pages 20."
+    transport: [remote]
+    official: true
+    tags: [writing, fiction, memory, oauth]
+
+  - id: papers
+    name: Papers
+    kind: server
+    category: research
+    url: https://github.com/LAHutchins91/papers-mcp
+    description: "Read-only hosted OAuth MCP server that searches OpenAlex, Semantic Scholar, PubMed, Crossref, and arXiv and formats citations from returned records. All four tools are read-only (readOnlyHint: true, destructiveHint: false); there are no write or delete operations, so there is no write confirmation beyond the OAuth consent screen and Stripe Checkout when starting a trial. Research-query retention and privacy: https://papers-mcp.vercel.app/privacy (Papers does not keep a query log; a search or identifier is not retained after the response). Tool discovery (initialize, tools/list, ping) is open; tool calls require a 14-day trial started through Stripe Checkout, then a Pro subscription (the checkout page shows the amount). Each client IP is limited to 300 MCP requests per minute."
+    transport: [remote]
+    official: true
+    tags: [research, citations, papers, oauth]
