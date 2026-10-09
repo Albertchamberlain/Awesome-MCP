@@ -214,6 +214,10 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 - [NotFair](https://github.com/nowork-studio/NotFair) `stdio` — Open-source Claude Code skills for SEO, GEO, and paid ads — connects to Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP for live account data. — `seo`, `google-ads`, `meta-ads`, `marketing`
 
+### Media
+
+- [VideoGen MCP](https://videogen.io/videogen-mcp) ✅ `stdio`, `remote` — Vendor MCP for generating and editing media and projects and exporting video. Requires a VideoGen account and local API-key or remote OAuth/bearer-key authentication; prompts, uploaded media and project data are sent to VideoGen. Generate/edit/export calls make external writes and may consume credits. Hosted API access depends on account plan, credits and features; paid plans, upgrades and credit top-ups are available. Free-plan workflow outputs include a VideoGen watermark. Local stdio command pinned to the published package version: npx -y @videogen/mcp@2.2.1. Setup: https://videogen.io/videogen-mcp. Current plan limits and pricing: https://videogen.io/pricing. The MCP package is MIT; hosted generation is not unlimited free access. — `video`, `media`, `marketing`, `ecommerce`
+
 ### Media Creation
 
 - [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) `stdio` — Local-first MCP toolkit for agent-authored video composition, editing, generation, and plan-based assembly. — `video`, `editing`, `composition`, `agents`
