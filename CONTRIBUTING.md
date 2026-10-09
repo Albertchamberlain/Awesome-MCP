@@ -30,13 +30,42 @@ pytest
   tags: [browser, automation]
 ```
 
-## Review checklist
+## Quick review notes
 
 - Link resolves and points to the canonical repo or product page
 - Description is accurate and not marketing fluff
 - Prefer actively maintained projects with clear MCP support
 - Avoid duplicate entries — search the catalog first: `awesome-mcp search <name>`
-- Do not submit paid/spam listings
+- Do not submit paid/spam listings; disclose pricing in the PR template instead
+
+
+
+## Security and pricing disclosures
+
+Every catalog PR must fill the pull-request template sections on authentication, data egress, read/write/destructive operations, confirmation boundaries, source/license, and pricing or free-tier limits. Maintainers use these answers during review; omitting them delays merge.
+
+### `official: true` is not a security review
+
+Set `official: true` only for MCP steering-group or vendor-official projects. That flag does **not** mean:
+
+- the entry passed a security audit,
+- the project is open source, or
+- Awesome-MCP or any steering group endorses its safety or pricing.
+
+### Examples
+
+**Safe read-only.** A local stdio server that lists files under a user-chosen directory, makes no network calls, is MIT-licensed, and has no paid API. The PR body can be short: authentication = none, egress = none, operations = read-only, confirmation = not applicable, source = MIT link, pricing = free forever.
+
+**Hosted write-capable.** A remote MCP that creates tickets in a SaaS product with an API key. Call out that ticket text leaves the machine, that create/update are writes, which actions need confirmation, the license or proprietary status, and free-tier or paid limits.
+
+## Review checklist
+
+Before opening the PR:
+
+- [ ] PR template security and commercial fields are complete
+- [ ] `awesome-mcp validate` and `awesome-mcp readme` were run
+- [ ] `pytest` passes
+- [ ] Link resolves; description is accurate; no duplicate of an existing entry
 
 ## MCP meta-server
 
