@@ -617,3 +617,13 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: tanod
+    name: Tanod
+    kind: server
+    category: developer-tools
+    url: https://tanod.dev/mcp
+    description: Hosted Streamable HTTP MCP with pay-per-call tools (x402 USDC on Base or Polygon, free daily allowance per IP) for PDF and image processing, web page to Markdown, DNS and TLS lookups, onchain reads, address risk checks and contract scans.
+    transport: [remote]
+    official: false
+    tags: [pdf, images, web, dns, blockchain, x402, security]
