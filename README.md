@@ -150,7 +150,7 @@ $ awesome-mcp readme
 
 ## Catalog
 
-> **55 curated entries** · 39 servers · 7 clients · 5 registries · 4 SDKs/tools · 16 official/reference
+> **56 curated entries** · 40 servers · 7 clients · 5 registries · 4 SDKs/tools · 16 official/reference
 > *Deliberately curated — not an exhaustive index.*
 
 Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
@@ -205,6 +205,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 - [Official MCP Reference Servers](https://github.com/modelcontextprotocol/servers) ✅ `stdio` — Reference implementations maintained by the MCP steering group (filesystem, memory, fetch, git, and more). — `reference`, `anthropic`
 - [ReadyAgents](https://github.com/readyagentsdev/readyagents-core) `stdio` — ReadyAgents is a free, self-hosted Apache-2.0 local one-shot agent workflow engine plus MCP toolkit: git clone + pip install -e . (or see https://readyagents.dev); bring your own keys; always-on packs are waitlisted and not for sale. — `python`, `workflow`, `local`, `byok`
 - [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) `stdio` — Self-hosted agent runtime exposing durable sessions, sandboxed execution, approvals, artifacts, audit, and replay through a local stdio MCP bridge. — `agents`, `runtime`, `sandbox`, `sessions`
+- [Tanod](https://tanod.dev/mcp) `remote` — Hosted Streamable HTTP MCP with pay-per-call tools (x402 USDC on Base or Polygon, free daily allowance per IP) for PDF and image processing, web page to Markdown, DNS and TLS lookups, onchain reads, address risk checks and contract scans. — `pdf`, `images`, `web`, `dns`
 
 ### Health
 
