@@ -617,3 +617,13 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: dchub
+    name: DC Hub
+    kind: server
+    category: data
+    url: https://github.com/azmartone67/dchub-mcp-server
+    description: Live data-center siting and grid-power intelligence for agents, with 94 MCP tools at https://dchub.cloud/mcp and a REST API.
+    transport: [remote]
+    official: false
+    tags: [data-centers, energy, grid, site-selection, remote]
