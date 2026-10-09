@@ -212,6 +212,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Marketing
 
+- [LogNorm](https://lognorm.com) `remote` — Hosted MCP server that hands your SEO/GEO growth backlog (site audits, fixes, content, AI-visibility tracking) to Claude Code, Codex and Cursor. — `seo`, `geo`, `marketing`, `ai-visibility`
 - [NotFair](https://github.com/nowork-studio/NotFair) `stdio` — Open-source Claude Code skills for SEO, GEO, and paid ads — connects to Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP for live account data. — `seo`, `google-ads`, `meta-ads`, `marketing`
 
 ### Media Creation

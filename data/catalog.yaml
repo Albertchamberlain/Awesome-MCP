@@ -249,6 +249,16 @@ entries:
     official: false
     tags: [seo, google-ads, meta-ads, marketing, claude-code]
 
+  - id: lognorm
+    name: LogNorm
+    kind: server
+    category: marketing
+    url: https://lognorm.com
+    description: Hosted MCP server that hands your SEO/GEO growth backlog (site audits, fixes, content, AI-visibility tracking) to Claude Code, Codex and Cursor.
+    transport: [remote]
+    official: false
+    tags: [seo, geo, marketing, ai-visibility, claude-code]
+
   - id: posteverywhere
     name: PostEverywhere
     kind: server
