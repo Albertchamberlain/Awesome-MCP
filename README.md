@@ -220,11 +220,16 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Productivity
 
+- [Continuity](https://github.com/LAHutchins91/continuity-mcp) ✅ `remote` — Hosted OAuth MCP server that stores a fiction writer's approved canon, scenes, and checkpoints so assistants keep stories consistent across chats. — `writing`, `fiction`, `memory`, `oauth`
 - [Google Drive Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive) ✅ `stdio` — List, read, and search files in Google Drive. — `google`, `files`
 - [Orbit by Noveum](https://orbit.noveum.ai/mcp) ✅ `remote` — Hosted Streamable HTTP MCP for issues, projects, sprints, docs and files with workspace-scoped OAuth. — `project-management`, `tasks`, `documents`, `oauth`
 - [PostEverywhere](https://github.com/posteverywhere/mcp) `stdio`, `remote` — Schedule and publish social posts to 11 platforms with media, campaigns, analytics and AI captions. — `social`, `marketing`
 - [Tale](https://github.com/tale-project/tale) ✅ `remote` — Official HTTP MCP server within Tale for organization knowledge and authoring, testing, deploying, and running automations; self-hosted MIT software with API-key and organization-scoped access. — `knowledge`, `automation`, `self-hosted`, `typescript`
 - [Zovo MCP Servers](https://github.com/theluckystrike/mcp-servers) `stdio`, `remote` — Local-first MCP servers for back-office work — invoicing, expenses, time tracking, currency, spreadsheets, PDFs, DOCX, and calendars with no account or API key required. Remote streamable HTTP endpoints are also hosted, for example https://mcp.zovo.one/mcp/invoice. — `productivity`, `invoicing`, `finance`, `documents`
+
+### Research
+
+- [Papers](https://github.com/LAHutchins91/papers-mcp) ✅ `remote` — Read-only hosted OAuth MCP server that searches OpenAlex, Semantic Scholar, PubMed, Crossref, and arXiv and formats citations from returned records. — `research`, `citations`, `papers`, `oauth`
 
 ### Security
 
