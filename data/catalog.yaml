@@ -617,3 +617,13 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: equibles
+    name: Equibles
+    kind: server
+    category: data
+    url: https://equibles.com/docs/mcp
+    description: "Vendor-hosted MCP server for US company research: SEC filing search, as-reported fundamentals, earnings-call transcripts, 13F holdings, insider and congressional trades, and FRED series. Requires an Equibles account via OAuth or API key (free tier: 100 requests/day); queries and account data are processed by Equibles' hosted service. Market-data tools are read-only; portfolio, watchlist and feedback tools write to the signed-in account and carry MCP non-read-only hints (deletions marked destructive) so clients can ask before running them. AGPL-3.0 core: github.com/daniel3303/Equibles."
+    transport: [remote]
+    official: true
+    tags: [finance, sec-filings, stocks, remote, oauth]
