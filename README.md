@@ -199,6 +199,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 - [Agentlas OS](https://github.com/agentlas-ai/Agentlas-OS) `stdio` — Local-first agent OS for portable agent and team packages over MCP. — `coding`, `agents`, `runtime`
 - [ax](https://github.com/Necmttn/ax) `stdio` — Local-first telemetry and memory graph for AI coding agents. — `coding`, `telemetry`, `local-first`
+- [Communicate Developer Docs MCP](https://communicate.so/developers) ✅ `remote` — Hosted Streamable HTTP server with three read-only tools for Communicate developer documentation, OpenAPI summaries, and support contact information; no account or API key required and no customer data access. — `documentation`, `api`, `developer-tools`
 - [Filesystem Server](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) ✅ `stdio` — Secure local file read/write with configurable directory allowlists. — `files`, `local`
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) ✅ `stdio`, `remote` — Official GitHub integration for repos, issues, PRs, and Actions. — `github`, `git`
 - [Official MCP Reference Servers](https://github.com/modelcontextprotocol/servers) ✅ `stdio` — Reference implementations maintained by the MCP steering group (filesystem, memory, fetch, git, and more). — `reference`, `anthropic`
@@ -215,7 +216,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Media
 
-- [VideoGen MCP](https://videogen.io/videogen-mcp) ✅ `stdio`, `remote` — Official VideoGen MCP server for creating and editing videos, images, voiceovers, music, and avatars, with media uploads, project edits, and video exports. — `video`, `media`, `marketing`, `ecommerce`
+- [VideoGen MCP](https://videogen.io/videogen-mcp) ✅ `stdio`, `remote` — Vendor MCP for generating and editing media and projects and exporting video. Requires a VideoGen account and local API-key or remote OAuth/bearer-key authentication; prompts, uploaded media and project data are sent to VideoGen. Generate/edit/export calls make external writes and may consume credits. Hosted API access depends on account plan, credits and features; paid plans, upgrades and credit top-ups are available. Free-plan workflow outputs include a VideoGen watermark. Local stdio command pinned to the published package version: npx -y @videogen/mcp@2.2.1. Setup: https://videogen.io/videogen-mcp. Current plan limits and pricing: https://videogen.io/pricing. The MCP package is MIT; hosted generation is not unlimited free access. — `video`, `media`, `marketing`, `ecommerce`
 
 ### Media Creation
 
@@ -226,6 +227,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 - [Google Drive Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive) ✅ `stdio` — List, read, and search files in Google Drive. — `google`, `files`
 - [Orbit by Noveum](https://orbit.noveum.ai/mcp) ✅ `remote` — Hosted Streamable HTTP MCP for issues, projects, sprints, docs and files with workspace-scoped OAuth. — `project-management`, `tasks`, `documents`, `oauth`
 - [PostEverywhere](https://github.com/posteverywhere/mcp) `stdio`, `remote` — Schedule and publish social posts to 11 platforms with media, campaigns, analytics and AI captions. — `social`, `marketing`
+- [Tale](https://github.com/tale-project/tale) ✅ `remote` — Official HTTP MCP server within Tale for organization knowledge and authoring, testing, deploying, and running automations; self-hosted MIT software with API-key and organization-scoped access. — `knowledge`, `automation`, `self-hosted`, `typescript`
 - [Zovo MCP Servers](https://github.com/theluckystrike/mcp-servers) `stdio`, `remote` — Local-first MCP servers for back-office work — invoicing, expenses, time tracking, currency, spreadsheets, PDFs, DOCX, and calendars with no account or API key required. Remote streamable HTTP endpoints are also hosted, for example https://mcp.zovo.one/mcp/invoice. — `productivity`, `invoicing`, `finance`, `documents`
 
 ### Security

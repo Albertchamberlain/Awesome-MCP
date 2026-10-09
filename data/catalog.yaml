@@ -19,6 +19,16 @@ categories:
     description: Libraries for building MCP servers and clients
 
 entries:
+  - id: communicate-developer-docs
+    name: Communicate Developer Docs MCP
+    kind: server
+    category: developer-tools
+    url: https://communicate.so/developers
+    description: Hosted Streamable HTTP server with three read-only tools for Communicate developer documentation, OpenAPI summaries, and support contact information; no account or API key required and no customer data access.
+    transport: [remote]
+    official: true
+    tags: [documentation, api, developer-tools]
+
   - id: mcp-official-servers
     name: Official MCP Reference Servers
     kind: server
@@ -598,13 +608,22 @@ entries:
     official: true
     tags: [project-management, tasks, documents, oauth]
 
+  - id: tale
+    name: Tale
+    kind: server
+    category: productivity
+    url: https://github.com/tale-project/tale
+    description: Official HTTP MCP server within Tale for organization knowledge and authoring, testing, deploying, and running automations; self-hosted MIT software with API-key and organization-scoped access.
+    transport: [remote]
+    official: true
+    tags: [knowledge, automation, self-hosted, typescript]
+
   - id: videogen
     name: VideoGen MCP
     kind: server
     category: media
     url: https://videogen.io/videogen-mcp
-    description: Official VideoGen MCP server for creating and editing videos, images,
-      voiceovers, music, and avatars, with media uploads, project edits, and video exports.
+    description: "Vendor MCP for generating and editing media and projects and exporting video. Requires a VideoGen account and local API-key or remote OAuth/bearer-key authentication; prompts, uploaded media and project data are sent to VideoGen. Generate/edit/export calls make external writes and may consume credits. Hosted API access depends on account plan, credits and features; paid plans, upgrades and credit top-ups are available. Free-plan workflow outputs include a VideoGen watermark. Local stdio command pinned to the published package version: npx -y @videogen/mcp@2.2.1. Setup: https://videogen.io/videogen-mcp. Current plan limits and pricing: https://videogen.io/pricing. The MCP package is MIT; hosted generation is not unlimited free access."
     transport:
     - stdio
     - remote
