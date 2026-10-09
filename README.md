@@ -188,7 +188,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Data
 
 - [CompanyScope](https://github.com/Stewyboy1990/companyscope-mcp) `stdio`, `remote` — Company intelligence from 12 free public sources — full company profiles via a single tool call. — `companies`, `data`, `research`
-- [Equibles](https://equibles.com/mcp) ✅ `remote` — Hosted remote MCP server for US company research covering SEC filing search, as-reported fundamentals, earnings-call transcripts, 13F holdings, insider and congressional trades, and FRED macro series. — `finance`, `sec-filings`, `stocks`, `remote`
+- [Equibles](https://equibles.com/docs/mcp) ✅ `remote` — Vendor-hosted MCP server for US company research: SEC filing search, as-reported fundamentals, earnings-call transcripts, 13F holdings, insider and congressional trades, and FRED series. Requires an Equibles account via OAuth or API key (free tier: 100 requests/day); queries and account data are processed by Equibles' hosted service. Market-data tools are read-only; portfolio, watchlist and feedback tools write to the signed-in account and carry MCP non-read-only hints (deletions marked destructive) so clients can ask before running them. AGPL-3.0 core: github.com/daniel3303/Equibles. — `finance`, `sec-filings`, `stocks`, `remote`
 - [Statsnet](https://github.com/usenetstate/statsnet-mcp) `remote` — Background check any company in the world via remote MCP — registration, executives, courts and finances. — `companies`, `osint`, `background-check`, `remote`
 
 ### Database
