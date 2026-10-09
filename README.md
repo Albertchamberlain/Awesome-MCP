@@ -188,6 +188,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Data
 
 - [CompanyScope](https://github.com/Stewyboy1990/companyscope-mcp) `stdio`, `remote` — Company intelligence from 12 free public sources — full company profiles via a single tool call. — `companies`, `data`, `research`
+- [DC Hub](https://github.com/azmartone67/dchub-mcp-server) `remote` — Live data-center siting and grid-power intelligence for agents, with 94 MCP tools at https://dchub.cloud/mcp and a REST API. — `data-centers`, `energy`, `grid`, `site-selection`
 - [Statsnet](https://github.com/usenetstate/statsnet-mcp) `remote` — Background check any company in the world via remote MCP — registration, executives, courts and finances. — `companies`, `osint`, `background-check`, `remote`
 
 ### Database
