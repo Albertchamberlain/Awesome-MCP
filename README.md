@@ -199,6 +199,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 - [Agentlas OS](https://github.com/agentlas-ai/Agentlas-OS) `stdio` — Local-first agent OS for portable agent and team packages over MCP. — `coding`, `agents`, `runtime`
 - [ax](https://github.com/Necmttn/ax) `stdio` — Local-first telemetry and memory graph for AI coding agents. — `coding`, `telemetry`, `local-first`
+- [Communicate Developer Docs MCP](https://communicate.so/developers) ✅ `remote` — Hosted Streamable HTTP server with three read-only tools for Communicate developer documentation, OpenAPI summaries, and support contact information; no account or API key required and no customer data access. — `documentation`, `api`, `developer-tools`
 - [Filesystem Server](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) ✅ `stdio` — Secure local file read/write with configurable directory allowlists. — `files`, `local`
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) ✅ `stdio`, `remote` — Official GitHub integration for repos, issues, PRs, and Actions. — `github`, `git`
 - [Official MCP Reference Servers](https://github.com/modelcontextprotocol/servers) ✅ `stdio` — Reference implementations maintained by the MCP steering group (filesystem, memory, fetch, git, and more). — `reference`, `anthropic`
