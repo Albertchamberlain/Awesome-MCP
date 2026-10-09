@@ -617,3 +617,23 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: continuity
+    name: Continuity
+    kind: server
+    category: productivity
+    url: https://github.com/LAHutchins91/continuity-mcp
+    description: Hosted OAuth MCP server that stores a fiction writer's approved canon, scenes, and checkpoints so assistants keep stories consistent across chats.
+    transport: [remote]
+    official: true
+    tags: [writing, fiction, memory, oauth]
+
+  - id: papers
+    name: Papers
+    kind: server
+    category: research
+    url: https://github.com/LAHutchins91/papers-mcp
+    description: Read-only hosted OAuth MCP server that searches OpenAlex, Semantic Scholar, PubMed, Crossref, and arXiv and formats citations from returned records.
+    transport: [remote]
+    official: true
+    tags: [research, citations, papers, oauth]
