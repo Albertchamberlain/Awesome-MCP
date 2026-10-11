@@ -489,6 +489,16 @@ entries:
     official: false
     tags: [companies, osint, background-check, remote]
 
+  - id: invokely
+    name: Invokely
+    kind: server
+    category: data
+    url: https://invokely.ai/docs/
+    description: Official hosted MCP server for querying source-cited statistics by indicator, place, and period, with time series, comparisons, and rankings across U.S. states and counties, EU countries and NUTS 2 regions, Spanish municipalities, and World Bank data for every country and the World.
+    transport: [remote]
+    official: true
+    tags: [statistics, official-data, geography, remote]
+
   - id: neither-mcp
     name: Neither
     kind: server
