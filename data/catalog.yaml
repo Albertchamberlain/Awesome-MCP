@@ -617,3 +617,13 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: oh-my-android
+    name: Oh My Android
+    kind: server
+    category: developer-tools
+    url: https://github.com/ateymoori/oh-my-android
+    description: Local server shipped inside a native macOS app that lets coding agents see and drive the Android Emulator and adb devices with dp-scaled screenshots, UI tree, taps, logcat, and dark mode, font scale, RTL and TalkBack switches.
+    transport: [stdio]
+    official: false
+    tags: [android, emulator, mobile, macos]
