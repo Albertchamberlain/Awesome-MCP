@@ -617,3 +617,13 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: solidping
+    name: SolidPing
+    kind: server
+    category: developer-tools
+    url: https://github.com/fclairamb/solidping
+    description: Self-hostable uptime monitor with a built-in MCP server to create, run and diagnose checks across 43 types, read results and incidents, and manage status pages and maintenance windows. Remote (OAuth 2.1) or stdio.
+    transport: [stdio, remote]
+    official: true
+    tags: [monitoring, uptime, status-page, incidents, self-hosted, go]
