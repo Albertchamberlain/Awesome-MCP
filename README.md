@@ -250,6 +250,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 - [BuyWhere MCP](https://github.com/BuyWhere/buywhere-mcp) `remote` — Real-time product search and price comparison across 148M+ products from Singapore, Southeast Asia, and US marketplaces via remote streamable-HTTP. — `search`, `ecommerce`, `api`
 - [Fetch Server](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) ✅ `stdio` — Fetch and convert web pages to markdown for LLM consumption. — `http`, `scraping`
 - [Pocket Drives](https://github.com/RevList/pocket-drives-mcp) `remote` — Search peer-to-peer luxury, exotic, and EV rentals from independent hosts. Booking finishes in the iOS app. Remote streamable HTTP at https://pocketdrives.ai/mcp. — `search`, `travel`, `rental`
+- [SkyAccess](https://github.com/sky-access/skyaccess-mcp) ✅ `remote` — Search private jet empty leg flights, get charter price estimates and booking links with read-only tools; one write tool, request_booking, sends the traveler name, email, route, date, passengers and notes to SkyAccess as a charter enquiry and should run only after the user explicitly confirms; free, no API key, remote streamable HTTP at https://mcp.skyaccess.com/mcp. — `travel`, `private-jet`, `empty-legs`, `search`
 
 <!-- CATALOG:SERVERS:END -->
 
