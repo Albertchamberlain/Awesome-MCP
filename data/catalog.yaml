@@ -617,3 +617,13 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: omega-mcp-router
+    name: Omega MCP Router
+    kind: server
+    category: developer-tools
+    url: https://github.com/Omega-JS-Stack/omega/tree/main/packages/mcp-router
+    description: Local stdio MCP proxy that fronts many upstream MCP servers behind one connection, serves their tool schemas from a disk cache, starts each upstream only on its first call, and lets a session switch upstreams on and off.
+    transport: [stdio]
+    official: false
+    tags: [proxy, aggregator, lazy-loading, context-window, javascript]
