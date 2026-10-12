@@ -617,3 +617,13 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: looot
+    name: looot
+    kind: server
+    category: data
+    url: https://github.com/loootai/looot-mcp
+    description: Hosted Streamable HTTP MCP with one API key and prepaid balance for about 2,500 data endpoints (work email, phone, company enrichment, SERP, web pages); OAuth 2.1 or Bearer key, pay per call.
+    transport: [remote]
+    official: true
+    tags: [data, enrichment, search, lead-generation, oauth]
