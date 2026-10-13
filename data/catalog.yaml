@@ -1,7 +1,7 @@
 # Awesome-MCP catalog — edit this file and run: awesome-mcp readme
 meta:
   version: 1
-  updated: "2026-09-24"
+  updated: "2026-10-13"
   description: Curated Model Context Protocol servers, clients, and registries
 
 categories:
@@ -617,3 +617,13 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: maqami-travel
+    name: MAQAMI Travel
+    kind: server
+    category: travel
+    url: https://mcp.maqami.co/
+    description: Search hotels across 3M+ hotels and flights, read hotel details, then prebook and book. Hosted Streamable HTTP at https://mcp.maqami.co/ with no API key; customers pay on a secure checkout link.
+    transport: [remote]
+    official: true
+    tags: [travel, hotels, flights, booking, remote]

@@ -244,6 +244,10 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 - [Live Tennis API](https://github.com/livetennisapi/livetennisapi-mcp) `stdio` — Real-time tennis match state (score, server, three-valued break-point, retirement/walkover/completed) plus players, rankings, Elo, and fixtures. — `tennis`, `sports`, `real-time`, `data`
 - [ParlayAPI](https://github.com/JacobiusMakes/parlay-api-mcp) `stdio` — Sports odds, player props, public event discovery, and account usage; account data tools use each user's own API key and allowances, with free and paid API tiers. — `sports`, `odds`, `player-props`
 
+### Travel
+
+- [MAQAMI Travel](https://mcp.maqami.co/) ✅ `remote` — Search hotels across 3M+ hotels and flights, read hotel details, then prebook and book. Hosted Streamable HTTP at https://mcp.maqami.co/ with no API key; customers pay on a secure checkout link. — `travel`, `hotels`, `flights`, `booking`
+
 ### Web
 
 - [Brave Search MCP](https://github.com/brave/brave-search-mcp-server) `stdio` — Web search via Brave Search API. — `search`, `api`
