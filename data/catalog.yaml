@@ -617,3 +617,13 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+  - id: google-hotels
+    name: Google Hotels MCP
+    kind: server
+    category: travel
+    url: https://github.com/huynhtanan/google-hotels-mcp
+    description: Query Google Hotels for property details with amenities and OTA reviews, pull 3-month daily price calendars for any property, and search vacation rentals. Three MCP tools backed by Apify actors; needs only APIFY_TOKEN.
+    transport: [stdio]
+    official: false
+    tags: [travel, hotels, vacation-rentals, price-tracking, apify]
+
