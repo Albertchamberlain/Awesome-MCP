@@ -221,6 +221,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Productivity
 
 - [Google Drive Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive) ✅ `stdio` — List, read, and search files in Google Drive. — `google`, `files`
+- [ORANO](https://github.com/infotik/orano-mcp-server) ✅ `remote` — Personal read-only remote MCP server (Streamable HTTP, bearer API key from the ORANO app) that lets your own AI agent search saved ORANO projects, summaries and tasks. — `notes`, `knowledge`, `read-later`, `summaries`
 - [Orbit by Noveum](https://orbit.noveum.ai/mcp) ✅ `remote` — Hosted Streamable HTTP MCP for issues, projects, sprints, docs and files with workspace-scoped OAuth. — `project-management`, `tasks`, `documents`, `oauth`
 - [PostEverywhere](https://github.com/posteverywhere/mcp) `stdio`, `remote` — Schedule and publish social posts to 11 platforms with media, campaigns, analytics and AI captions. — `social`, `marketing`
 - [Tale](https://github.com/tale-project/tale) ✅ `remote` — Official HTTP MCP server within Tale for organization knowledge and authoring, testing, deploying, and running automations; self-hosted MIT software with API-key and organization-scoped access. — `knowledge`, `automation`, `self-hosted`, `typescript`

@@ -617,3 +617,13 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: orano
+    name: ORANO
+    kind: server
+    category: productivity
+    url: https://github.com/infotik/orano-mcp-server
+    description: Personal read-only remote MCP server (Streamable HTTP, bearer API key from the ORANO app) that lets your own AI agent search saved ORANO projects, summaries and tasks.
+    transport: [remote]
+    official: true
+    tags: [notes, knowledge, read-later, summaries]
