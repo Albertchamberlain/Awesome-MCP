@@ -248,6 +248,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 - [Brave Search MCP](https://github.com/brave/brave-search-mcp-server) `stdio` — Web search via Brave Search API. — `search`, `api`
 - [BuyWhere MCP](https://github.com/BuyWhere/buywhere-mcp) `remote` — Real-time product search and price comparison across 148M+ products from Singapore, Southeast Asia, and US marketplaces via remote streamable-HTTP. — `search`, `ecommerce`, `api`
+- [CurlShot](https://curlshot.com/tools/screenshot-tool-for-ai-agents) ✅ `remote` — Official hosted Streamable HTTP server (https://curlshot.com/api/mcp) with take_screenshot and list_devices tools that capture a URL, HTML or Markdown as PNG, JPEG, WebP, PDF or scrolling video; Bearer API key with a free plan of 100 screenshots a month. — `screenshot`, `pdf`, `web`, `hosted`
 - [Fetch Server](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) ✅ `stdio` — Fetch and convert web pages to markdown for LLM consumption. — `http`, `scraping`
 - [Pocket Drives](https://github.com/RevList/pocket-drives-mcp) `remote` — Search peer-to-peer luxury, exotic, and EV rentals from independent hosts. Booking finishes in the iOS app. Remote streamable HTTP at https://pocketdrives.ai/mcp. — `search`, `travel`, `rental`
 
