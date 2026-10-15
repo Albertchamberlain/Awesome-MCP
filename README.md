@@ -216,6 +216,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Media Creation
 
+- [MakeAIVideo](https://github.com/makeaivideo-ai/mcp) `stdio`, `remote` — Create short-form AI videos with voiceover, scenes, captions and music, then post or schedule them to connected social accounts (account and credits required). — `video`, `video-generation`, `social`, `media-generation`
 - [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) `stdio` — Local-first MCP toolkit for agent-authored video composition, editing, generation, and plan-based assembly. — `video`, `editing`, `composition`, `agents`
 
 ### Productivity

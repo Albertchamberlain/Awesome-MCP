@@ -519,6 +519,16 @@ entries:
     official: false
     tags: [video, editing, composition, agents]
 
+  - id: makeaivideo
+    name: MakeAIVideo
+    kind: server
+    category: media-creation
+    url: https://github.com/makeaivideo-ai/mcp
+    description: Create short-form AI videos with voiceover, scenes, captions and music, then post or schedule them to connected social accounts (account and credits required).
+    transport: [stdio, remote]
+    official: false
+    tags: [video, video-generation, social, media-generation]
+
   - id: llm-pulse
     name: LLM Pulse MCP Server
     kind: server
