@@ -249,6 +249,16 @@ entries:
     official: false
     tags: [seo, google-ads, meta-ads, marketing, claude-code]
 
+  - id: backlinkgenie
+    name: BacklinkGenie
+    kind: server
+    category: marketing
+    url: https://github.com/nikunjness/backlinkgenie-mcp
+    description: Hosted link-building outreach server — review and approve pitches to editors, answer replies, import posts to pitch, and track which backlinks are live (OAuth 2.1 or API key).
+    transport: [remote]
+    official: false
+    tags: [seo, link-building, outreach, marketing, remote]
+
   - id: posteverywhere
     name: PostEverywhere
     kind: server
