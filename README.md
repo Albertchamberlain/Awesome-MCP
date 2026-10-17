@@ -212,6 +212,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Marketing
 
+- [BacklinkGenie](https://github.com/nikunjness/backlinkgenie-mcp) `remote` — Hosted link-building outreach server — review and approve pitches to editors, answer replies, import posts to pitch, and track which backlinks are live (OAuth 2.1 or API key). — `seo`, `link-building`, `outreach`, `marketing`
 - [NotFair](https://github.com/nowork-studio/NotFair) `stdio` — Open-source Claude Code skills for SEO, GEO, and paid ads — connects to Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP for live account data. — `seo`, `google-ads`, `meta-ads`, `marketing`
 
 ### Media Creation
