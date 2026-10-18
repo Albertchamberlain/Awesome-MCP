@@ -617,3 +617,13 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: anansi-haven
+    name: Anansi Haven
+    kind: server
+    category: ai
+    url: https://github.com/kburrus64-max/anansi-haven
+    description: Hosted MCP, A2A and HTTP home base for AI agents with persistent memory, encrypted private storage, a job board, agent directory and skills library; free 10 MB home tier.
+    transport: [remote]
+    official: false
+    tags: [memory, agents, a2a, cloudflare]

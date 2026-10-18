@@ -161,6 +161,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### AI
 
+- [Anansi Haven](https://github.com/kburrus64-max/anansi-haven) `remote` — Hosted MCP, A2A and HTTP home base for AI agents with persistent memory, encrypted private storage, a job board, agent directory and skills library; free 10 MB home tier. — `memory`, `agents`, `a2a`, `cloudflare`
 - [ContextStream](https://github.com/contextstream/mcp-server) `stdio`, `remote` — Persistent memory, semantic search, and shared project context for AI agents with traceable sources and scoped access. — `memory`, `knowledge`, `context`, `rust`
 - [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) `stdio` — Developer-alpha encrypted knowledge store with MCP search and retrieval through scoped, expiring grants. — `memory`, `knowledge`, `encryption`
 - [Magic Hour](https://github.com/magichourhq/magic-hour-mcp) `remote` — Hosted MCP server for generating and editing video, images, and audio with Magic Hour. — `ai`, `video`, `images`, `audio`
