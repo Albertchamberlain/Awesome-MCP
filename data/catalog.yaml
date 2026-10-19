@@ -617,3 +617,13 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: quibbly-linkedin
+    name: Quibbly (LinkedIn MCP)
+    kind: server
+    category: communication
+    url: https://github.com/Scriptify-Inc/linkedin-mcp
+    description: Hosted Streamable HTTP server with OAuth that reads the LinkedIn inbox synced by the Quibbly Chrome extension (conversations, connections, follow-ups, tags, notes, video viewers, attachments) and drafts replies that wait in Quibbly until the user clicks Send; it never sends on its own.
+    transport: [remote]
+    official: true
+    tags: [linkedin, messaging, inbox, sales, oauth]

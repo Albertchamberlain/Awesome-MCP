@@ -183,6 +183,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Communication
 
 - [MeetStream](https://github.com/meetstream-ai/meetstream-mcp) `stdio`, `remote` — Send AI bots into Zoom, Google Meet and Microsoft Teams to record, transcribe and summarize meetings. — `meetings`, `transcription`, `zoom`, `google-meet`
+- [Quibbly (LinkedIn MCP)](https://github.com/Scriptify-Inc/linkedin-mcp) ✅ `remote` — Hosted Streamable HTTP server with OAuth that reads the LinkedIn inbox synced by the Quibbly Chrome extension (conversations, connections, follow-ups, tags, notes, video viewers, attachments) and drafts replies that wait in Quibbly until the user clicks Send; it never sends on its own. — `linkedin`, `messaging`, `inbox`, `sales`
 - [Slack Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack) ✅ `stdio` — Post messages and read channels in Slack workspaces. — `slack`, `chat`
 
 ### Data
