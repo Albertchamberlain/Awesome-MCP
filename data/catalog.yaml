@@ -617,3 +617,13 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: agent-payment-node
+    name: Agent Payment Node
+    kind: server
+    category: developer-tools
+    url: https://github.com/nuanu-ai/agent-payment-node
+    description: Local macOS CLI and stdio MCP payments with foreground owner approval for signing.
+    transport: [stdio]
+    official: true
+    tags: [payments, x402, macos]

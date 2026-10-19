@@ -197,6 +197,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Developer Tools
 
+- [Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node) ✅ `stdio` — Local macOS CLI and stdio MCP payments with foreground owner approval for signing. — `payments`, `x402`, `macos`
 - [Agentlas OS](https://github.com/agentlas-ai/Agentlas-OS) `stdio` — Local-first agent OS for portable agent and team packages over MCP. — `coding`, `agents`, `runtime`
 - [ax](https://github.com/Necmttn/ax) `stdio` — Local-first telemetry and memory graph for AI coding agents. — `coding`, `telemetry`, `local-first`
 - [Communicate Developer Docs MCP](https://communicate.so/developers) ✅ `remote` — Hosted Streamable HTTP server with three read-only tools for Communicate developer documentation, OpenAPI summaries, and support contact information; no account or API key required and no customer data access. — `documentation`, `api`, `developer-tools`
