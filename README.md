@@ -246,6 +246,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Web
 
+- [AI观潮 News MCP](https://aiguanchao.com/en/agent) ✅ `remote` — Hosted server with curated AI news, daily briefs, trending stories and an LLM leaderboard; summaries in Chinese with source links, personal token required (free daily quota). — `news`, `ai-news`, `chinese`
 - [Brave Search MCP](https://github.com/brave/brave-search-mcp-server) `stdio` — Web search via Brave Search API. — `search`, `api`
 - [BuyWhere MCP](https://github.com/BuyWhere/buywhere-mcp) `remote` — Real-time product search and price comparison across 148M+ products from Singapore, Southeast Asia, and US marketplaces via remote streamable-HTTP. — `search`, `ecommerce`, `api`
 - [Fetch Server](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) ✅ `stdio` — Fetch and convert web pages to markdown for LLM consumption. — `http`, `scraping`
