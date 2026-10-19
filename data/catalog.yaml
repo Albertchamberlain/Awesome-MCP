@@ -617,3 +617,13 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: account-executive-jobs
+    name: Account Executive Jobs
+    kind: server
+    category: productivity
+    url: https://github.com/854Labs/account-executive-jobs
+    description: Hosted Streamable HTTP MCP for searching and applying to account executive and sales jobs, and for employers to manage job posts and applicants, with OAuth sign-in.
+    transport: [remote]
+    official: true
+    tags: [jobs, sales, recruiting, oauth]
