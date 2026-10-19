@@ -617,3 +617,13 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: whale-coupons
+    name: Whale Coupons
+    kind: server
+    category: data
+    url: https://whalecoupons.co
+    description: Hosted read-only MCP server for coupon and discount codes issued by independent online stores, searchable by store name, domain, product URL or category; no account or API key.
+    transport: [remote]
+    official: true
+    tags: [coupons, shopping, ecommerce, remote]

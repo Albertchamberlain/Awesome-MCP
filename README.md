@@ -189,6 +189,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 - [CompanyScope](https://github.com/Stewyboy1990/companyscope-mcp) `stdio`, `remote` — Company intelligence from 12 free public sources — full company profiles via a single tool call. — `companies`, `data`, `research`
 - [Statsnet](https://github.com/usenetstate/statsnet-mcp) `remote` — Background check any company in the world via remote MCP — registration, executives, courts and finances. — `companies`, `osint`, `background-check`, `remote`
+- [Whale Coupons](https://whalecoupons.co) ✅ `remote` — Hosted read-only MCP server for coupon and discount codes issued by independent online stores, searchable by store name, domain, product URL or category; no account or API key. — `coupons`, `shopping`, `ecommerce`, `remote`
 
 ### Database
 
