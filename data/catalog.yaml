@@ -189,6 +189,16 @@ entries:
     official: false
     tags: [search, ecommerce, api]
 
+  - id: aiguanchao-news
+    name: AI观潮 News MCP
+    kind: server
+    category: web
+    url: https://aiguanchao.com/en/agent
+    description: Hosted server with curated AI news, daily briefs, trending stories and an LLM leaderboard; summaries in Chinese with source links, personal token required (free daily quota).
+    transport: [remote]
+    official: true
+    tags: [news, ai-news, chinese]
+
   - id: xquik
     name: Xquik MCP
     kind: server
