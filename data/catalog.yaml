@@ -617,3 +617,13 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: placecall
+    name: PlaceCall
+    kind: server
+    category: communication
+    url: https://github.com/voygr-tech/placecall
+    description: Places real outbound phone calls to US businesses for an agent (bookings, appointments, inquiries, quotes) through a hosted MCP endpoint, then returns the outcome, transcript and recording.
+    transport: [remote]
+    official: true
+    tags: [phone, voice, telephony, reservations]

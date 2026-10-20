@@ -183,6 +183,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Communication
 
 - [MeetStream](https://github.com/meetstream-ai/meetstream-mcp) `stdio`, `remote` — Send AI bots into Zoom, Google Meet and Microsoft Teams to record, transcribe and summarize meetings. — `meetings`, `transcription`, `zoom`, `google-meet`
+- [PlaceCall](https://github.com/voygr-tech/placecall) ✅ `remote` — Places real outbound phone calls to US businesses for an agent (bookings, appointments, inquiries, quotes) through a hosted MCP endpoint, then returns the outcome, transcript and recording. — `phone`, `voice`, `telephony`, `reservations`
 - [Slack Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack) ✅ `stdio` — Post messages and read channels in Slack workspaces. — `slack`, `chat`
 
 ### Data
