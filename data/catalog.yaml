@@ -617,3 +617,13 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: neverapply
+    name: NeverApply
+    kind: server
+    category: productivity
+    url: https://neverapply.co/features/mcp
+    description: Hosted Streamable HTTP MCP server for job seekers to search and match jobs, tailor resumes, answer screening questions, prepare for interviews, and apply with explicit user approval; OAuth 2.1 with PKCE, 15 tools.
+    transport: [remote]
+    official: true
+    tags: [jobs, career, resume, oauth]
