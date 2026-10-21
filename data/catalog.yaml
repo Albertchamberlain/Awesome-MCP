@@ -617,3 +617,13 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: warden-mcp
+    name: Warden MCP
+    kind: server
+    category: finance
+    url: https://github.com/warden-protocol/warden-mcp
+    description: Official remote MCP server for Warden Token Terminal that lets AI agents find tokens, quote swaps and trade onchain on Base, BNB Chain, Robinhood Chain and Arc within limits the user sets.
+    transport: [remote]
+    official: true
+    tags: [crypto, trading, defi, onchain, oauth]
