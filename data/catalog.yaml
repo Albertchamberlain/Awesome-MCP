@@ -617,3 +617,13 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: claimidx
+    name: ClaimIDX
+    kind: server
+    category: ai
+    url: https://github.com/claimidx/claimidx
+    description: Apache-2.0 MCP server and CLI that indexes recurring software failures and their tested fixes so coding agents can check prior art before retrying; it runs validation commands when invoked, applies dependency pins or git patches only when called with an explicit yes flag, and sends claims off-device to the public commons at home.claimidx.com only after an explicit share confirmation (disable with CLAIMIDX_COMMONS=0).
+    transport: [stdio]
+    official: false
+    tags: [memory, knowledge, debugging]
