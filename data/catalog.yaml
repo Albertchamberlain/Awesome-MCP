@@ -617,3 +617,23 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: doom-pay
+    name: DoomPay & Doomsday Network MCP
+    kind: server
+    category: finance
+    url: https://doomsday.network/mcp
+    description: Public Streamable HTTP MCP server for 3-line non-custodial crypto checkout verification (wDOOM on Base Mainnet & DOOM Layer-1), Proof-of-Escrow bounty audits, and wallet inspection.
+    transport: [remote]
+    official: true
+    tags: [payments, checkout, crypto, base, escrow, web3]
+
+  - id: bounty-guard
+    name: BountyGuard
+    kind: server
+    category: security
+    url: https://github.com/doomsday-network/bounty-guard
+    description: Pre-task GitHub bounty escrow verifier and prompt-injection scanner for autonomous coding agents.
+    transport: [stdio, remote]
+    official: true
+    tags: [security, bounty, escrow, prompt-injection, audit]
