@@ -617,3 +617,13 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: french4pr
+    name: French4PR
+    kind: server
+    category: data
+    url: https://french4pr.com
+    description: Hosted MCP server and free REST API over a directory of TEF Canada and TCF Canada test centres, French schools and online prep courses organized by country and city.
+    transport: [remote]
+    official: false
+    tags: [education, immigration, directory, api]
