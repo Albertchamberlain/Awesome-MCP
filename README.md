@@ -204,6 +204,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) ✅ `stdio`, `remote` — Official GitHub integration for repos, issues, PRs, and Actions. — `github`, `git`
 - [Official MCP Reference Servers](https://github.com/modelcontextprotocol/servers) ✅ `stdio` — Reference implementations maintained by the MCP steering group (filesystem, memory, fetch, git, and more). — `reference`, `anthropic`
 - [ReadyAgents](https://github.com/readyagentsdev/readyagents-core) `stdio` — ReadyAgents is a free, self-hosted Apache-2.0 local one-shot agent workflow engine plus MCP toolkit: git clone + pip install -e . (or see https://readyagents.dev); bring your own keys; always-on packs are waitlisted and not for sale. — `python`, `workflow`, `local`, `byok`
+- [ReMCP](https://github.com/getremcp/remcp) `remote` — OAuth MCP for terminal, file, browser and desktop actions on explicitly paired computers; operations may modify device state and the hosted relay is separate from the public runtime. — `remote-computer`, `developer-tools`, `oauth`, `automation`
 - [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) `stdio` — Self-hosted agent runtime exposing durable sessions, sandboxed execution, approvals, artifacts, audit, and replay through a local stdio MCP bridge. — `agents`, `runtime`, `sandbox`, `sessions`
 
 ### Health

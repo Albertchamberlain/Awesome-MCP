@@ -617,3 +617,13 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: remcp
+    name: ReMCP
+    kind: server
+    category: developer-tools
+    url: https://github.com/getremcp/remcp
+    description: OAuth MCP for terminal, file, browser and desktop actions on explicitly paired computers; operations may modify device state and the hosted relay is separate from the public runtime.
+    transport: [remote]
+    official: false
+    tags: [remote-computer, developer-tools, oauth, automation]
