@@ -209,6 +209,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Health
 
 - [CareClinic Health Tracker](https://careclinic.io/careclinic-mcp/) `remote` — Remote MCP server for symptom, mood, medication, and wellness tracking with caregiver support. — `health`, `tracking`, `wellness`, `remote`
+- [FertilityClinics](https://fertilityclinics.fyi) `remote` — Hosted MCP server and free REST API over a directory of US fertility and IVF clinics from the CDC register, with services, cycle counts and reported success rates. — `health`, `directory`, `api`
 
 ### Marketing
 

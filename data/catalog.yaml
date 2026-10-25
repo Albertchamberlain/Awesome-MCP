@@ -617,3 +617,13 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: fertilityclinics
+    name: FertilityClinics
+    kind: server
+    category: health
+    url: https://fertilityclinics.fyi
+    description: Hosted MCP server and free REST API over a directory of US fertility and IVF clinics from the CDC register, with services, cycle counts and reported success rates.
+    transport: [remote]
+    official: false
+    tags: [health, directory, api]
