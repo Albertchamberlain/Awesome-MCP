@@ -188,6 +188,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Data
 
 - [CompanyScope](https://github.com/Stewyboy1990/companyscope-mcp) `stdio`, `remote` — Company intelligence from 12 free public sources — full company profiles via a single tool call. — `companies`, `data`, `research`
+- [ForeclosureListings](https://foreclosurelistings.fyi) `remote` — Hosted MCP server and free REST API over a directory of US foreclosure resources by city and state — sale schedules, notice posting locations, HUD-approved counselors and legal aid with named public sources. — `housing`, `legal`, `directory`, `api`
 - [Statsnet](https://github.com/usenetstate/statsnet-mcp) `remote` — Background check any company in the world via remote MCP — registration, executives, courts and finances. — `companies`, `osint`, `background-check`, `remote`
 
 ### Database

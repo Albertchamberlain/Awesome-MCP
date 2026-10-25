@@ -617,3 +617,13 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: foreclosurelistings
+    name: ForeclosureListings
+    kind: server
+    category: data
+    url: https://foreclosurelistings.fyi
+    description: Hosted MCP server and free REST API over a directory of US foreclosure resources by city and state — sale schedules, notice posting locations, HUD-approved counselors and legal aid with named public sources.
+    transport: [remote]
+    official: false
+    tags: [housing, legal, directory, api]
