@@ -617,3 +617,13 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: zaptu
+    name: Zaptu
+    kind: server
+    category: home-services
+    url: https://zaptu.ai/agents/
+    description: Remote MCP server that lets an assistant send a US home-service contact request (plumbing, house cleaning, pest control; name, phone, ZIP, consent) to a local-pro network. It is a contact request, not a booked appointment.
+    transport: [remote]
+    official: true
+    tags: [home-services, local, plumbing, cleaning]

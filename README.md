@@ -210,6 +210,10 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 - [CareClinic Health Tracker](https://careclinic.io/careclinic-mcp/) `remote` — Remote MCP server for symptom, mood, medication, and wellness tracking with caregiver support. — `health`, `tracking`, `wellness`, `remote`
 
+### Home Services
+
+- [Zaptu](https://zaptu.ai/agents/) ✅ `remote` — Remote MCP server that lets an assistant send a US home-service contact request (plumbing, house cleaning, pest control; name, phone, ZIP, consent) to a local-pro network. It is a contact request, not a booked appointment. — `home-services`, `local`, `plumbing`, `cleaning`
+
 ### Marketing
 
 - [NotFair](https://github.com/nowork-studio/NotFair) `stdio` — Open-source Claude Code skills for SEO, GEO, and paid ads — connects to Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP for live account data. — `seo`, `google-ads`, `meta-ads`, `marketing`
