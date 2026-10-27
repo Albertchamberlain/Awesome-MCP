@@ -617,3 +617,13 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: docsy
+    name: Docsy
+    kind: server
+    category: developer-tools
+    url: https://github.com/getremcp/docsy-plugin
+    description: Read-only hosted OAuth MCP for version-specific public developer documentation and publisher source links; public repository contains the client plugin, not the hosted backend.
+    transport: [remote]
+    official: false
+    tags: [documentation, developer-tools, oauth, hosted]
