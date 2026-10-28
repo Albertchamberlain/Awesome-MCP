@@ -617,3 +617,22 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+  - id: mcp-probe-kit
+    name: mcp-probe-kit
+    kind: server
+    category: developer-tools
+    url: https://github.com/mybolide/mcp-probe-kit
+    description: "Spec-driven development workflow for coding agents: start_feature and start_bugfix orchestrate requirements through review, plans resume across sessions, and a converge gate blocks closure until spec, test and review evidence exists."
+    transport: [stdio]
+    official: false
+    tags: [workflow, spec-driven, coding-agent, planning]
+
+  - id: coding-tools-mcp
+    name: Coding Tools MCP
+    kind: server
+    category: developer-tools
+    url: https://github.com/mybolide/coding-tools-mcp
+    description: "Desktop MCP workspace (Rust + Tauri 2) giving agents file edits, command and test execution, Git status, and resumable history sessions on a local project."
+    transport: [stdio]
+    official: false
+    tags: [filesystem, shell, git, desktop]
