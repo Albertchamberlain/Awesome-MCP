@@ -19,6 +19,16 @@ categories:
     description: Libraries for building MCP servers and clients
 
 entries:
+  - id: kilobat-cli
+    name: Kilobat CLI
+    kind: server
+    category: developer-tools
+    url: https://github.com/seifip/kilobat-cli
+    description: Local macOS network monitoring and connection diagnostics for MCP agents.
+    transport: [stdio]
+    official: true
+    tags: [macos, networking, diagnostics]
+
   - id: communicate-developer-docs
     name: Communicate Developer Docs MCP
     kind: server
