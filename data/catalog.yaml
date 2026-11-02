@@ -489,6 +489,16 @@ entries:
     official: false
     tags: [companies, osint, background-check, remote]
 
+  - id: polish-mcp-servers
+    name: Polish MCP Servers
+    kind: server
+    category: data
+    url: https://github.com/kamilkaczmareksolutions/polish-mcp-servers
+    description: Read-only tools for Polish public registers and law, including company lookup by NIP, REGON or KRS.
+    transport: [stdio, remote]
+    official: false
+    tags: [poland, open-data, companies, legal, government]
+
   - id: neither-mcp
     name: Neither
     kind: server
