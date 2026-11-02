@@ -19,6 +19,16 @@ categories:
     description: Libraries for building MCP servers and clients
 
 entries:
+  - id: sequenzy
+    name: Sequenzy
+    kind: server
+    category: communication
+    url: https://github.com/Sequenzy/mcp
+    description: Manage email subscribers, segments, campaigns and automation sequences, send transactional email, and inspect delivery statistics through Sequenzy; requires user OAuth authorization or an API key.
+    transport: [stdio, remote]
+    official: true
+    tags: [email, marketing, automation]
+
   - id: communicate-developer-docs
     name: Communicate Developer Docs MCP
     kind: server
