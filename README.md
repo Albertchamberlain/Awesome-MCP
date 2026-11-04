@@ -169,6 +169,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 - [SandBase CLI](https://github.com/sandbaseai/cli) `stdio` — Local MCP bridge for discovering and running 2,000+ AI models and APIs from 25 supported clients. — `ai`, `models`, `api`, `cli`
 - [Screenpipe](https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp) ✅ `stdio` — Search locally captured screen text and audio history for recall, meeting notes, and work summaries through the official MCP server; requires the Screenpipe recorder and local API key, with source available under the Screenpipe Commercial License and optional cloud services that can transmit context off-device. — `memory`, `context`, `recall`, `screen`
 - [Sequential Thinking](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) ✅ `stdio` — Structured step-by-step reasoning tool for complex problems. — `reasoning`, `planning`
+- [UberLLM](https://uberllm.dev/docs/mcp) ✅ `remote` — Hosted MCP server that generates and edits images and starts video and music jobs on paid UberLLM models, with price quotes, a balance check, and a max_cost cap per call. — `ai`, `images`, `video`, `music`
 
 ### Analytics
 

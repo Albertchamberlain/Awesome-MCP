@@ -129,6 +129,16 @@ entries:
     official: false
     tags: [ai, video, images, audio, media-generation]
 
+  - id: uberllm
+    name: UberLLM
+    kind: server
+    category: ai
+    url: https://uberllm.dev/docs/mcp
+    description: Hosted MCP server that generates and edits images and starts video and music jobs on paid UberLLM models, with price quotes, a balance check, and a max_cost cap per call.
+    transport: [remote]
+    official: true
+    tags: [ai, images, video, music]
+
   - id: playwright-mcp
     name: Playwright MCP
     kind: server
