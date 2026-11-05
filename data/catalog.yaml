@@ -539,6 +539,16 @@ entries:
     official: false
     tags: [meetings, transcription, zoom, google-meet, teams]
 
+  - id: call-me
+    name: /call-me
+    kind: server
+    category: communication
+    url: https://github.com/radres/call-me
+    description: Remote MCP server that lets an agent ring your real phone, read a message aloud and get your spoken answer back as text, or text you instead.
+    transport: [remote]
+    official: false
+    tags: [phone, voice, notifications, human-in-the-loop]
+
   - id: darkmoon
     name: DarkMoon
     kind: server
