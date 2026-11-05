@@ -212,6 +212,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Marketing
 
+- [CrakSEO SEO Tools](https://crakseo.com/mcp) ✅ `remote` — Hosted Streamable HTTP server (OAuth or API key) for keyword research, Google and Bing results, rank tracking, backlinks, site audits and AI search visibility, with a free Search Console server. — `seo`, `keywords`, `serp`, `backlinks`
 - [NotFair](https://github.com/nowork-studio/NotFair) `stdio` — Open-source Claude Code skills for SEO, GEO, and paid ads — connects to Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP for live account data. — `seo`, `google-ads`, `meta-ads`, `marketing`
 
 ### Media Creation
