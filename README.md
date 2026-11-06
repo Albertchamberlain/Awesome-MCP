@@ -188,6 +188,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Data
 
 - [CompanyScope](https://github.com/Stewyboy1990/companyscope-mcp) `stdio`, `remote` — Company intelligence from 12 free public sources — full company profiles via a single tool call. — `companies`, `data`, `research`
+- [JobsPipe](https://docs.jobspipe.dev/ai-agents/mcp) `remote` — Remote MCP for searching live job listings across 30+ ATS feeds and boards, normalized to one schema. — `jobs`, `search`, `ats`, `recruiting`
 - [Statsnet](https://github.com/usenetstate/statsnet-mcp) `remote` — Background check any company in the world via remote MCP — registration, executives, courts and finances. — `companies`, `osint`, `background-check`, `remote`
 
 ### Database
