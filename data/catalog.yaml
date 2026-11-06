@@ -249,6 +249,16 @@ entries:
     official: false
     tags: [seo, google-ads, meta-ads, marketing, claude-code]
 
+  - id: clickwise
+    name: Clickwise
+    kind: server
+    category: marketing
+    url: https://partners.clickwise.net/developers/
+    description: Affiliate programs, deals and tracked links, plus product search by text or GTIN.
+    transport: [remote]
+    official: false
+    tags: [affiliate, commerce, search]
+
   - id: posteverywhere
     name: PostEverywhere
     kind: server
