@@ -617,3 +617,13 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: vaneform-mcp
+    name: Vaneform MCP
+    kind: server
+    category: data
+    url: https://github.com/jiangqizheng/vaneform-mcp
+    description: Hosted MCP for free website traffic lookups - estimated monthly visits, trends, and traffic sources for any domain at https://vaneform.com/mcp.
+    transport: [remote]
+    official: false
+    tags: [analytics, traffic, seo, marketing, remote]
