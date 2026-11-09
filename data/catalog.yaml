@@ -623,7 +623,7 @@ entries:
     kind: server
     category: finance
     url: https://github.com/warden-protocol/warden-mcp
-    description: Official remote MCP server for Warden Token Terminal that lets AI agents find tokens, quote swaps and trade onchain on Base, BNB Chain, Robinhood Chain and Arc within limits the user sets.
+    description: Official remote MCP server for Warden Token Terminal on Base, BNB Chain, Robinhood Chain and Arc. Market data and quotes need no sign-in. Swaps are signed by the wallet owner, or run inside an expiring session with owner-set limits.
     transport: [remote]
     official: true
     tags: [crypto, trading, defi, onchain, oauth]

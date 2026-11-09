@@ -208,7 +208,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Finance
 
-- [Warden MCP](https://github.com/warden-protocol/warden-mcp) ✅ `remote` — Official remote MCP server for Warden Token Terminal that lets AI agents find tokens, quote swaps and trade onchain on Base, BNB Chain, Robinhood Chain and Arc within limits the user sets. — `crypto`, `trading`, `defi`, `onchain`
+- [Warden MCP](https://github.com/warden-protocol/warden-mcp) ✅ `remote` — Official remote MCP server for Warden Token Terminal on Base, BNB Chain, Robinhood Chain and Arc. Market data and quotes need no sign-in. Swaps are signed by the wallet owner, or run inside an expiring session with owner-set limits. — `crypto`, `trading`, `defi`, `onchain`
 
 ### Health
 
