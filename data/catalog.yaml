@@ -59,6 +59,16 @@ entries:
     official: true
     tags: [http, scraping]
 
+  - id: curlshot
+    name: CurlShot
+    kind: server
+    category: web
+    url: https://curlshot.com/tools/screenshot-tool-for-ai-agents
+    description: Official hosted Streamable HTTP server (https://curlshot.com/api/mcp) with take_screenshot and list_devices tools that capture a URL, HTML or Markdown as PNG, JPEG, WebP, PDF or scrolling video; Bearer API key with a free plan of 100 screenshots a month.
+    transport: [remote]
+    official: true
+    tags: [screenshot, pdf, web, hosted]
+
   - id: memory
     name: Memory Server
     kind: server
