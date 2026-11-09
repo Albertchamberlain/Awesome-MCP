@@ -203,12 +203,14 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 - [Filesystem Server](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) ✅ `stdio` — Secure local file read/write with configurable directory allowlists. — `files`, `local`
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) ✅ `stdio`, `remote` — Official GitHub integration for repos, issues, PRs, and Actions. — `github`, `git`
 - [Official MCP Reference Servers](https://github.com/modelcontextprotocol/servers) ✅ `stdio` — Reference implementations maintained by the MCP steering group (filesystem, memory, fetch, git, and more). — `reference`, `anthropic`
+- [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) `stdio` — Serves a local trace library of recorded agent/provider traffic over stdio MCP — list, inspect, diff and replay past runs. Traces can hold prompts, tool arguments and shell/file content including secrets; replay re-executes recorded tool calls and is not a sandbox; live and remote modes send data off-device. — `debugging`, `replay`, `tracing`
 - [ReadyAgents](https://github.com/readyagentsdev/readyagents-core) `stdio` — ReadyAgents is a free, self-hosted Apache-2.0 local one-shot agent workflow engine plus MCP toolkit: git clone + pip install -e . (or see https://readyagents.dev); bring your own keys; always-on packs are waitlisted and not for sale. — `python`, `workflow`, `local`, `byok`
 - [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) `stdio` — Self-hosted agent runtime exposing durable sessions, sandboxed execution, approvals, artifacts, audit, and replay through a local stdio MCP bridge. — `agents`, `runtime`, `sandbox`, `sessions`
 
 ### Health
 
 - [CareClinic Health Tracker](https://careclinic.io/careclinic-mcp/) `remote` — Remote MCP server for symptom, mood, medication, and wellness tracking with caregiver support. — `health`, `tracking`, `wellness`, `remote`
+- [CareJobs.Now](https://github.com/yumaheymans/carejobs-mcp) `remote` — Free read-only remote MCP server for US healthcare jobs, with search of open jobs read daily from hospital career sites, job details and posted pay by kind of job. — `health`, `jobs`, `careers`, `pay`
 
 ### Marketing
 
@@ -247,6 +249,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Web
 
+- [BestPrice Shopping](https://github.com/TheBestCo/bestprice-mcp) ✅ `remote` — Official BestPrice.gr remote MCP server for read-only shopping in Greece, with shopping decisions, product search, live merchant offers with delivered totals, and price history; no API key. — `search`, `ecommerce`, `shopping`, `price-comparison`
 - [Brave Search MCP](https://github.com/brave/brave-search-mcp-server) `stdio` — Web search via Brave Search API. — `search`, `api`
 - [BuyWhere MCP](https://github.com/BuyWhere/buywhere-mcp) `remote` — Real-time product search and price comparison across 148M+ products from Singapore, Southeast Asia, and US marketplaces via remote streamable-HTTP. — `search`, `ecommerce`, `api`
 - [Fetch Server](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) ✅ `stdio` — Fetch and convert web pages to markdown for LLM consumption. — `http`, `scraping`
@@ -344,11 +347,12 @@ pytest
 ```
 
 See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the entry schema, curation policy, and review checklist.
+Fill out the [catalog PR template](.github/PULL_REQUEST_TEMPLATE.md) with authentication, data handling, operations, confirmation, licensing, and pricing details.
 
 ### Curation Philosophy
 
 - **Curated**, not comprehensive — every entry earns its place.
-- **Official** projects get the ✅ flag, community projects don't.
+- **Official** projects get the ✅ flag, which indicates who maintains the project and carries no security, licensing, or endorsement claim.
 - **Stable IDs** mean links never break between catalog updates.
 - Entries link to upstream projects under their respective licenses.
 
