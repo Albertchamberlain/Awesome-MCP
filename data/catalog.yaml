@@ -479,6 +479,16 @@ entries:
     official: false
     tags: [productivity, invoicing, finance, documents]
 
+  - id: best-electrician-jobs
+    name: Best Electrician Jobs
+    kind: server
+    category: productivity
+    url: https://github.com/854Labs/best-electrician-jobs
+    description: Hosted Streamable HTTP MCP for employers to manage electrician job posts and applicants on BestElectricianJobs.com (draft and publish jobs, read résumés, move candidates through hiring), with OAuth sign-in.
+    transport: [remote]
+    official: true
+    tags: [jobs, recruiting, electrician, oauth]
+
   - id: statsnet
     name: Statsnet
     kind: server

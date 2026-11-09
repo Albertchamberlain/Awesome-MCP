@@ -222,6 +222,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Productivity
 
+- [Best Electrician Jobs](https://github.com/854Labs/best-electrician-jobs) ✅ `remote` — Hosted Streamable HTTP MCP for employers to manage electrician job posts and applicants on BestElectricianJobs.com (draft and publish jobs, read résumés, move candidates through hiring), with OAuth sign-in. — `jobs`, `recruiting`, `electrician`, `oauth`
 - [Google Drive Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive) ✅ `stdio` — List, read, and search files in Google Drive. — `google`, `files`
 - [Orbit by Noveum](https://orbit.noveum.ai/mcp) ✅ `remote` — Hosted Streamable HTTP MCP for issues, projects, sprints, docs and files with workspace-scoped OAuth. — `project-management`, `tasks`, `documents`, `oauth`
 - [PostEverywhere](https://github.com/posteverywhere/mcp) `stdio`, `remote` — Schedule and publish social posts to 11 platforms with media, campaigns, analytics and AI captions. — `social`, `marketing`
