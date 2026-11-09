@@ -36,9 +36,8 @@ pytest
 - Description is accurate and not marketing fluff
 - Prefer actively maintained projects with clear MCP support
 - Avoid duplicate entries — search the catalog first: `awesome-mcp search <name>`
-- Do not submit paid/spam listings; disclose pricing in the PR template instead
-
-
+- Do not submit paid/spam listings
+- Disclose access requirements and pricing or free-tier limits in the PR template
 
 ## Security and pricing disclosures
 
