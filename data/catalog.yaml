@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: tanod
+    name: Tanod
+    kind: server
+    category: developer-tools
+    url: https://github.com/tanod-labs/tanod-mcp
+    description: Hosted Streamable HTTP MCP server with tools for PDF and Office documents, OCR and images, web pages to Markdown, onchain reads, and contract, package and phishing checks. Only get_credit_balance is free; every other tool is paid per call in USDC via x402 or with prepaid credits. Most paid tools have a small free allowance per IP per UTC day (stated in each tool's description, applied automatically on MCP); past it a call gets a payment request and nothing is charged unless the client pays.
+    transport: [remote]
+    official: false
+    tags: [pdf, ocr, images, web, blockchain, security, x402]
