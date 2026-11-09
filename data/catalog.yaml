@@ -389,6 +389,16 @@ entries:
     official: false
     tags: [directory, hosting]
 
+  - id: mcpnavi
+    name: MCPNavi
+    kind: registry
+    category: directory
+    url: https://mcpnavi.jp/en/
+    description: Japanese and English directory of MCP services that lists each service's hosting, transport, authentication, pricing and Japanese support, with the date each was last checked.
+    transport: [remote]
+    official: false
+    tags: [directory, japanese]
+
   - id: official-registry
     name: MCP Registry (Official)
     kind: registry

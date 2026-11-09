@@ -287,6 +287,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 - [Glama MCP Directory](https://glama.ai/mcp/servers) `remote` — MCP server directory with quality scores and hosted deployment options. — `directory`, `hosting`
 - [MCP Registry (Official)](https://registry.modelcontextprotocol.io) ✅ `remote` — Official MCP server registry and specification hub. — `official`, `spec`
 - [MCP.so](https://mcp.so) `remote` — Community-driven searchable directory of MCP servers. — `directory`, `community`
+- [MCPNavi](https://mcpnavi.jp/en/) `remote` — Japanese and English directory of MCP services that lists each service's hosting, transport, authentication, pricing and Japanese support, with the date each was last checked. — `directory`, `japanese`
 - [MyMCPTools](https://mymcptools.com) `remote` — Directory of MCP servers with scheduled live handshakes — each entry carries an install-time reachability verdict and latency. — `directory`, `uptime`
 - [Smithery](https://smithery.ai) `remote` — Curated MCP registry with one-click install flows for popular clients. — `directory`, `install`
 
