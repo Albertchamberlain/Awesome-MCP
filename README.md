@@ -214,6 +214,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Marketing
 
+- [Clickwise](https://partners.clickwise.net/developers/) `remote` — Affiliate programs, deals and product search. No login: program and deal lookup; request_tracked_links and get_monetization_feed create a provisional affiliate with tracked links. OAuth: affiliate:read (reports), affiliate:links (create_tracking_links, search_products). Free to join for publishers; free sandbox key. — `affiliate`, `commerce`, `search`
 - [NotFair](https://github.com/nowork-studio/NotFair) `stdio` — Open-source Claude Code skills for SEO, GEO, and paid ads — connects to Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP for live account data. — `seo`, `google-ads`, `meta-ads`, `marketing`
 
 ### Media Creation
