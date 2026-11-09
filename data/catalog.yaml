@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: looot
+    name: looot
+    kind: server
+    category: data
+    url: https://github.com/loootai/looot-mcp
+    description: "Hosted remote MCP for finding data APIs. Free with no balance or card: search and inspect (inputs, price, max cost) across 4,200+ operations from 300+ providers. Running an endpoint (work email, phone, company enrichment, SERP) is optional, prepaid and billed per call. Data handling: https://looot.ai/privacy."
+    transport: [remote]
+    official: true
+    tags: [data, enrichment, search, lead-generation, oauth]

@@ -188,6 +188,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Data
 
 - [CompanyScope](https://github.com/Stewyboy1990/companyscope-mcp) `stdio`, `remote` — Company intelligence from 12 free public sources — full company profiles via a single tool call. — `companies`, `data`, `research`
+- [looot](https://github.com/loootai/looot-mcp) ✅ `remote` — Hosted remote MCP for finding data APIs. Free with no balance or card: search and inspect (inputs, price, max cost) across 4,200+ operations from 300+ providers. Running an endpoint (work email, phone, company enrichment, SERP) is optional, prepaid and billed per call. Data handling: https://looot.ai/privacy. — `data`, `enrichment`, `search`, `lead-generation`
 - [Statsnet](https://github.com/usenetstate/statsnet-mcp) `remote` — Background check any company in the world via remote MCP — registration, executives, courts and finances. — `companies`, `osint`, `background-check`, `remote`
 
 ### Database
