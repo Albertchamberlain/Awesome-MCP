@@ -494,7 +494,7 @@ entries:
     kind: server
     category: data
     url: https://github.com/kamilkaczmareksolutions/polish-mcp-servers
-    description: Read-only tools for Polish public registers and law, including company lookup by NIP, REGON or KRS.
+    description: "Polish public registers and law (KRS, REGON, SAOS, Sejm ELI, EIPA, GUNB, ULDK and more). `tools/list` is free and needs no token. Each tool call sends a request to api.apify.com and runs a public pay-per-event Apify Actor on the caller's own `APIFY_TOKEN`, billed to that Apify account. Apify's free plan includes $5 of usage per month."
     transport: [stdio, remote]
     official: false
     tags: [poland, open-data, companies, legal, government]
