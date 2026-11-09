@@ -617,3 +617,12 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+  - id: nova-research-civai
+    name: Nova Research (CIVAI)
+    kind: server
+    category: productivity
+    url: https://github.com/civai-technologies/research-agent-mcp-by-nova-civai
+    description: Hosted Streamable HTTP MCP for deep research and report generation over live web search; tool discovery is unauthenticated, tool calls need a Nova account via OAuth or an API key.
+    transport: [remote]
+    official: true
+    tags: [research, search, reports, oauth]
