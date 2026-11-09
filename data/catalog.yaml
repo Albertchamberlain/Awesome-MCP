@@ -627,6 +627,17 @@ entries:
     transport: [remote]
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
+
+  - id: bestprice
+    name: BestPrice Shopping
+    kind: server
+    category: web
+    url: https://github.com/TheBestCo/bestprice-mcp
+    description: Official BestPrice.gr remote MCP server for read-only shopping in Greece, with shopping decisions, product search, live merchant offers with delivered totals, and price history; no API key.
+    transport: [remote]
+    official: true
+    tags: [search, ecommerce, shopping, price-comparison]
+
   - id: orcareplay
     name: OrcaReplay
     kind: server
