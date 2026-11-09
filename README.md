@@ -343,11 +343,12 @@ pytest
 ```
 
 See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the entry schema, curation policy, and review checklist.
+Fill out the [catalog PR template](.github/PULL_REQUEST_TEMPLATE.md) with authentication, data handling, operations, confirmation, licensing, and pricing details.
 
 ### Curation Philosophy
 
 - **Curated**, not comprehensive — every entry earns its place.
-- **Official** projects get the ✅ flag, community projects don't.
+- **Official** projects get the ✅ flag, which indicates who maintains the project and carries no security, licensing, or endorsement claim.
 - **Stable IDs** mean links never break between catalog updates.
 - Entries link to upstream projects under their respective licenses.
 
