@@ -209,6 +209,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Health
 
 - [CareClinic Health Tracker](https://careclinic.io/careclinic-mcp/) `remote` — Remote MCP server for symptom, mood, medication, and wellness tracking with caregiver support. — `health`, `tracking`, `wellness`, `remote`
+- [CareJobs.Now](https://github.com/yumaheymans/carejobs-mcp) `remote` — Free read-only remote MCP server for US healthcare jobs, with search of open jobs read daily from hospital career sites, job details and posted pay by kind of job. — `health`, `jobs`, `careers`, `pay`
 
 ### Marketing
 

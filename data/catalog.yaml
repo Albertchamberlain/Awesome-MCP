@@ -568,6 +568,16 @@ entries:
     official: false
     tags: [health, tracking, wellness, remote]
 
+  - id: carejobs-now
+    name: CareJobs.Now
+    kind: server
+    category: health
+    url: https://github.com/yumaheymans/carejobs-mcp
+    description: Free read-only remote MCP server for US healthcare jobs, with search of open jobs read daily from hospital career sites, job details and posted pay by kind of job.
+    transport: [remote]
+    official: false
+    tags: [health, jobs, careers, pay, remote]
+
   - id: conthunt
     name: ContHunt
     kind: server
