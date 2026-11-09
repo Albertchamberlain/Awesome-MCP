@@ -219,6 +219,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Media Creation
 
 - [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) `stdio` — Local-first MCP toolkit for agent-authored video composition, editing, generation, and plan-based assembly. — `video`, `editing`, `composition`, `agents`
+- [Toads](https://github.com/854Labs/toads) ✅ `stdio` — Edit screen recordings in Toads on your Mac: tidy up filler words, cut by transcript, add captions, titles and zooms, and export. Needs the Toads website edition (7-day trial, then paid license); no API key. — `screen-recording`, `video`, `editing`, `captions`
 
 ### Productivity
 

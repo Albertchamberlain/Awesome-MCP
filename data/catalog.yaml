@@ -519,6 +519,16 @@ entries:
     official: false
     tags: [video, editing, composition, agents]
 
+  - id: toads
+    name: Toads
+    kind: server
+    category: media-creation
+    url: https://github.com/854Labs/toads
+    description: "Edit screen recordings in Toads on your Mac: tidy up filler words, cut by transcript, add captions, titles and zooms, and export. Needs the Toads website edition (7-day trial, then paid license); no API key."
+    transport: [stdio]
+    official: true
+    tags: [screen-recording, video, editing, captions, macos]
+
   - id: llm-pulse
     name: LLM Pulse MCP Server
     kind: server
