@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: usb-rea
+    name: usb-rea
+    kind: server
+    category: developer-tools
+    url: https://github.com/emirmrkaljevic/usb-rea
+    description: Local stdio MCP server and CLI that infers a USB device protocol from a vendor-app capture and writes a pyusb driver, with packet-level evidence.
+    transport: [stdio]
+    official: false
+    tags: [usb, reverse-engineering, drivers, hardware]
