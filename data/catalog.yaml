@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: lantern-works
+    name: Lantern Works
+    kind: server
+    category: developer-tools
+    url: https://github.com/connormatthewdouglas/agent-work-stack-deals
+    description: Free, read-only, keyless MCP for comparing GPU rental prices across providers; rates are cited and refreshed regularly, with each price's age shown, plus job-cost estimates. Local stdio via uvx lantern-works-deals-mcp, or a hosted Streamable HTTP endpoint; no API key.
+    transport: [stdio, remote]
+    official: true
+    tags: [gpu, pricing, cloud, cost]
