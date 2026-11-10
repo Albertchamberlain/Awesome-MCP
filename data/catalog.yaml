@@ -558,6 +558,16 @@ entries:
     official: false
     tags: [memory, knowledge, context, rust]
 
+  - id: enhanciar
+    name: Enhanciar
+    kind: server
+    category: ai
+    url: https://github.com/enhanciar/enhanciar-mcp
+    description: Hosted company-brain MCP that answers questions from a team's Slack, Gmail, Drive, Notion, Jira, Linear and GitHub with source links, and can propose follow-ups that wait for human approval; needs an API key from a paid account.
+    transport: [remote]
+    official: true
+    tags: [knowledge, search, slack, notion, company-brain]
+
   - id: careclinic
     name: CareClinic Health Tracker
     kind: server
