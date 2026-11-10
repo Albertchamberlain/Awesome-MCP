@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: nexscope-ecommerce
+    name: Nexscope Ecommerce Data MCP
+    kind: server
+    category: ecommerce
+    url: https://www.nexscope.ai/mcp-data?co-from=awesome-mcp-albertchamberlain
+    description: Hosted remote MCP server (https://api.nexscope.ai/mcp; registry io.github.nexscope/ecommerce) with read-only ecommerce research tools for Amazon, TikTok Shop and other marketplaces, such as product, keyword, competitor and trend data; requires a Nexscope API key.
+    transport: [remote]
+    official: true
+    tags: [ecommerce, amazon, product-research, api]
