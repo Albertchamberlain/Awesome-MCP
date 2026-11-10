@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: imageat
+    name: imageat
+    kind: server
+    category: media-creation
+    url: https://github.com/incendies/imageat-mcp
+    description: Official MCP server for generating and editing images and videos, plus narrated explainers and voiceovers; hosted Streamable HTTP or local stdio, API key required.
+    transport: [stdio, remote]
+    official: true
+    tags: [images, video, voiceover, media-generation, remote]
