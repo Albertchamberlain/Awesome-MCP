@@ -180,6 +180,10 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) `stdio` — Browser automation via Playwright — navigate, click, screenshot, extract content. — `browser`, `automation`, `microsoft`
 - [Puppeteer Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer) ✅ `stdio` — Headless Chrome automation for scraping and interaction. — `browser`, `chrome`
 
+### Commerce
+
+- [PlushSource MCP](https://github.com/quickman924/plushsource-mcp) `stdio` — Local stdio server for the PlushSource directory of custom plush manufacturers; search and compare published MOQ, lead times, OEM/ODM and certifications. Facts are recorded as stated by the manufacturers, and a listing is not an endorsement. No API key or network calls. — `plush`, `manufacturing`, `sourcing`, `directory`
+
 ### Communication
 
 - [MeetStream](https://github.com/meetstream-ai/meetstream-mcp) `stdio`, `remote` — Send AI bots into Zoom, Google Meet and Microsoft Teams to record, transcribe and summarize meetings. — `meetings`, `transcription`, `zoom`, `google-meet`
