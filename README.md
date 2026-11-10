@@ -218,6 +218,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Media Creation
 
+- [imageat](https://github.com/incendies/imageat-mcp) ✅ `stdio`, `remote` — Official MCP server for generating and editing images and videos, plus narrated explainers and voiceovers; hosted Streamable HTTP or local stdio, API key required. — `images`, `video`, `voiceover`, `media-generation`
 - [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) `stdio` — Local-first MCP toolkit for agent-authored video composition, editing, generation, and plan-based assembly. — `video`, `editing`, `composition`, `agents`
 
 ### Productivity
