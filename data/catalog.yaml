@@ -249,6 +249,16 @@ entries:
     official: false
     tags: [seo, google-ads, meta-ads, marketing, claude-code]
 
+  - id: crakseo-seo-tools
+    name: CrakSEO SEO Tools
+    kind: server
+    category: marketing
+    url: https://crakseo.com/mcp
+    description: Hosted Streamable HTTP server (OAuth or API key) for keyword research, Google and Bing results, rank tracking, backlinks, site audits and AI search visibility, with a free Search Console server.
+    transport: [remote]
+    official: true
+    tags: [seo, keywords, serp, backlinks, marketing]
+
   - id: posteverywhere
     name: PostEverywhere
     kind: server
