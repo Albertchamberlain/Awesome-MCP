@@ -509,6 +509,16 @@ entries:
     official: false
     tags: [agents, runtime, sandbox, sessions, audit, self-hosted]
 
+  - id: imagera-mcp
+    name: Imagera MCP
+    kind: server
+    category: media-creation
+    url: https://github.com/alexadams6ix/imagera-skills
+    description: Hosted OAuth MCP server for generating and editing images, video, voice and music with Imagera's models, plus agent skills; sign in with an Imagera account, no API key.
+    transport: [remote]
+    official: true
+    tags: [images, video, audio, music, media-generation, remote]
+
   - id: orkas-videostudio
     name: OrkasVideoStudio
     kind: server

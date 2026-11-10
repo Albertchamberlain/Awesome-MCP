@@ -218,6 +218,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Media Creation
 
+- [Imagera MCP](https://github.com/alexadams6ix/imagera-skills) ✅ `remote` — Hosted OAuth MCP server for generating and editing images, video, voice and music with Imagera's models, plus agent skills; sign in with an Imagera account, no API key. — `images`, `video`, `audio`, `music`
 - [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) `stdio` — Local-first MCP toolkit for agent-authored video composition, editing, generation, and plan-based assembly. — `video`, `editing`, `composition`, `agents`
 
 ### Productivity
