@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: ironheights
+    name: Ironheights
+    kind: server
+    category: security
+    url: https://github.com/Frank-Masciopinto/ironheights
+    description: Local, rule-based pre-install scanner for agent skills and MCP configs; check_skill grades a skill A-F for prompt injection, credential reads, remote-exec installs and persistence, and tool_manifest_check flags MCP tool-description drift.
+    transport: [stdio]
+    official: false
+    tags: [security, agent-skills, scanner, supply-chain]
