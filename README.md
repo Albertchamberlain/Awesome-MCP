@@ -231,6 +231,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Security
 
 - [DarkMoon](https://github.com/ASCIT31/Dark-Moon) — Open-source autonomous AI penetration testing platform — 50 specialist agents orchestrated over MCP, shipping as both MCP host and server. — `security`, `pentesting`, `agents`, `docker`
+- [Ironheights](https://github.com/Frank-Masciopinto/ironheights) `stdio` — Local, rule-based pre-install scanner for agent skills and MCP configs; check_skill grades a skill A-F for prompt injection, credential reads, remote-exec installs and persistence, and tool_manifest_check flags MCP tool-description drift. — `security`, `agent-skills`, `scanner`, `supply-chain`
 
 ### Social
 
