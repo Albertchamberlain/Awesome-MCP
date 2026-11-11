@@ -207,6 +207,10 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 - [ReadyAgents](https://github.com/readyagentsdev/readyagents-core) `stdio` — ReadyAgents is a free, self-hosted Apache-2.0 local one-shot agent workflow engine plus MCP toolkit: git clone + pip install -e . (or see https://readyagents.dev); bring your own keys; always-on packs are waitlisted and not for sale. — `python`, `workflow`, `local`, `byok`
 - [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) `stdio` — Self-hosted agent runtime exposing durable sessions, sandboxed execution, approvals, artifacts, audit, and replay through a local stdio MCP bridge. — `agents`, `runtime`, `sandbox`, `sessions`
 
+### Finance
+
+- [Trading Signals Toolkit](https://github.com/gdietsch/trading-signals-examples) `stdio` — Event-risk flags for ES futures, SEC Form 4 insider-buy alerts and short AI trade briefs for agents. Runs over stdio via npx (x402-trading-signals-mcp); free tier of 100 calls per month, then pay-per-call USDC via x402 using a wallet private key you supply; requests go to signals.incomefather.com. — `finance`, `trading`, `x402`, `insider-filings`
+
 ### Health
 
 - [CareClinic Health Tracker](https://careclinic.io/careclinic-mcp/) `remote` — Remote MCP server for symptom, mood, medication, and wellness tracking with caregiver support. — `health`, `tracking`, `wellness`, `remote`
