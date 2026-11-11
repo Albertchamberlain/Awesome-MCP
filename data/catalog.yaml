@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: cloudgpu-mcp
+    name: CloudGPU MCP
+    kind: server
+    category: developer-tools
+    url: https://github.com/mrhy7176/cloudgpu-mcp
+    description: Vendor stdio MCP server for CloudGPU — quote a per-minute GPU, rent it only after user confirmation, run a job, download results, and shut it down; also lists models on CloudGPU's OpenAI-compatible API. Requires a CloudGPU API key or a browser-approved connect-account flow with a spending limit; job files and prompts leave the machine for CloudGPU's API.
+    transport: [stdio]
+    official: false
+    tags: [gpu, cloud, compute, api]

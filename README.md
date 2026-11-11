@@ -199,6 +199,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 - [Agentlas OS](https://github.com/agentlas-ai/Agentlas-OS) `stdio` — Local-first agent OS for portable agent and team packages over MCP. — `coding`, `agents`, `runtime`
 - [ax](https://github.com/Necmttn/ax) `stdio` — Local-first telemetry and memory graph for AI coding agents. — `coding`, `telemetry`, `local-first`
+- [CloudGPU MCP](https://github.com/mrhy7176/cloudgpu-mcp) `stdio` — Vendor stdio MCP server for CloudGPU — quote a per-minute GPU, rent it only after user confirmation, run a job, download results, and shut it down; also lists models on CloudGPU's OpenAI-compatible API. Requires a CloudGPU API key or a browser-approved connect-account flow with a spending limit; job files and prompts leave the machine for CloudGPU's API. — `gpu`, `cloud`, `compute`, `api`
 - [Communicate Developer Docs MCP](https://communicate.so/developers) ✅ `remote` — Hosted Streamable HTTP server with three read-only tools for Communicate developer documentation, OpenAPI summaries, and support contact information; no account or API key required and no customer data access. — `documentation`, `api`, `developer-tools`
 - [Filesystem Server](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) ✅ `stdio` — Secure local file read/write with configurable directory allowlists. — `files`, `local`
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) ✅ `stdio`, `remote` — Official GitHub integration for repos, issues, PRs, and Actions. — `github`, `git`
