@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: doc2md-lite
+    name: doc2md-lite
+    kind: server
+    category: data
+    url: https://github.com/tidybytetools/doc2md-lite
+    description: Local MCP server and CLI that turns PDFs and saved web pages into clean Markdown, keeping tables as real Markdown tables. No API key. Files stay on your computer.
+    transport: [stdio]
+    official: false
+    tags: [markdown, pdf, documents, local]
