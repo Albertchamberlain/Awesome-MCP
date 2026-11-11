@@ -188,6 +188,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Data
 
 - [CompanyScope](https://github.com/Stewyboy1990/companyscope-mcp) `stdio`, `remote` — Company intelligence from 12 free public sources — full company profiles via a single tool call. — `companies`, `data`, `research`
+- [Polish MCP Servers](https://github.com/kamilkaczmareksolutions/polish-mcp-servers) `stdio`, `remote` — Polish public registers and law (KRS, REGON, CEIDG, SAOS, Sejm ELI, EIPA, GUNB, ULDK and more). 17 read-only tools. `tools/list` is free and needs no token. Each tool call sends a request to api.apify.com and runs a public pay-per-event Apify Actor on the caller's own `APIFY_TOKEN`, billed to that Apify account. Apify's free plan includes $5 of usage per month. — `poland`, `open-data`, `companies`, `legal`
 - [Statsnet](https://github.com/usenetstate/statsnet-mcp) `remote` — Background check any company in the world via remote MCP — registration, executives, courts and finances. — `companies`, `osint`, `background-check`, `remote`
 
 ### Database
