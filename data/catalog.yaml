@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: trading-signals-toolkit
+    name: Trading Signals Toolkit
+    kind: server
+    category: finance
+    url: https://github.com/gdietsch/trading-signals-examples
+    description: Event-risk flags for ES futures, SEC Form 4 insider-buy alerts and short AI trade briefs for agents. Runs over stdio via npx (x402-trading-signals-mcp); free tier of 100 calls per month, then pay-per-call USDC via x402 using a wallet private key you supply; requests go to signals.incomefather.com.
+    transport: [stdio]
+    official: false
+    tags: [finance, trading, x402, insider-filings]
