@@ -188,6 +188,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Data
 
 - [CompanyScope](https://github.com/Stewyboy1990/companyscope-mcp) `stdio`, `remote` — Company intelligence from 12 free public sources — full company profiles via a single tool call. — `companies`, `data`, `research`
+- [doc2md-lite](https://github.com/tidybytetools/doc2md-lite) `stdio` — Local MCP server and CLI that turns PDFs and saved web pages into clean Markdown, keeping tables as real Markdown tables. No API key. Files stay on your computer. — `markdown`, `pdf`, `documents`, `local`
 - [Statsnet](https://github.com/usenetstate/statsnet-mcp) `remote` — Background check any company in the world via remote MCP — registration, executives, courts and finances. — `companies`, `osint`, `background-check`, `remote`
 
 ### Database
