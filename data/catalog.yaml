@@ -359,6 +359,16 @@ entries:
     official: false
     tags: [directory, install]
 
+  - id: socketlist
+    name: Socketlist
+    kind: registry
+    category: directory
+    url: https://socketlist.com
+    description: Directory of MCP servers from the official MCP Registry, scored 0-100 on maintenance, security hygiene and adoption.
+    transport: [remote]
+    official: false
+    tags: [directory, scoring]
+
   - id: mcp-so
     name: MCP.so
     kind: registry

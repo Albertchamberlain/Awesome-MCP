@@ -289,6 +289,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 - [MCP.so](https://mcp.so) `remote` — Community-driven searchable directory of MCP servers. — `directory`, `community`
 - [MyMCPTools](https://mymcptools.com) `remote` — Directory of MCP servers with scheduled live handshakes — each entry carries an install-time reachability verdict and latency. — `directory`, `uptime`
 - [Smithery](https://smithery.ai) `remote` — Curated MCP registry with one-click install flows for popular clients. — `directory`, `install`
+- [Socketlist](https://socketlist.com) `remote` — Directory of MCP servers from the official MCP Registry, scored 0-100 on maintenance, security hygiene and adoption. — `directory`, `scoring`
 
 <!-- CATALOG:REGISTRIES:END -->
 
