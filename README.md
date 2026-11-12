@@ -182,6 +182,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Communication
 
+- [MailVeri MCP](https://github.com/mailveri/mailveri-mcp) ✅ `stdio`, `remote` — Official MailVeri server to verify single addresses and bulk lists before sending; addresses are sent to the MailVeri API with your own API key (Bearer), uploaded lists and results are deleted after 30 days, and new accounts get 1,000 free credits. — `email`, `verification`, `deliverability`
 - [MeetStream](https://github.com/meetstream-ai/meetstream-mcp) `stdio`, `remote` — Send AI bots into Zoom, Google Meet and Microsoft Teams to record, transcribe and summarize meetings. — `meetings`, `transcription`, `zoom`, `google-meet`
 - [Slack Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack) ✅ `stdio` — Post messages and read channels in Slack workspaces. — `slack`, `chat`
 
