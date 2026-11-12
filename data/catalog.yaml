@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: vidmoat
+    name: Vidmoat
+    kind: server
+    category: media-creation
+    url: https://developer.vidmoat.com/developer/docs/mcp
+    description: Official remote MCP (OAuth on every plan) for an agent-first AI video editor. Import footage, edit a real timeline, and render MP4s from Claude, Cursor, or ChatGPT. 130+ tools. Free test keys; live keys need Studio or higher.
+    transport: [remote]
+    official: true
+    tags: [video, editing, mcp, oauth, remote]

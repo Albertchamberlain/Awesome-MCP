@@ -219,6 +219,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Media Creation
 
 - [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) `stdio` — Local-first MCP toolkit for agent-authored video composition, editing, generation, and plan-based assembly. — `video`, `editing`, `composition`, `agents`
+- [Vidmoat](https://developer.vidmoat.com/developer/docs/mcp) ✅ `remote` — Official remote MCP (OAuth on every plan) for an agent-first AI video editor. Import footage, edit a real timeline, and render MP4s from Claude, Cursor, or ChatGPT. 130+ tools. Free test keys; live keys need Studio or higher. — `video`, `editing`, `mcp`, `oauth`
 
 ### Productivity
 
