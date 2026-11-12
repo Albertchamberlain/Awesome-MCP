@@ -539,6 +539,16 @@ entries:
     official: false
     tags: [meetings, transcription, zoom, google-meet, teams]
 
+  - id: mailveri-mcp
+    name: MailVeri MCP
+    kind: server
+    category: communication
+    url: https://github.com/mailveri/mailveri-mcp
+    description: Official MailVeri server to verify single addresses and bulk lists before sending; addresses are sent to the MailVeri API with your own API key (Bearer), uploaded lists and results are deleted after 30 days, and new accounts get 1,000 free credits.
+    transport: [stdio, remote]
+    official: true
+    tags: [email, verification, deliverability]
+
   - id: darkmoon
     name: DarkMoon
     kind: server
