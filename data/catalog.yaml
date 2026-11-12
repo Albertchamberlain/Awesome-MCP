@@ -647,3 +647,12 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+  - id: gridzen-verification
+    name: GridZen Verification
+    kind: server
+    category: developer-tools
+    url: https://github.com/immurray/gridzen-developer-kit
+    description: Five read-only research and synthetic MCP tools for planning identity-verification coverage and exercising sandbox decision results.
+    transport: [stdio, remote]
+    official: true
+    tags: [identity-verification, research, sandbox, python]
