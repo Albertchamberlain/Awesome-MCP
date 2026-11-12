@@ -187,6 +187,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Data
 
+- [ATS Jobs MCP](https://github.com/GeminiGeorge22/ats-jobs-mcp) `stdio` — New job postings since any date or window (24h, 7d, 30d) from Ashby, Greenhouse, Lever and SmartRecruiters job boards. The stdio server is an open-source shim that forwards read-only job-search requests to Apify's hosted MCP using the caller's own APIFY_TOKEN (header only, never logged). The shim does not store queries locally; each tools/call becomes a run on the caller's own Apify account. Metered per result on that account with no separate subscription (see each Actor's Store page). Pinned install: npx -y github:GeminiGeorge22/ats-jobs-mcp#v0.2.0. — `jobs`, `recruiting`, `data`
 - [CompanyScope](https://github.com/Stewyboy1990/companyscope-mcp) `stdio`, `remote` — Company intelligence from 12 free public sources — full company profiles via a single tool call. — `companies`, `data`, `research`
 - [Statsnet](https://github.com/usenetstate/statsnet-mcp) `remote` — Background check any company in the world via remote MCP — registration, executives, courts and finances. — `companies`, `osint`, `background-check`, `remote`
 

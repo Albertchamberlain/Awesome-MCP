@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: ats-jobs-mcp
+    name: ATS Jobs MCP
+    kind: server
+    category: data
+    url: https://github.com/GeminiGeorge22/ats-jobs-mcp
+    description: "New job postings since any date or window (24h, 7d, 30d) from Ashby, Greenhouse, Lever and SmartRecruiters job boards. The stdio server is an open-source shim that forwards read-only job-search requests to Apify's hosted MCP using the caller's own APIFY_TOKEN (header only, never logged). The shim does not store queries locally; each tools/call becomes a run on the caller's own Apify account. Metered per result on that account with no separate subscription (see each Actor's Store page). Pinned install: npx -y github:GeminiGeorge22/ats-jobs-mcp#v0.2.0."
+    transport: [stdio]
+    official: false
+    tags: [jobs, recruiting, data]
