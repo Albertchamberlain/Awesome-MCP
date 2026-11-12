@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: etsy-sales-mcp
+    name: Etsy Sales MCP
+    kind: server
+    category: analytics
+    url: https://github.com/GeminiGeorge22/etsy-sales-mcp
+    description: "Etsy search results by keyword, marketplace and category plus daily sales counts and growth for any Etsy shop. The stdio server is an open-source shim that forwards read-only lookups to Apify's hosted MCP using the caller's own APIFY_TOKEN (header only, never logged). Usage is metered on the caller's Apify account; Store pricing pages are the live source (https://apify.com/publicrecords/etsy-search-scraper/pricing and https://apify.com/publicrecords/etsy-shop-velocity/pricing). Pinned install: npx -y github:GeminiGeorge22/etsy-sales-mcp#v0.2.0."
+    transport: [stdio]
+    official: false
+    tags: [etsy, ecommerce, analytics]

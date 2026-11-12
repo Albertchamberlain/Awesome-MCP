@@ -172,6 +172,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Analytics
 
+- [Etsy Sales MCP](https://github.com/GeminiGeorge22/etsy-sales-mcp) `stdio` — Etsy search results by keyword, marketplace and category plus daily sales counts and growth for any Etsy shop. The stdio server is an open-source shim that forwards read-only lookups to Apify's hosted MCP using the caller's own APIFY_TOKEN (header only, never logged). Usage is metered on the caller's Apify account; Store pricing pages are the live source (https://apify.com/publicrecords/etsy-search-scraper/pricing and https://apify.com/publicrecords/etsy-shop-velocity/pricing). Pinned install: npx -y github:GeminiGeorge22/etsy-sales-mcp#v0.2.0. — `etsy`, `ecommerce`, `analytics`
 - [LLM Pulse MCP Server](https://github.com/LLM-Pulse/llmpulse-mcp) `stdio`, `remote` — Access LLM Pulse brand visibility, citations, sentiment, share of voice, recommendations, tracked prompts, and AI traffic analytics. — `analytics`, `ai-visibility`, `brand-monitoring`
 
 ### Browser
