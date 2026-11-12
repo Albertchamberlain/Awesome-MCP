@@ -245,6 +245,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 - [Live Tennis API](https://github.com/livetennisapi/livetennisapi-mcp) `stdio` — Real-time tennis match state (score, server, three-valued break-point, retirement/walkover/completed) plus players, rankings, Elo, and fixtures. — `tennis`, `sports`, `real-time`, `data`
 - [ParlayAPI](https://github.com/JacobiusMakes/parlay-api-mcp) `stdio` — Sports odds, player props, public event discovery, and account usage; account data tools use each user's own API key and allowances, with free and paid API tiers. — `sports`, `odds`, `player-props`
+- [PinnFeed](https://pinnfeed.io/docs/mcp) ✅ `remote` — Hosted Streamable HTTP MCP for live and prematch Pinnacle odds, no-vig fair prices, drops and closing lines; API key required, with a free delayed plan and paid real-time tiers. — `sports`, `odds`, `mcp`, `pinnacle`
 
 ### Web
 
