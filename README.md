@@ -188,6 +188,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Data
 
 - [CompanyScope](https://github.com/Stewyboy1990/companyscope-mcp) `stdio`, `remote` — Company intelligence from 12 free public sources — full company profiles via a single tool call. — `companies`, `data`, `research`
+- [Gov Tenders MCP](https://github.com/GeminiGeorge22/gov-tenders-mcp) `stdio` — Public-sector tenders, grants and awards (SAM.gov, Grants.gov, USAspending, UK Find a Tender, EU TED) plus Legistar city council agendas and minutes, each with its official source link. The stdio server is an open-source shim that forwards read-only tender queries to Apify's hosted MCP using the caller's own APIFY_TOKEN (header only, never logged). Metered per result on the caller's Apify account with no separate subscription (see each Actor's Store page). Pinned install: npx -y github:GeminiGeorge22/gov-tenders-mcp#v0.2.0. — `government`, `tenders`, `procurement`, `data`
 - [Statsnet](https://github.com/usenetstate/statsnet-mcp) `remote` — Background check any company in the world via remote MCP — registration, executives, courts and finances. — `companies`, `osint`, `background-check`, `remote`
 
 ### Database
