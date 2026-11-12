@@ -245,6 +245,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 - [Live Tennis API](https://github.com/livetennisapi/livetennisapi-mcp) `stdio` — Real-time tennis match state (score, server, three-valued break-point, retirement/walkover/completed) plus players, rankings, Elo, and fixtures. — `tennis`, `sports`, `real-time`, `data`
 - [ParlayAPI](https://github.com/JacobiusMakes/parlay-api-mcp) `stdio` — Sports odds, player props, public event discovery, and account usage; account data tools use each user's own API key and allowances, with free and paid API tiers. — `sports`, `odds`, `player-props`
+- [Sports Odds MCP](https://github.com/GeminiGeorge22/sports-odds-mcp) `stdio` — Live odds from Kambi sportsbooks (BetRivers, Unibet, Paf, Svenska Spel, ATG and more) in one call, with every book's price and the best price per outcome. The stdio server is an open-source shim that forwards read-only lookups to Apify's hosted MCP using the caller's own APIFY_TOKEN (header only, never logged). Lookups are read-only and metered on the caller's Apify account; live pricing is on the Store page (https://apify.com/publicrecords/sports-odds-api). Pinned install: npx -y github:GeminiGeorge22/sports-odds-mcp#v0.2.0. — `sports`, `odds`, `betting`, `sportsbook`
 
 ### Web
 

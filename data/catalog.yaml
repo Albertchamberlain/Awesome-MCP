@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: sports-odds-mcp
+    name: Sports Odds MCP
+    kind: server
+    category: sports
+    url: https://github.com/GeminiGeorge22/sports-odds-mcp
+    description: "Live odds from Kambi sportsbooks (BetRivers, Unibet, Paf, Svenska Spel, ATG and more) in one call, with every book's price and the best price per outcome. The stdio server is an open-source shim that forwards read-only lookups to Apify's hosted MCP using the caller's own APIFY_TOKEN (header only, never logged). Lookups are read-only and metered on the caller's Apify account; live pricing is on the Store page (https://apify.com/publicrecords/sports-odds-api). Pinned install: npx -y github:GeminiGeorge22/sports-odds-mcp#v0.2.0."
+    transport: [stdio]
+    official: false
+    tags: [sports, odds, betting, sportsbook]
