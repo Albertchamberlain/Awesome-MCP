@@ -647,3 +647,23 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: kling-ai-mcp-china
+    name: Kling AI MCP (China)
+    kind: server
+    category: media-creation
+    url: https://github.com/klingai-dev/openclaw-plugin
+    description: Official hosted image/video generation, reference workflows and task tracking at https://klingai.com/mcp/plugin with OAuth and regional account credits; China and Global accounts, credits and task IDs are separate.
+    transport: [remote]
+    official: true
+    tags: [image-generation, video-generation, oauth]
+
+  - id: kling-ai-mcp-global
+    name: Kling AI MCP (Global)
+    kind: server
+    category: media-creation
+    url: https://github.com/klingai-tech/claude-plugin
+    description: Official hosted image/video generation, reference workflows and task tracking at https://kling.ai/mcp/plugin with OAuth and regional account credits; China and Global accounts, credits and task IDs are separate.
+    transport: [remote]
+    official: true
+    tags: [image-generation, video-generation, oauth]
