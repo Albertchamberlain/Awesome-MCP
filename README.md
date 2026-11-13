@@ -218,6 +218,8 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Media Creation
 
+- [Kling AI MCP (China)](https://github.com/klingai-dev/openclaw-plugin) ✅ `remote` — Official hosted image/video generation, reference workflows and task tracking at https://klingai.com/mcp/plugin with OAuth and regional account credits; China and Global accounts, credits and task IDs are separate. — `image-generation`, `video-generation`, `oauth`
+- [Kling AI MCP (Global)](https://github.com/klingai-tech/claude-plugin) ✅ `remote` — Official hosted image/video generation, reference workflows and task tracking at https://kling.ai/mcp/plugin with OAuth and regional account credits; China and Global accounts, credits and task IDs are separate. — `image-generation`, `video-generation`, `oauth`
 - [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) `stdio` — Local-first MCP toolkit for agent-authored video composition, editing, generation, and plan-based assembly. — `video`, `editing`, `composition`, `agents`
 
 ### Productivity
