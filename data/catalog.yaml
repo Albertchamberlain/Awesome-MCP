@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: openany
+    name: OpenAny
+    kind: server
+    category: ai
+    url: https://github.com/openanysi/openany-mcp
+    description: "The open marketplace for agents: 3,200+ APIs and 168+ AI models via remote Streamable HTTP at https://mcp.openany.si; openany_overview, search_apis and get_api work without a key, run_api is pay-per-call with an API key as Bearer."
+    transport: [remote]
+    official: false
+    tags: [apis, models, remote, marketplace]
