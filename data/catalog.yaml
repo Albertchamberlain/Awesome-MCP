@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: osmo-phone-calls
+    name: OsmO Phone Calls
+    kind: server
+    category: communication
+    url: https://github.com/Mountainheads-Private-limited/osmo-ai-plugins
+    description: Places real phone calls to businesses and helplines after the user confirms, and returns the outcome, summary and transcript.
+    transport: [remote]
+    official: true
+    tags: [phone-calls, voice, telephony]
