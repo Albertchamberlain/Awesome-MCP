@@ -653,7 +653,7 @@ entries:
     kind: server
     category: ai
     url: https://github.com/openanysi/openany-mcp
-    description: "The open marketplace for agents: 3,200+ APIs and 168+ AI models via remote Streamable HTTP at https://mcp.openany.si; openany_overview, search_apis and get_api work without a key, run_api is pay-per-call with an API key as Bearer."
+    description: "The B2A (business to agent) marketplace. One MCP endpoint for 3,200+ APIs and 168+ AI models. Browse free; pay per call. https://mcp.openany.si"
     transport: [remote]
     official: false
     tags: [apis, models, remote, marketplace]
