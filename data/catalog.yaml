@@ -249,6 +249,16 @@ entries:
     official: false
     tags: [seo, google-ads, meta-ads, marketing, claude-code]
 
+  - id: leadsets
+    name: LeadSets
+    kind: server
+    category: data
+    url: https://www.leadsets.ai/docs/mcp
+    description: Hosted Streamable HTTP server with Unlimited B2B Contact Data for AI agents; search people and companies, enrich records and verify work emails. OAuth, free tier of 1,000 records.
+    transport: [remote]
+    official: true
+    tags: [sales, b2b-data, enrichment, email-verification]
+
   - id: posteverywhere
     name: PostEverywhere
     kind: server

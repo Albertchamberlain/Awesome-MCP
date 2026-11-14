@@ -188,6 +188,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Data
 
 - [CompanyScope](https://github.com/Stewyboy1990/companyscope-mcp) `stdio`, `remote` — Company intelligence from 12 free public sources — full company profiles via a single tool call. — `companies`, `data`, `research`
+- [LeadSets](https://www.leadsets.ai/docs/mcp) ✅ `remote` — Hosted Streamable HTTP server with Unlimited B2B Contact Data for AI agents; search people and companies, enrich records and verify work emails. OAuth, free tier of 1,000 records. — `sales`, `b2b-data`, `enrichment`, `email-verification`
 - [Statsnet](https://github.com/usenetstate/statsnet-mcp) `remote` — Background check any company in the world via remote MCP — registration, executives, courts and finances. — `companies`, `osint`, `background-check`, `remote`
 
 ### Database
