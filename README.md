@@ -173,6 +173,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Analytics
 
 - [LLM Pulse MCP Server](https://github.com/LLM-Pulse/llmpulse-mcp) `stdio`, `remote` — Access LLM Pulse brand visibility, citations, sentiment, share of voice, recommendations, tracked prompts, and AI traffic analytics. — `analytics`, `ai-visibility`, `brand-monitoring`
+- [zaDojo](https://github.com/zaDojo/seo-geo-mcp) ✅ `remote` — Hosted SEO and GEO server with Google Search Console, Google Analytics, site audits, SERP and keyword research, rank tracking, and AI visibility tracking in ChatGPT, Gemini, Perplexity and Google AI Overviews. — `seo`, `geo`, `google-search-console`, `google-analytics`
 
 ### Browser
 
