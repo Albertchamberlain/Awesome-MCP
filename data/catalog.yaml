@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: scrapewise
+    name: Scrapewise
+    kind: server
+    category: web
+    url: https://github.com/BEBOTECH-OU/scrapewise-mcp
+    description: Remote MCP server that scrapes, cleans and matches product and price data from any website.
+    transport: [remote]
+    official: false
+    tags: [scraping, ecommerce, price-comparison, product-data]
