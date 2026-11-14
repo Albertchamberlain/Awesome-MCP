@@ -529,6 +529,16 @@ entries:
     official: false
     tags: [analytics, ai-visibility, brand-monitoring]
 
+  - id: zadojo
+    name: zaDojo
+    kind: server
+    category: analytics
+    url: https://github.com/zaDojo/seo-geo-mcp
+    description: Hosted SEO and GEO server with Google Search Console, Google Analytics, site audits, SERP and keyword research, rank tracking, and AI visibility tracking in ChatGPT, Gemini, Perplexity and Google AI Overviews.
+    transport: [remote]
+    official: true
+    tags: [seo, geo, google-search-console, google-analytics, ai-visibility]
+
   - id: meetstream
     name: MeetStream
     kind: server
