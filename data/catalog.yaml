@@ -568,6 +568,16 @@ entries:
     official: false
     tags: [health, tracking, wellness, remote]
 
+  - id: carejobs-now
+    name: CareJobs.Now
+    kind: server
+    category: health
+    url: https://github.com/yumaheymans/carejobs-mcp
+    description: Free read-only remote MCP server for US healthcare jobs, with search of open jobs read daily from hospital career sites, job details and posted pay by kind of job.
+    transport: [remote]
+    official: false
+    tags: [health, jobs, careers, pay, remote]
+
   - id: conthunt
     name: ContHunt
     kind: server
@@ -618,12 +628,32 @@ entries:
     official: true
     tags: [knowledge, automation, self-hosted, typescript]
 
+  - id: bestprice
+    name: BestPrice Shopping
+    kind: server
+    category: web
+    url: https://github.com/TheBestCo/bestprice-mcp
+    description: Official BestPrice.gr remote MCP server for read-only shopping in Greece, with shopping decisions, product search, live merchant offers with delivered totals, and price history; no API key.
+    transport: [remote]
+    official: true
+    tags: [search, ecommerce, shopping, price-comparison]
+
+  - id: orcareplay
+    name: OrcaReplay
+    kind: server
+    category: developer-tools
+    url: https://github.com/Continuum-AI-Corp/OrcaReplay
+    description: Serves a local trace library of recorded agent/provider traffic over stdio MCP — list, inspect, diff and replay past runs. Traces can hold prompts, tool arguments and shell/file content including secrets; replay re-executes recorded tool calls and is not a sandbox; live and remote modes send data off-device.
+    transport: [stdio]
+    official: false
+    tags: [debugging, replay, tracing]
+
   - id: equibles
     name: Equibles
     kind: server
     category: data
     url: https://equibles.com/docs/mcp
-    description: "Vendor-hosted MCP server for US company research: SEC filing search, as-reported fundamentals, earnings-call transcripts, 13F holdings, insider and congressional trades, and FRED series. Requires an Equibles account via OAuth or API key (free tier: 100 requests/day); queries and account data are processed by Equibles' hosted service. Market-data tools are read-only; portfolio, watchlist and feedback tools write to the signed-in account and carry MCP non-read-only hints (deletions marked destructive) so clients can ask before running them. AGPL-3.0 core: github.com/daniel3303/Equibles."
+    description: "Vendor-hosted MCP server for US company research: SEC filings, as-reported fundamentals, earnings-call transcripts, 13F holdings, insider and congressional trades, FRED series. Requires an Equibles account via OAuth or API key (free tier: 100 requests/day); queries and account data are processed by Equibles' hosted service. Market-data tools are read-only. Portfolio, watchlist and feedback tools write to the signed-in account, and the server does not ask for confirmation itself: configure your client to confirm these calls, above all deletes (marked with MCP destructiveHint). AGPL-3.0 core: github.com/daniel3303/Equibles."
     transport: [remote]
     official: true
     tags: [finance, sec-filings, stocks, remote, oauth]
