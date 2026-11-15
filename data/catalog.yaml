@@ -647,3 +647,12 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+  - id: no-stairs-please-mcp
+    name: No Stairs Please MCP
+    kind: server
+    category: data
+    url: https://nostairsplease.com/mcp
+    description: Remote Streamable HTTP MCP server for US & BC independent live-music venue discovery, booking contacts, and tour routing.
+    transport: [remote]
+    official: true
+    tags: [music-venues, live-music, directory, oauth]
