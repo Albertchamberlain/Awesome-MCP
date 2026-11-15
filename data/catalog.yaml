@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: computefirst
+    name: ComputeFirst
+    kind: server
+    category: developer-tools
+    url: https://computefirst.net
+    description: Hosted Streamable HTTP server (https://computefirst.net/mcp) with search, describe and execute over about 860 versioned deterministic tools (decimal and integer math, CSV/JSON transforms, dates, text, hashes, units); no account or API key; tool inputs are sent to the service but their content is not stored for anonymous calls; optional account tools exist.
+    transport: [remote]
+    official: false
+    tags: [math, data-transform, deterministic, utilities, remote]
