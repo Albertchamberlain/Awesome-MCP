@@ -623,7 +623,7 @@ entries:
     kind: server
     category: developer-tools
     url: https://github.com/fclairamb/solidping
-    description: Self-hostable uptime monitor with a built-in MCP server to create, run and diagnose checks across 43 types, read results and incidents, and manage status pages and maintenance windows. Remote (OAuth 2.1) or stdio.
+    description: Self-hostable uptime monitor with an MCP server to create, run and diagnose checks, read results and incidents, and update status pages; remote mode needs OAuth 2.1 or a personal token scoped read-only (`mcp:read`) or read-write (`mcp`) and leaves write confirmation to the client's destructive-tool prompt, local stdio needs no token and acts with the database credentials it runs with, and the hosted service refuses check targets on private, loopback, link-local or metadata addresses.
     transport: [stdio, remote]
     official: true
     tags: [monitoring, uptime, status-page, incidents, self-hosted, go]
