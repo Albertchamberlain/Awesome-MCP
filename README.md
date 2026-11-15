@@ -215,6 +215,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Marketing
 
 - [NotFair](https://github.com/nowork-studio/NotFair) `stdio` — Open-source Claude Code skills for SEO, GEO, and paid ads — connects to Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP for live account data. — `seo`, `google-ads`, `meta-ads`, `marketing`
+- [SEO Rank Fixer](https://seorankfixer.com) `http` — Hosted MCP server for your Google Search Console and Bing data: SEO fixes ranked by the clicks they can win, site audits, index status, page scans and AI search visibility (OAuth 2.1, `https://seorankfixer.com/api/mcp`). — `seo`, `search-console`, `bing`, `aeo`, `geo`
 
 ### Media Creation
 
