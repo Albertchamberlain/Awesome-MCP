@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: datacircle
+    name: Datacircle
+    kind: server
+    category: data
+    url: https://datacircle.dev
+    description: "Our MCP server is open to anyone, with no key: add api.datacircle.dev/mcp to Claude, ChatGPT or Cursor. Find the best GTM APIs."
+    transport: [remote]
+    official: false
+    tags: [data, api, gtm, benchmark]
