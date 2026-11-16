@@ -647,3 +647,12 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: search-console-mcp
+    name: search-console-mcp
+    kind: server
+    category: web
+    url: https://github.com/sudomichael/search-console-mcp
+    description: Google Search Console for any MCP client - 30-second login, no Google Cloud project.
+    transport: [stdio]
+    official: false
