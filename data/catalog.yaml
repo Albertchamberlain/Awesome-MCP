@@ -623,7 +623,7 @@ entries:
     kind: server
     category: data
     url: https://github.com/azmartone67/dchub-mcp-server
-    description: Live data-center siting and grid-power intelligence for agents, with 96 MCP tools at https://dchub.cloud/mcp and a REST API.
+    description: Live data-center siting and grid-power intelligence for agents, with 97 MCP tools at https://dchub.cloud/mcp and a REST API.
     transport: [remote]
     official: false
     tags: [data-centers, energy, grid, site-selection, remote]
