@@ -183,7 +183,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Communication
 
 - [MeetStream](https://github.com/meetstream-ai/meetstream-mcp) `stdio`, `remote` — Send AI bots into Zoom, Google Meet and Microsoft Teams to record, transcribe and summarize meetings. — `meetings`, `transcription`, `zoom`, `google-meet`
-- [Sequenzy](https://github.com/Sequenzy/mcp) ✅ `stdio`, `remote` — Manage email subscribers, segments, campaigns and automation sequences, send transactional email, and inspect delivery statistics through Sequenzy; requires user OAuth authorization or an API key. — `email`, `marketing`, `automation`
+- [Sequenzy](https://github.com/Sequenzy/mcp) ✅ `stdio`, `remote` — Manage email subscribers, segments, campaigns and automation sequences, send transactional email, and inspect delivery statistics through Sequenzy. Access is limited to the workspace and scopes granted by user OAuth or an API key. send_email, schedule_campaign, resume_campaign, select_ab_test_winner and enable_sequence can email real recipients immediately and are annotated destructive and open-world, so compatible clients can ask for approval first; changes to live sequences also require an explicit confirmLiveChange or confirmStructuralChange flag. The hosted service processes subscriber contact, consent and engagement data only for the requested tool, under the Sequenzy privacy policy. The free plan includes 2,500 emails a month, all features and unlimited contacts. — `email`, `marketing`, `automation`
 - [Slack Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack) ✅ `stdio` — Post messages and read channels in Slack workspaces. — `slack`, `chat`
 
 ### Data
