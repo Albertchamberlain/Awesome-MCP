@@ -214,10 +214,12 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Marketing
 
+- [Car Listing Check](https://github.com/TRW123123/car-listing-check-mcp) `remote` — Remote MCP server (no auth) that checks dealer vehicle listing text and metadata for completeness and returns a score with prioritised fixes; photo URLs are never fetched. — `automotive`, `listings`, `checklist`, `remote`
 - [NotFair](https://github.com/nowork-studio/NotFair) `stdio` — Open-source Claude Code skills for SEO, GEO, and paid ads — connects to Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP for live account data. — `seo`, `google-ads`, `meta-ads`, `marketing`
 
 ### Media Creation
 
+- [Headshot Photo Check](https://github.com/TRW123123/bewerbungsfoto-check-mcp) `remote` — Remote MCP server (no auth) that technically checks profile and job-application headshot photos (resolution, aspect ratio, brightness, contrast, sharpness) and returns a score, prioritised tips and crop recommendations; no face or identity judgements. — `image`, `photo`, `linkedin`, `xing`
 - [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) `stdio` — Local-first MCP toolkit for agent-authored video composition, editing, generation, and plan-based assembly. — `video`, `editing`, `composition`, `agents`
 
 ### Productivity
