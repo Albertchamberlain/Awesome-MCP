@@ -250,7 +250,7 @@ entries:
     tags: [seo, google-ads, meta-ads, marketing, claude-code]
 
   - id: leadsets
-    name: LeadSets
+    name: Leadsets
     kind: server
     category: data
     url: https://www.leadsets.ai/docs/mcp
