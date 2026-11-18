@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: social-fetch
+    name: Social Fetch
+    kind: server
+    category: social
+    url: https://github.com/social-freak-ltd/socialfetch-mcp
+    description: Live public social data (profiles, posts, comments, transcripts and search) from TikTok, Instagram, YouTube, X, Reddit, LinkedIn and more. Hosted at https://api.socialfetch.dev/mcp with OAuth, or local over stdio with an API key. Endpoint tools use paid credits, 100 free on signup.
+    transport: [remote, stdio]
+    official: true
+    tags: [social, scraping, data, api]
