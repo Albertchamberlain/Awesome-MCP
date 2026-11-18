@@ -235,6 +235,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Social
 
 - [ContHunt](https://conthunt.app) `remote` — Discover and research viral social content on TikTok, Instagram Reels, and YouTube Shorts. — `social`, `content`, `research`, `remote`
+- [Social Fetch](https://github.com/social-freak-ltd/socialfetch-mcp) ✅ `remote`, `stdio` — Live public social data (profiles, posts, comments, transcripts and search) from TikTok, Instagram, YouTube, X, Reddit, LinkedIn and more. Hosted at https://api.socialfetch.dev/mcp with OAuth, or local over stdio with an API key. Endpoint tools use paid credits, 100 free on signup. — `social`, `scraping`, `data`, `api`
 - [Xquik MCP](https://docs.xquik.com/mcp/overview) `remote` — Remote X data MCP server for search, profiles, timelines, monitoring, webhooks, and confirmation-gated writes. Not affiliated with X Corp. — `x`, `twitter`, `social`, `api`
 
 ### Social Media
