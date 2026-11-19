@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: agent-payment-node
+    name: Agent Payment Node
+    kind: server
+    category: developer-tools
+    url: https://github.com/nuanu-ai/agent-payment-node
+    description: Local payment runtime for agents over CLI and stdio MCP (macOS Apple Silicon, Node 24; Linux and Windows unsupported). Quote, inspect and prepare calls sign nothing; direct transfers are signed only after the owner approves them in a foreground terminal, while x402 purchases can run unattended within an owner-activated policy that caps chain, token and amount, and creating or raising that policy needs the terminal. Costs are network or facilitator fees within a fee budget frozen at prepare; no hosted service, no third-party security audit.
+    transport: [stdio]
+    official: true
+    tags: [payments, x402, macos]
