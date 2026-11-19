@@ -246,6 +246,10 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 - [Live Tennis API](https://github.com/livetennisapi/livetennisapi-mcp) `stdio` — Real-time tennis match state (score, server, three-valued break-point, retirement/walkover/completed) plus players, rankings, Elo, and fixtures. — `tennis`, `sports`, `real-time`, `data`
 - [ParlayAPI](https://github.com/JacobiusMakes/parlay-api-mcp) `stdio` — Sports odds, player props, public event discovery, and account usage; account data tools use each user's own API key and allowances, with free and paid API tiers. — `sports`, `odds`, `player-props`
 
+### Travel
+
+- [CheapCarRent Search](https://github.com/aleksandrjefimov4-crypto/cheapcarent-mcp) ✅ `remote` — Official CheapCarRent remote MCP server for read-only car rental search and pickup location lists; Streamable HTTP at https://cheapcarent.com/mcp, no API key. — `search`, `travel`, `rental`
+
 ### Web
 
 - [BestPrice Shopping](https://github.com/TheBestCo/bestprice-mcp) ✅ `remote` — Official BestPrice.gr remote MCP server for read-only shopping in Greece, with shopping decisions, product search, live merchant offers with delivered totals, and price history; no API key. — `search`, `ecommerce`, `shopping`, `price-comparison`

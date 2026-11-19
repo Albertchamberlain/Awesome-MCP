@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: cheapcarent-search
+    name: CheapCarRent Search
+    kind: server
+    category: travel
+    url: https://github.com/aleksandrjefimov4-crypto/cheapcarent-mcp
+    description: Official CheapCarRent remote MCP server for read-only car rental search and pickup location lists; Streamable HTTP at https://cheapcarent.com/mcp, no API key.
+    transport: [remote]
+    official: true
+    tags: [search, travel, rental]
