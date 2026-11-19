@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: mcp-probe-kit
+    name: mcp-probe-kit
+    kind: server
+    category: developer-tools
+    url: https://github.com/mybolide/mcp-probe-kit
+    description: "Local stdio workflow server for coding agents: feature and bugfix sessions produce reviewed specs and resumable plans, and a converge gate refuses closure until requirements, spec, implementation, test and review evidence are recorded in the project."
+    transport: [stdio]
+    official: false
+    tags: [workflow, spec-driven, coding-agent, planning]
