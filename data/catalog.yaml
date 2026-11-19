@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: wavegrain
+    name: Wavegrain
+    kind: server
+    category: social-media
+    url: https://github.com/wavegrain/wavegrain-mcp
+    description: Hosted remote MCP server for Wavegrain, a paid app that makes TikTok slideshows and Instagram carousels from your brand and photos; agents edit slides, schedule and export within a credit limit you set, over OAuth.
+    transport: [remote]
+    official: true
+    tags: [social-media, marketing, tiktok, instagram, carousel]

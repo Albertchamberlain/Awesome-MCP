@@ -240,6 +240,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Social Media
 
 - [BulkPublish](https://github.com/azeemkafridi/bulkpublish-api) `remote` — Approval-first social content adaptation, scheduling, and publishing through a remote MCP server and API. — `social-media`, `marketing`, `publishing`, `scheduling`
+- [Wavegrain](https://github.com/wavegrain/wavegrain-mcp) ✅ `remote` — Hosted remote MCP server for Wavegrain, a paid app that makes TikTok slideshows and Instagram carousels from your brand and photos; agents edit slides, schedule and export within a credit limit you set, over OAuth. — `social-media`, `marketing`, `tiktok`, `instagram`
 
 ### Sports
 
