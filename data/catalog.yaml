@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: coding-tools-mcp
+    name: Coding Tools MCP
+    kind: server
+    category: developer-tools
+    url: https://github.com/mybolide/coding-tools-mcp
+    description: "Desktop workspace server (Rust + Tauri 2) for a local project: workspace-scoped file reads and patches, command and test execution, Git inspection, and append-only history sessions. Outside the workspace reads are allowed but writes, deletes and execution are blocked."
+    transport: [stdio]
+    official: false
+    tags: [filesystem, shell, git, desktop]
