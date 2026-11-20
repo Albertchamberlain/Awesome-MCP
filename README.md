@@ -182,6 +182,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Communication
 
+- [FairValid MCP](https://github.com/moonlitnayeem/fairvalid-ai) ✅ `remote` — Official hosted MCP for email verification and FairMatch lead search and unlocks; an account with OAuth or an API key is required, with 300 shared free credits each month and optional paid credits; the hosted service is proprietary and the public integration package is MIT-licensed. — `email-verification`, `lead-generation`, `oauth`, `freemium`
 - [MeetStream](https://github.com/meetstream-ai/meetstream-mcp) `stdio`, `remote` — Send AI bots into Zoom, Google Meet and Microsoft Teams to record, transcribe and summarize meetings. — `meetings`, `transcription`, `zoom`, `google-meet`
 - [Slack Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack) ✅ `stdio` — Post messages and read channels in Slack workspaces. — `slack`, `chat`
 
