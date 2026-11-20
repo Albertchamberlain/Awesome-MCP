@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: brewpage-mcp
+    name: BrewPage MCP
+    kind: server
+    category: productivity
+    url: https://github.com/kochetkov-ma/brewpage-openapi
+    description: Official BrewPage MCP server to publish HTML pages, Markdown, files and static sites and get a shareable HTTPS link, then update, list or delete them; hosted at https://brewpage.app/mcp or npx brewpage-mcp, no account or API key.
+    transport: [stdio, remote]
+    official: true
+    tags: [publishing, hosting, html, markdown]

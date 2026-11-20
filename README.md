@@ -222,6 +222,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Productivity
 
+- [BrewPage MCP](https://github.com/kochetkov-ma/brewpage-openapi) ✅ `stdio`, `remote` — Official BrewPage MCP server to publish HTML pages, Markdown, files and static sites and get a shareable HTTPS link, then update, list or delete them; hosted at https://brewpage.app/mcp or npx brewpage-mcp, no account or API key. — `publishing`, `hosting`, `html`, `markdown`
 - [Google Drive Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive) ✅ `stdio` — List, read, and search files in Google Drive. — `google`, `files`
 - [Orbit by Noveum](https://orbit.noveum.ai/mcp) ✅ `remote` — Hosted Streamable HTTP MCP for issues, projects, sprints, docs and files with workspace-scoped OAuth. — `project-management`, `tasks`, `documents`, `oauth`
 - [PostEverywhere](https://github.com/posteverywhere/mcp) `stdio`, `remote` — Schedule and publish social posts to 11 platforms with media, campaigns, analytics and AI captions. — `social`, `marketing`
