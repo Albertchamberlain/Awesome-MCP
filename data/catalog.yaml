@@ -649,7 +649,7 @@ entries:
     tags: [debugging, replay, tracing]
 
   - id: kling-ai-mcp-china
-    name: Kling AI MCP (China)
+    name: Kling AI China Plugin
     kind: server
     category: media-creation
     url: https://github.com/klingai-dev/openclaw-plugin
@@ -659,7 +659,7 @@ entries:
     tags: [image-generation, video-generation, oauth]
 
   - id: kling-ai-mcp-global
-    name: Kling AI MCP (Global)
+    name: Kling AI Global Plugin
     kind: server
     category: media-creation
     url: https://github.com/klingai-tech/claude-plugin
