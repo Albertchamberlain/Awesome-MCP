@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: osmo-travel-esim
+    name: OsmO Travel eSIM
+    kind: server
+    category: travel
+    url: https://github.com/Mountainheads-Private-limited/osmo-travel-esim
+    description: Official OsmO remote MCP server that compares travel eSIM data plans for a trip (including multi-country), checks phone eSIM support, estimates trip data, compares a carrier's roaming pass, and gives setup help; no sign-in.
+    transport: [remote]
+    official: true
+    tags: [travel, esim, roaming, mobile-data]
