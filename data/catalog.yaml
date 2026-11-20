@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: questionpunk
+    name: QuestionPunk
+    kind: server
+    category: productivity
+    url: https://www.questionpunk.com/features/mcp-server
+    description: Create, edit and publish QuestionPunk surveys, then read their responses, reports and cross-tabs, through a hosted server at https://app.questionpunk.com/api/v1 with OAuth sign-in.
+    transport: [remote]
+    official: true
+    tags: [surveys, research, forms]
