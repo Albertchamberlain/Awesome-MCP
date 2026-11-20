@@ -246,6 +246,10 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 - [Live Tennis API](https://github.com/livetennisapi/livetennisapi-mcp) `stdio` — Real-time tennis match state (score, server, three-valued break-point, retirement/walkover/completed) plus players, rankings, Elo, and fixtures. — `tennis`, `sports`, `real-time`, `data`
 - [ParlayAPI](https://github.com/JacobiusMakes/parlay-api-mcp) `stdio` — Sports odds, player props, public event discovery, and account usage; account data tools use each user's own API key and allowances, with free and paid API tiers. — `sports`, `odds`, `player-props`
 
+### Travel
+
+- [OsmO Travel eSIM](https://github.com/Mountainheads-Private-limited/osmo-travel-esim) ✅ `remote` — Official OsmO remote MCP server that compares travel eSIM data plans for a trip (including multi-country), checks phone eSIM support, estimates trip data, compares a carrier's roaming pass, and gives setup help; no sign-in. — `travel`, `esim`, `roaming`, `mobile-data`
+
 ### Web
 
 - [BestPrice Shopping](https://github.com/TheBestCo/bestprice-mcp) ✅ `remote` — Official BestPrice.gr remote MCP server for read-only shopping in Greece, with shopping decisions, product search, live merchant offers with delivered totals, and price history; no API key. — `search`, `ecommerce`, `shopping`, `price-comparison`
