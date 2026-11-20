@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: fairvalid
+    name: FairValid MCP
+    kind: server
+    category: communication
+    url: https://github.com/moonlitnayeem/fairvalid-ai
+    description: "Official hosted MCP for email verification and FairMatch lead search and unlocks; an account with OAuth or an API key is required, with 300 shared free credits each month and optional paid credits; the hosted service is proprietary and the public integration package is MIT-licensed."
+    transport: [remote]
+    official: true
+    tags: [email-verification, lead-generation, oauth, freemium]
