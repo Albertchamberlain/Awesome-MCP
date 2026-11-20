@@ -216,6 +216,10 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 - [NotFair](https://github.com/nowork-studio/NotFair) `stdio` — Open-source Claude Code skills for SEO, GEO, and paid ads — connects to Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP for live account data. — `seo`, `google-ads`, `meta-ads`, `marketing`
 
+### Media
+
+- [DankMachine Meme Sounds](https://github.com/HalberdLLC/dank-meme-sounds) ✅ `stdio`, `remote` — Meme soundboard for agents with 38k+ sound effects; find a reaction sound for a moment, search by name, mood or use case, see live trending, and play sounds locally. Read-only remote server, no API key. — `audio`, `sound-effects`, `memes`, `entertainment`
+
 ### Media Creation
 
 - [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) `stdio` — Local-first MCP toolkit for agent-authored video composition, editing, generation, and plan-based assembly. — `video`, `editing`, `composition`, `agents`
