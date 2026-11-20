@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: dank-meme-sounds
+    name: DankMachine Meme Sounds
+    kind: server
+    category: media
+    url: https://github.com/HalberdLLC/dank-meme-sounds
+    description: Meme soundboard for agents with 38k+ sound effects; find a reaction sound for a moment, search by name, mood or use case, see live trending, and play sounds locally. Read-only remote server, no API key.
+    transport: [stdio, remote]
+    official: true
+    tags: [audio, sound-effects, memes, entertainment]
