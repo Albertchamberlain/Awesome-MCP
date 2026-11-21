@@ -226,6 +226,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 - [Orbit by Noveum](https://orbit.noveum.ai/mcp) ✅ `remote` — Hosted Streamable HTTP MCP for issues, projects, sprints, docs and files with workspace-scoped OAuth. — `project-management`, `tasks`, `documents`, `oauth`
 - [PostEverywhere](https://github.com/posteverywhere/mcp) `stdio`, `remote` — Schedule and publish social posts to 11 platforms with media, campaigns, analytics and AI captions. — `social`, `marketing`
 - [Tale](https://github.com/tale-project/tale) ✅ `remote` — Official HTTP MCP server within Tale for organization knowledge and authoring, testing, deploying, and running automations; self-hosted MIT software with API-key and organization-scoped access. — `knowledge`, `automation`, `self-hosted`, `typescript`
+- [Taskhold](https://taskhold.com/install) `remote` — Hosted MCP server for a task list shared by a person and their coding agents; agents pick up the next task, plan steps, report live progress, block with a question and complete work through 23 tools; paid, 7-day trial. — `tasks`, `project-management`, `coding-agents`, `progress`
 - [Zovo MCP Servers](https://github.com/theluckystrike/mcp-servers) `stdio`, `remote` — Local-first MCP servers for back-office work — invoicing, expenses, time tracking, currency, spreadsheets, PDFs, DOCX, and calendars with no account or API key required. Remote streamable HTTP endpoints are also hosted, for example https://mcp.zovo.one/mcp/invoice. — `productivity`, `invoicing`, `finance`, `documents`
 
 ### Security
