@@ -218,6 +218,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Media Creation
 
+- [I2v.ai](https://github.com/i2v-ai/i2v-mcp) ✅ `remote`, `stdio` — Image generation and text-to-video or image-to-video generation across 12 image and 16 video models, where every paid task is quoted in USD before it runs. — `image`, `video`, `generation`, `media`
 - [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) `stdio` — Local-first MCP toolkit for agent-authored video composition, editing, generation, and plan-based assembly. — `video`, `editing`, `composition`, `agents`
 
 ### Productivity

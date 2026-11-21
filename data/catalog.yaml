@@ -519,6 +519,16 @@ entries:
     official: false
     tags: [video, editing, composition, agents]
 
+  - id: i2v-ai
+    name: I2v.ai
+    kind: server
+    category: media-creation
+    url: https://github.com/i2v-ai/i2v-mcp
+    description: Image generation and text-to-video or image-to-video generation across 12 image and 16 video models, where every paid task is quoted in USD before it runs.
+    transport: [remote, stdio]
+    official: true
+    tags: [image, video, generation, media]
+
   - id: llm-pulse
     name: LLM Pulse MCP Server
     kind: server
