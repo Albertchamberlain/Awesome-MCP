@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: tinyrex-mcp
+    name: tinyrex-mcp
+    kind: server
+    category: data
+    url: https://github.com/emirmrkaljevic/tinyrex-mcp
+    description: Local stdio server that runs 27 public TinyRex Apify actors (remote jobs, Shopify and WooCommerce products, audio/video transcription, tech stack detection, company registers, tenders) on your own APIFY_TOKEN; pay-per-event billed by Apify.
+    transport: [stdio]
+    official: false
+    tags: [scraping, apify, jobs, ecommerce, companies]
