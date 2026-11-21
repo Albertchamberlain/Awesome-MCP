@@ -189,6 +189,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 - [CompanyScope](https://github.com/Stewyboy1990/companyscope-mcp) `stdio`, `remote` — Company intelligence from 12 free public sources — full company profiles via a single tool call. — `companies`, `data`, `research`
 - [Statsnet](https://github.com/usenetstate/statsnet-mcp) `remote` — Background check any company in the world via remote MCP — registration, executives, courts and finances. — `companies`, `osint`, `background-check`, `remote`
+- [tinyrex-mcp](https://github.com/emirmrkaljevic/tinyrex-mcp) `stdio` — Local stdio server that runs 27 public TinyRex Apify actors (remote jobs, Shopify and WooCommerce products, audio/video transcription, tech stack detection, company registers, tenders) on your own APIFY_TOKEN; pay-per-event billed by Apify. — `scraping`, `apify`, `jobs`, `ecommerce`
 
 ### Database
 
