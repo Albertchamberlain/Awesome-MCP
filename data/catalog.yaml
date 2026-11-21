@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: callforme
+    name: CallForMe
+    kind: server
+    category: communication
+    url: https://github.com/callforme-tel/callforme
+    description: Remote MCP server that lets an agent phone a business, work the phone menu, wait on hold, ask the agent mid-call and return a transcript with answers.
+    transport: [remote]
+    official: false
+    tags: [phone, voice, calls, hold, quotes, bookings]

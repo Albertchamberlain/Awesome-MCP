@@ -182,6 +182,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Communication
 
+- [CallForMe](https://github.com/callforme-tel/callforme) `remote` — Remote MCP server that lets an agent phone a business, work the phone menu, wait on hold, ask the agent mid-call and return a transcript with answers. — `phone`, `voice`, `calls`, `hold`
 - [MeetStream](https://github.com/meetstream-ai/meetstream-mcp) `stdio`, `remote` — Send AI bots into Zoom, Google Meet and Microsoft Teams to record, transcribe and summarize meetings. — `meetings`, `transcription`, `zoom`, `google-meet`
 - [Slack Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack) ✅ `stdio` — Post messages and read channels in Slack workspaces. — `slack`, `chat`
 
