@@ -19,6 +19,16 @@ categories:
     description: Libraries for building MCP servers and clients
 
 entries:
+  - id: xmcp-docs
+    name: xmcp Docs
+    kind: server
+    category: developer-tools
+    url: https://xmcp.dev/docs/guides/xmcp-mcp-server
+    description: Search and read official xmcp framework documentation through the public Streamable HTTP endpoint https://xmcp.dev/mcp, with no account or API key required.
+    transport: [remote]
+    official: true
+    tags: [documentation, typescript, read-only]
+
   - id: communicate-developer-docs
     name: Communicate Developer Docs MCP
     kind: server
