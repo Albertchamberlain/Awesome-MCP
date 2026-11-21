@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: taskhold
+    name: Taskhold
+    kind: server
+    category: productivity
+    url: https://taskhold.com/install
+    description: Hosted MCP server for a task list shared by a person and their coding agents; agents pick up the next task, plan steps, report live progress, block with a question and complete work through 23 tools; paid, 7-day trial.
+    transport: [remote]
+    official: false
+    tags: [tasks, project-management, coding-agents, progress]
