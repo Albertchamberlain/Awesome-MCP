@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: frank-ai-researcher
+    name: Frank AI Researcher
+    kind: server
+    category: productivity
+    url: https://github.com/nar-vardanyan/frank-mcp
+    description: Remote MCP server for creating and running AI-moderated customer voice interviews and reading transcripts, with OAuth.
+    transport: [remote]
+    official: false
+    tags: [interviews, user-research, voice, oauth]
