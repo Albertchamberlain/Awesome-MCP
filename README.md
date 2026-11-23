@@ -188,7 +188,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Data
 
 - [CompanyScope](https://github.com/Stewyboy1990/companyscope-mcp) `stdio`, `remote` — Company intelligence from 12 free public sources — full company profiles via a single tool call. — `companies`, `data`, `research`
-- [Invokely](https://invokely.ai/docs/) ✅ `remote` — Official hosted MCP server for querying source-cited statistics by indicator, place, and period, with time series, comparisons, and rankings across U.S. states and counties, EU countries and NUTS 2 regions, Spanish municipalities, and World Bank data for every country and the World. — `statistics`, `official-data`, `geography`, `remote`
+- [Invokely](https://invokely.ai/docs/) ✅ `remote` — Official hosted MCP server for source-cited official statistics by indicator, place and period, from national statistics offices, Eurostat and the World Bank; 16 of its 24 tools are read-only, the rest manage the account's alerts, collections and private workspace or send feedback to Invokely; needs an API key or OAuth, with 500 free calls a month, or use the keyless trial endpoint at 25 calls a day. — `statistics`, `official-data`, `geography`, `remote`
 - [Statsnet](https://github.com/usenetstate/statsnet-mcp) `remote` — Background check any company in the world via remote MCP — registration, executives, courts and finances. — `companies`, `osint`, `background-check`, `remote`
 
 ### Database
