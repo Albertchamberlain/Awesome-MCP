@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: eu-nordic-open-data-mcp
+    name: EU & Nordic Open Data
+    kind: server
+    category: data
+    url: https://github.com/itulo/eu-nordic-open-data-mcp
+    description: Local stdio server (npx -y eu-nordic-open-data-mcp) with 49 tools for live official EU and Nordic open data — EU sanctions, TED tenders, VIES VAT, GLEIF LEI, Finnish and Norwegian company registers, EU Safety Gate, ENISA EUVD, ECB, FMI, Fingrid and Digitraffic — with the data licence cited in every response; no API key except an optional free Fingrid key.
+    transport: [stdio]
+    official: false
+    tags: [open-data, government, companies, sanctions, finance, europe]

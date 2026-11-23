@@ -188,6 +188,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Data
 
 - [CompanyScope](https://github.com/Stewyboy1990/companyscope-mcp) `stdio`, `remote` — Company intelligence from 12 free public sources — full company profiles via a single tool call. — `companies`, `data`, `research`
+- [EU & Nordic Open Data](https://github.com/itulo/eu-nordic-open-data-mcp) `stdio` — Local stdio server (npx -y eu-nordic-open-data-mcp) with 49 tools for live official EU and Nordic open data — EU sanctions, TED tenders, VIES VAT, GLEIF LEI, Finnish and Norwegian company registers, EU Safety Gate, ENISA EUVD, ECB, FMI, Fingrid and Digitraffic — with the data licence cited in every response; no API key except an optional free Fingrid key. — `open-data`, `government`, `companies`, `sanctions`
 - [Statsnet](https://github.com/usenetstate/statsnet-mcp) `remote` — Background check any company in the world via remote MCP — registration, executives, courts and finances. — `companies`, `osint`, `background-check`, `remote`
 
 ### Database
