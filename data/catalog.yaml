@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: cloud-alter-ego
+    name: Cloud Alter Ego
+    kind: server
+    category: ai
+    url: https://cloudalterego.cafeboon.com
+    description: Hosted memory connector that works in Claude, ChatGPT, Gemini and any AI chat with MCP, logs every question automatically and keeps rules, profile and journal as plain files in the user's own cloud storage.
+    transport: [remote]
+    official: false
+    tags: [memory, context, journal, chatgpt, claude, gemini]
