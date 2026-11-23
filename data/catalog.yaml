@@ -489,6 +489,16 @@ entries:
     official: false
     tags: [companies, osint, background-check, remote]
 
+  - id: invokely
+    name: Invokely
+    kind: server
+    category: data
+    url: https://invokely.ai/docs/
+    description: Official hosted MCP server for source-cited official statistics by indicator, place and period, from national statistics offices, Eurostat and the World Bank; 16 of its 24 tools are read-only, the rest manage the account's alerts, collections and private workspace or send feedback to Invokely; needs an API key or OAuth, with 500 free calls a month, or use the keyless trial endpoint at 25 calls a day.
+    transport: [remote]
+    official: true
+    tags: [statistics, official-data, geography, remote]
+
   - id: neither-mcp
     name: Neither
     kind: server
