@@ -214,6 +214,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Marketing
 
+- [LeadMerlin](https://github.com/HalberdLLC/leadmerlin-mcp) ✅ `stdio`, `remote` — Searches local businesses on Google Maps by niche and city and enriches each one with owner name, emails checked against the mail server, phone line type and website tech. Remote server with an API key (100 free leads on signup) plus a zero-dependency stdio bridge. — `lead-generation`, `sales`, `local-business`, `enrichment`
 - [NotFair](https://github.com/nowork-studio/NotFair) `stdio` — Open-source Claude Code skills for SEO, GEO, and paid ads — connects to Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP for live account data. — `seo`, `google-ads`, `meta-ads`, `marketing`
 
 ### Media Creation
