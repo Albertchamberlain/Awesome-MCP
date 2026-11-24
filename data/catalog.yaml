@@ -647,3 +647,23 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: gov-tenders-mcp
+    name: Gov Tenders MCP
+    kind: server
+    category: data
+    url: https://github.com/GeminiGeorge22/gov-tenders-mcp
+    description: "Public-sector tenders, grants and awards (SAM.gov, Grants.gov, USAspending, UK Find a Tender, EU TED) plus Legistar city council agendas and minutes, each with its official source link. The stdio server is an open-source shim that forwards read-only tender queries to Apify's hosted MCP using the caller's own APIFY_TOKEN (header only, never logged). Metered per result on the caller's Apify account with no separate subscription (see each Actor's Store page). Pinned install: npx -y github:GeminiGeorge22/gov-tenders-mcp#v0.2.0."
+    transport: [stdio]
+    official: false
+    tags: [government, tenders, procurement, data]
+
+  - id: skool-community-mcp
+    name: Skool Community Scraper
+    kind: server
+    category: data
+    url: https://github.com/GeminiGeorge22/publicrecords-mcp/tree/main/servers/skool-community-mcp
+    description: "Search Skool communities by keyword: members, price, rating, estimated monthly revenue and daily growth. Remote Streamable HTTP endpoint hosted by Apify (https://mcp.apify.com?tools=publicrecords/skool-community-growth-tracker); requests and the caller's own Apify OAuth sign-in or API token go to Apify only. Lookups are read-only; each call is a run metered on the caller's Apify account (pricing: https://apify.com/publicrecords/skool-community-growth-tracker)."
+    transport: [remote]
+    official: false
+    tags: [skool, communities, data, remote]
