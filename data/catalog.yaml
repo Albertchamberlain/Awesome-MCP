@@ -657,3 +657,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [government, tenders, procurement, data]
+
+  - id: skool-community-mcp
+    name: Skool Community Scraper
+    kind: server
+    category: data
+    url: https://github.com/GeminiGeorge22/publicrecords-mcp/tree/main/servers/skool-community-mcp
+    description: "Search Skool communities by keyword: members, price, rating, estimated monthly revenue and daily growth. Remote Streamable HTTP endpoint hosted by Apify (https://mcp.apify.com?tools=publicrecords/skool-community-growth-tracker); requests and the caller's own Apify OAuth sign-in or API token go to Apify only. Lookups are read-only; each call is a run metered on the caller's Apify account (pricing: https://apify.com/publicrecords/skool-community-growth-tracker)."
+    transport: [remote]
+    official: false
+    tags: [skool, communities, data, remote]
