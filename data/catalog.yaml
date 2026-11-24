@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: leadmerlin
+    name: LeadMerlin
+    kind: server
+    category: marketing
+    url: https://github.com/HalberdLLC/leadmerlin-mcp
+    description: Searches local businesses on Google Maps by niche and city and enriches each one with owner name, emails checked against the mail server, phone line type and website tech. Remote server with an API key (100 free leads on signup) plus a zero-dependency stdio bridge.
+    transport: [stdio, remote]
+    official: true
+    tags: [lead-generation, sales, local-business, enrichment]
