@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: runheed
+    name: Runheed
+    kind: server
+    category: developer-tools
+    url: https://runheed.com/mcp-server
+    description: Hosted MCP server that gives coding agents production errors from an error tracker, with tools to search error groups, read stack traces and breadcrumbs, check project health, and resolve an error with the fixing commit through 12 tools; paid, 7-day trial.
+    transport: [remote]
+    official: false
+    tags: [errors, debugging, monitoring, coding-agents]
