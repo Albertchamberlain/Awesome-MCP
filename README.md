@@ -214,6 +214,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Marketing
 
+- [Cueston](https://github.com/andreycretsu/cueston-mcp) ✅ `remote`, `stdio` — Official Cueston MCP server to build, preview and publish in-app product tours, tooltips, banners, checklists, surveys and announcements on your own SaaS app and read their analytics; hosted Streamable HTTP endpoint with OAuth 2.1 (PKCE, dynamic client registration) or local stdio via npx; content is created as drafts and goes live only when published. — `onboarding`, `product-tours`, `surveys`, `analytics`
 - [NotFair](https://github.com/nowork-studio/NotFair) `stdio` — Open-source Claude Code skills for SEO, GEO, and paid ads — connects to Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP for live account data. — `seo`, `google-ads`, `meta-ads`, `marketing`
 
 ### Media Creation
