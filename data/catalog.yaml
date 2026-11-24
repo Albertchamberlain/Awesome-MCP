@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: cueston
+    name: Cueston
+    kind: server
+    category: marketing
+    url: https://github.com/andreycretsu/cueston-mcp
+    description: Official Cueston MCP server to build, preview and publish in-app product tours, tooltips, banners, checklists, surveys and announcements on your own SaaS app and read their analytics; hosted Streamable HTTP endpoint with OAuth 2.1 (PKCE, dynamic client registration) or local stdio via npx; content is created as drafts and goes live only when published.
+    transport: [remote, stdio]
+    official: true
+    tags: [onboarding, product-tours, surveys, analytics, saas, oauth]
