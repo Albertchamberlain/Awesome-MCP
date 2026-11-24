@@ -519,6 +519,16 @@ entries:
     official: false
     tags: [video, editing, composition, agents]
 
+  - id: vertov
+    name: Vertov MCP
+    kind: server
+    category: media-creation
+    url: https://vertov.app/docs/mcp
+    description: Search screen recordings, read timestamped briefs and transcripts, and upload videos to a Vertov workspace.
+    transport: [remote]
+    official: true
+    tags: [video, screen-recording, transcript, oauth]
+
   - id: llm-pulse
     name: LLM Pulse MCP Server
     kind: server

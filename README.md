@@ -219,6 +219,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Media Creation
 
 - [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) `stdio` — Local-first MCP toolkit for agent-authored video composition, editing, generation, and plan-based assembly. — `video`, `editing`, `composition`, `agents`
+- [Vertov MCP](https://vertov.app/docs/mcp) ✅ `remote` — Search screen recordings, read timestamped briefs and transcripts, and upload videos to a Vertov workspace. — `video`, `screen-recording`, `transcript`, `oauth`
 
 ### Productivity
 
