@@ -187,6 +187,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Data
 
+- [AlphaSift](https://github.com/ZhuLinsen/alphasift) `stdio` — Local STDIO MCP server with 14 read-only tools and 4 resources for multi-market quantitative stock screening, walk-forward K-line pattern replay, and paper track-record evaluation across 7 equity markets; no brokerage or order-execution tools. — `finance`, `quant`, `screening`, `equities`
 - [CompanyScope](https://github.com/Stewyboy1990/companyscope-mcp) `stdio`, `remote` — Company intelligence from 12 free public sources — full company profiles via a single tool call. — `companies`, `data`, `research`
 - [Statsnet](https://github.com/usenetstate/statsnet-mcp) `remote` — Background check any company in the world via remote MCP — registration, executives, courts and finances. — `companies`, `osint`, `background-check`, `remote`
 
