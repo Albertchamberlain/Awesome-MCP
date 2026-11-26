@@ -188,6 +188,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Data
 
 - [CompanyScope](https://github.com/Stewyboy1990/companyscope-mcp) `stdio`, `remote` — Company intelligence from 12 free public sources — full company profiles via a single tool call. — `companies`, `data`, `research`
+- [IPGeolocation.io MCP Server](https://github.com/IPGeolocation/ipgeolocation-io-mcp) ✅ `stdio`, `remote` — Provides IP geolocation, IP security data (VPN, proxy, Tor, bot, hosting and spam detection), company information, ASN and network data, abuse contacts, time zones, astronomy, currency data and user-agent parsing. — `ip-geolocation`, `ip-security`, `company-data`, `asn`
 - [Statsnet](https://github.com/usenetstate/statsnet-mcp) `remote` — Background check any company in the world via remote MCP — registration, executives, courts and finances. — `companies`, `osint`, `background-check`, `remote`
 
 ### Database
