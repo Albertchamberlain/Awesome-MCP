@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: ipgeolocation-io-mcp
+    name: IPGeolocation.io MCP Server
+    kind: server
+    category: data
+    url: https://github.com/IPGeolocation/ipgeolocation-io-mcp
+    description: Provides IP geolocation, IP security data (VPN, proxy, Tor, bot, hosting and spam detection), company information, ASN and network data, abuse contacts, time zones, astronomy, currency data and user-agent parsing.
+    transport: [stdio, remote]
+    official: true
+    tags: [ip-geolocation, ip-security, company-data, asn, network-data]
