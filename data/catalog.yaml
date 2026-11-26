@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: vaneform-mcp
+    name: Vaneform MCP
+    kind: server
+    category: data
+    url: https://github.com/vaneform/vaneform-mcp
+    description: Hosted Streamable HTTP MCP for website traffic lookups at https://vaneform.com/mcp. initialize and tools/list are open; tools/call requires a vf_live_ Bearer API key (free tier includes 100 credits/month plus 0-credit site research tools). Saves/watchlists stay in your account and first-party operational logs exclude third-party trackers (https://vaneform.com/privacy).
+    transport: [remote]
+    official: false
+    tags: [analytics, traffic, seo, marketing, remote]

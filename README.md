@@ -189,6 +189,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 - [CompanyScope](https://github.com/Stewyboy1990/companyscope-mcp) `stdio`, `remote` — Company intelligence from 12 free public sources — full company profiles via a single tool call. — `companies`, `data`, `research`
 - [Statsnet](https://github.com/usenetstate/statsnet-mcp) `remote` — Background check any company in the world via remote MCP — registration, executives, courts and finances. — `companies`, `osint`, `background-check`, `remote`
+- [Vaneform MCP](https://github.com/vaneform/vaneform-mcp) `remote` — Hosted Streamable HTTP MCP for website traffic lookups at https://vaneform.com/mcp. initialize and tools/list are open; tools/call requires a vf_live_ Bearer API key (free tier includes 100 credits/month plus 0-credit site research tools). Saves/watchlists stay in your account and first-party operational logs exclude third-party trackers (https://vaneform.com/privacy). — `analytics`, `traffic`, `seo`, `marketing`
 
 ### Database
 
