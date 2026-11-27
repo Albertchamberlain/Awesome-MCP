@@ -284,7 +284,7 @@ entries:
     kind: server
     category: developer-tools
     url: https://sandscale.dev/sandboxes/mcp
-    description: Hosted Streamable HTTP server (OAuth 2.1) at https://mcp.sandscale.dev/mcp that creates a Firecracker microVM sandbox per task, runs commands and moves files in it, with allow/ask/deny rules per tool and an audit log.
+    description: Hosted Streamable HTTP server (OAuth 2.1) at https://mcp.sandscale.dev/mcp that creates a Firecracker microVM sandbox per task, runs commands and moves files in it, with every call recorded in an audit log.
     transport: [remote]
     official: true
     tags: [sandbox, code-execution, microvm, developer-tools]
