@@ -249,6 +249,16 @@ entries:
     official: false
     tags: [seo, google-ads, meta-ads, marketing, claude-code]
 
+  - id: mcp-automation-starter
+    name: MCP Automation Starter
+    kind: server
+    category: marketing
+    url: https://github.com/alborotar/mcp-automation-starter
+    description: Zero-dependency local stdio server that scores and triages B2B leads, drafts English or Korean follow-up emails for human review, and exports results to CSV; no API keys or network calls.
+    transport: [stdio]
+    official: false
+    tags: [crm, sales, lead-scoring, korean]
+
   - id: posteverywhere
     name: PostEverywhere
     kind: server
