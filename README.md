@@ -222,6 +222,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Productivity
 
+- [Genaya Connect](https://developer.genaya.com/mcp) ✅ `remote` — Official hosted MCP server for Genaya, an operations app for service businesses. Ask about appointments, clients, invoices, calls and tasks, and prepare changes that run only after the member confirms them; OAuth 2.1 sign-in, paid plans with a 14-day free trial. — `crm`, `scheduling`, `invoicing`, `oauth`
 - [Google Drive Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive) ✅ `stdio` — List, read, and search files in Google Drive. — `google`, `files`
 - [Orbit by Noveum](https://orbit.noveum.ai/mcp) ✅ `remote` — Hosted Streamable HTTP MCP for issues, projects, sprints, docs and files with workspace-scoped OAuth. — `project-management`, `tasks`, `documents`, `oauth`
 - [PostEverywhere](https://github.com/posteverywhere/mcp) `stdio`, `remote` — Schedule and publish social posts to 11 platforms with media, campaigns, analytics and AI captions. — `social`, `marketing`
