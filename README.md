@@ -214,6 +214,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 
 ### Marketing
 
+- [MCP Automation Starter](https://github.com/alborotar/mcp-automation-starter) `stdio` — Zero-dependency local stdio server that scores and triages B2B leads, drafts English or Korean follow-up emails for human review, and exports results to CSV; no API keys or network calls. — `crm`, `sales`, `lead-scoring`, `korean`
 - [NotFair](https://github.com/nowork-studio/NotFair) `stdio` — Open-source Claude Code skills for SEO, GEO, and paid ads — connects to Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP for live account data. — `seo`, `google-ads`, `meta-ads`, `marketing`
 
 ### Media Creation
