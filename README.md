@@ -206,6 +206,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 - [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) `stdio` — Serves a local trace library of recorded agent/provider traffic over stdio MCP — list, inspect, diff and replay past runs. Traces can hold prompts, tool arguments and shell/file content including secrets; replay re-executes recorded tool calls and is not a sandbox; live and remote modes send data off-device. — `debugging`, `replay`, `tracing`
 - [ReadyAgents](https://github.com/readyagentsdev/readyagents-core) `stdio` — ReadyAgents is a free, self-hosted Apache-2.0 local one-shot agent workflow engine plus MCP toolkit: git clone + pip install -e . (or see https://readyagents.dev); bring your own keys; always-on packs are waitlisted and not for sale. — `python`, `workflow`, `local`, `byok`
 - [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) `stdio` — Self-hosted agent runtime exposing durable sessions, sandboxed execution, approvals, artifacts, audit, and replay through a local stdio MCP bridge. — `agents`, `runtime`, `sandbox`, `sessions`
+- [Sandscale](https://sandscale.dev/sandboxes/mcp) ✅ `remote` — Hosted Streamable HTTP server (OAuth 2.1) at https://mcp.sandscale.dev/mcp that creates a Firecracker microVM sandbox per task, runs commands and moves files in it, with every call recorded in an audit log. — `sandbox`, `code-execution`, `microvm`, `developer-tools`
 
 ### Health
 
