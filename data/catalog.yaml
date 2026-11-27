@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: genaya-connect
+    name: Genaya Connect
+    kind: server
+    category: productivity
+    url: https://developer.genaya.com/mcp
+    description: Official hosted MCP server for Genaya, an operations app for service businesses. Ask about appointments, clients, invoices, calls and tasks, and prepare changes that run only after the member confirms them; OAuth 2.1 sign-in, paid plans with a 14-day free trial.
+    transport: [remote]
+    official: true
+    tags: [crm, scheduling, invoicing, oauth]
