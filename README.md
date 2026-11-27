@@ -235,6 +235,7 @@ Legend: ✅ = Official / reference project · Transport: `stdio`/`sse`/`remote`
 ### Social
 
 - [ContHunt](https://conthunt.app) `remote` — Discover and research viral social content on TikTok, Instagram Reels, and YouTube Shorts. — `social`, `content`, `research`, `remote`
+- [Groundsocial](https://groundsocial.dev/docs/mcp) `remote` — Remote read-only MCP server for public posts, comments, profiles, transcripts and search from Reddit, X, TikTok, Instagram, YouTube and 70+ more platforms; OAuth or API key, paid per call with 100 free credits. — `social`, `reddit`, `twitter`, `tiktok`
 - [Xquik MCP](https://docs.xquik.com/mcp/overview) `remote` — Remote X data MCP server for search, profiles, timelines, monitoring, webhooks, and confirmation-gated writes. Not affiliated with X Corp. — `x`, `twitter`, `social`, `api`
 
 ### Social Media

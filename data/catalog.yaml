@@ -588,6 +588,16 @@ entries:
     official: false
     tags: [social, content, research, remote]
 
+  - id: groundsocial
+    name: Groundsocial
+    kind: server
+    category: social
+    url: https://groundsocial.dev/docs/mcp
+    description: Remote read-only MCP server for public posts, comments, profiles, transcripts and search from Reddit, X, TikTok, Instagram, YouTube and 70+ more platforms; OAuth or API key, paid per call with 100 free credits.
+    transport: [remote]
+    official: false
+    tags: [social, reddit, twitter, tiktok, youtube, remote]
+
   - id: companyscope
     name: CompanyScope
     kind: server
