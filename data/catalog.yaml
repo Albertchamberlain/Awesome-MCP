@@ -647,3 +647,13 @@ entries:
     transport: [stdio]
     official: false
     tags: [debugging, replay, tracing]
+
+  - id: dchub
+    name: DC Hub
+    kind: server
+    category: data
+    url: https://github.com/azmartone67/dchub-mcp-server
+    description: The orchestration layer for data center and energy intelligence at https://dchub.cloud/mcp; start with execute_plan. DCHUB_API_KEY is optional.
+    transport: [remote]
+    official: false
+    tags: [data-centers, energy, grid, site-selection, remote]
