@@ -653,7 +653,7 @@ entries:
     kind: server
     category: developer-tools
     url: https://github.com/connormatthewdouglas/agent-work-stack-deals
-    description: Free, read-only, keyless MCP for comparing GPU rental prices across providers; rates are cited and refreshed regularly, with each price's age shown, plus job-cost estimates. Local stdio via uvx lantern-works-deals-mcp, or a hosted Streamable HTTP endpoint; no API key.
+    description: Free, keyless MCP for comparing GPU rental prices across providers (local uvx package read-only; hosted endpoint adds optional price watches and alerts); rates are cited and refreshed regularly, with each price's age shown, plus job-cost estimates. Local stdio via uvx lantern-works-deals-mcp, or a hosted Streamable HTTP endpoint; no API key.
     transport: [stdio, remote]
     official: true
     tags: [gpu, pricing, cloud, cost]
